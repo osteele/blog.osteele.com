@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     directory_watcher (1.4.1)
+    kramdown (0.13.8)
     mustache (0.99.4)
     nokogiri (1.5.5)
     rack (1.4.1)
@@ -17,4 +18,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  kramdown
   ruhoh

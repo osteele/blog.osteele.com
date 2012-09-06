@@ -11,6 +11,6 @@ navigation :
   - archive.html
   - tags.html
   - categories.html
-  - pages.html
-  - about.md
+  # - pages.html
+  # - about.md
 

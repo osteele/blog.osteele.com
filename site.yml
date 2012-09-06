@@ -1,11 +1,11 @@
-title : Blog Title
-tagline: Blog Tagline
+title : Oliver Steele
+tagline: Languages of the real and artifical
 author :
-  name : Firstname Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : Oliver Steele
+  email : steele@osteele.com
+  github : osteele
+  twitter : osteele
+  feedburner : osteele
 
 navigation :
   - archive.html
@@ -13,4 +13,4 @@ navigation :
   - categories.html
   - pages.html
   - about.md
-  
+

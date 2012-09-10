@@ -3,10 +3,10 @@
 
 RuhohSpec: '1.0'
 theme : twitter
-production_url : http://osteele.com/archives
+production_url : http://osteele.com/posts/
 
 posts:
-  permalink: /:year/:month/:title
+  permalink: /posts/:year/:month/:title
   summary_lines: 10
   latest: 10
 

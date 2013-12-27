@@ -2,7 +2,7 @@
 title: "Precognitive Uno"
 date: '2012-09-23 16:00'
 description:
-categories: 
+categories:
 type: draft
 tags: [fun, games]
 ---
@@ -16,7 +16,7 @@ Single-Commit Precognitive Uno follows the <a href="http://en.wikipedia.org/wiki
 2. At the *end* of each turn: The player must place a card from her regular hand face down on the precommit space.
 3. At the *beginning* of each turn: If there is a card in the player’s precommit space[^1] and it's legal to play the card under the rules of standard Uno, the player must do so. She must then replace the precommit card by a card from her regular hand (following rule #2).
 4. At the beginning of each turn: if there is a card in the precommit space and it *cannot* be played, the player must move the precommit card back to her hand, and draw a card from the deck. She must then replace the precommit card by a card from her hand (following rule #2). The new precommit card may be any card from her hand, including the previous precommit card or the card drawn from the deck.
-4. “Uno” is called when a player discards her penultimate card *including the precommit card*.  
+4. “Uno” is called when a player discards her penultimate card *including the precommit card*.
 5. The first player to discard all her cards *including the precommit card* is the winner.
 
 [^1]: This is always the case, except for each player’s first turn when the precommit space is empty.

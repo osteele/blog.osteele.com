@@ -7,17 +7,18 @@ title: Frost & Fire
 wordpress_id: '254'
 ---
 
-<applet ARCHIVE="applets/FrostAndFire.jar" CODE="edu.brandeis.cs.steele.applets.Corona.class" WIDTH="250" HEIGHT="250">
-<table WIDTH=150 BORDER=0 CELLPADDING=0 CELLSPACING=0>
-<tr><td VALIGN=TOP ALIGN=CENTER>
-<img SRC="images/corona-large.jpg" WIDTH="250" HEIGHT="250" ALT="[Large still from Corona animation.]">
-<caption ALIGN=BOTTOM STYLE="text-align: justify">[This image is a still from the Corona animation.  Reload this page with Java installed to see an original animation.]</caption>
-</table>
+<applet archive="applets/FrostAndFire.jar" code="edu.brandeis.cs.steele.applets.Corona.class" width="250" height="250">
+  <table width="150" border="0" cellpadding="0" cellspacing="0">
+    <tr><td valign="TOP" align="CENTER">
+      <img src="images/corona-large.jpg" width="250" height="250" alt="[Large still from Corona animation.]"/>
+      <caption align="BOTTOM" style="text-align: justify">[This image is a still from the Corona animation.  Reload this page with Java installed to see an original animation.]</caption>
+    </td></tr>
+  </table>
 </applet>
 
-![[Large still from Corona animation.]](images/corona-large.jpg)  
+![[Large still from Corona animation.]](images/corona-large.jpg)
 
-[This image is a still from the Corona animation.  Reload this page with Java installed to see an original animation.]  
+[This image is a still from the Corona animation.  Reload this page with Java installed to see an original animation.]
 
 In 1989 I wrote a program that simulated video feedback to produce a pattern of reminiscent of paint swirling on a spinning piece of paper.  This later shipped as a module for Berkeley System's "After Dark" screen saver.  The same effect (although doubtless not the same code) is used now as a visual effect in all the music managers --- iTunes, Media Player, and so on.
 

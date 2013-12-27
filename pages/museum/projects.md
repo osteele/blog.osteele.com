@@ -53,7 +53,7 @@ Python libraries for compiling, minimizing, and determinizing Finite-State Autom
 
 1999-08-10
 
-A simple chart parser (<100 code lines for the parser itself).
+A simple chart parser (&lt;100 code lines for the parser itself).
 
 [Frost and Fire](/museum/frost_and_fire.html)
 

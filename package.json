@@ -1,8 +1,18 @@
 {
-  "name": "hexo",
-  "version": "2.3.0",
+  "name": "blog.osteele.com",
+  "author": "Oliver Steele <steele@osteele.com>",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/osteele/blog.osteele.com.git"
+  },
+  "scripts": {
+    "deploy": "hexo deploy",
+    "server": "hexo server"
+  },
+  "version": "2.3.0",
   "dependencies": {
+    "hexo": "~2.3.0",
     "hexo-generator-feed": "0.0.10",
     "hexo-renderer-pandoc": "0.0.8",
     "hexo-broken-link-checker": "~1.0.0"

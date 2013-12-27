@@ -14,6 +14,8 @@ tags: [JavaScript, libraries, functional]
 
 Thanks to everyone who has commented or contributed, praised or pitched in --- I've released an update to [Functional Javascript](/sources/javascript/functional), with these changes:
 
+<!-- more -->
+
 ### New features
 
 - Rhino compatibility.  I think --- at least it loads now, and a couple of hand tests work; i have yet to port the testing tool.  (Credit: [Reginald Braithwaite](http://weblog.raganwald.com/))

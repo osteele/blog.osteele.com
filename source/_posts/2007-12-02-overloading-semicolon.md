@@ -14,6 +14,8 @@ tags: [JavaScript, monads, essays]
 
 `amichail` on reddit asks about [understanding monads in one minute](http://programming.reddit.com/info/61ydi/comments/).   My thoughts ran longer than a comment and more than a minute, so I've placed them here.
 
+<!-- more -->
+
 The main message of this posting is that you already use monads, just without the labels.  The complexity in most explanations comes from factoring out the different pieces of what you already know, and from the mathematical exposition in terms of category theory and monad laws.  (I like the math, but you won't find any of it here.) This posting trades away accuracy for ease; I hope it's a helpful start.
 
 ---

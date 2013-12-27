@@ -14,6 +14,8 @@ tags: [JavaScript, flash, Laszlo, libraries]
 
 I've updated my [OpenLaszlo utility grab-bag](http://github.com/osteele/lzosutils) to make browser <-> applet communication even easier.  How easy?
 
+<!-- more -->
+
 ## Proxies
 
 Put this in your browser JavaScript:

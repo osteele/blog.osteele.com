@@ -14,6 +14,8 @@ tags: [JavaScript, essays]
 
 Computing the length of a Bezier curve is expensive, but the length of a given Bezier doesn't change over time.  In my [JavaScript Bezier implementation](/archives/2006/02/javascript-beziers), I wanted to compute the length only the first time it's need, and save this result in order to return instantly thereafter.
 
+<!-- more -->
+
 This is a special case of [memoization](http://en.wikipedia.org/wiki/Memoization).  There are well-known strategies for implementing memoization.  But `getLength` is a [nullary](http://en.wikipedia.org/wiki/Arity) function,  and there's a trick for implementing memoization of nullary methods in a dynamic language such as JavaScript (or Python or Ruby).  In these languages, you can memoize a nullary method by adding one line to it, without any support libraries.  This line replaces the method by a constant function, that returns the computed value. This memoization strategy is also more efficient than the general-purpose solution that non-nullary methods require.
 
 ## Memoizing by Hand

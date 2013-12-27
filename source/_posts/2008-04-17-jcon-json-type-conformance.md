@@ -15,6 +15,8 @@ tags: [JavaScript, Ruby, libraries]
 [JCON](http://jcon.rubyforge.org) (the **J**avaScript **Con**formance gem) tests JSON values against ECMAScript 4.0-style type definitions
 ([PDF](http://www.ecmascript.org/es4/spec/overview.pdf)) such as `string?`, `(int, boolean)`, or `[string, (int, boolean), {x:double, y:double}?]`.
 
+<!-- more -->
+
 ## Usage
 
     type = JCON::parse "[string, int]"

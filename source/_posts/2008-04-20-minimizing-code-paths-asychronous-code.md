@@ -24,6 +24,8 @@ Have you ever written a function that looks like this?
         });
     }
 
+<!-- more -->
+
 `requestProductDetails` calls its callback with the product details, which are stored in a cache.  Since it might need to request this information from the server, it has to "return" it by passing it to a callback; in order to present a uniform API whether or not the product is cached, it "returns" the data this way whether it came from the cache or not.
 
 `requestProductDetails` is intended to be used this way:

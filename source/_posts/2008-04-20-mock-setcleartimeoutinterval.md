@@ -12,7 +12,7 @@ tags: [JavaScript, libraries, github]
 ---
 
 Here's a potential [JSSpec](http://jania.pe.kr/aw/moin.cgi/JSSpec) spec for `Sequentially.trickle.map`:
-    
+
     describe('Sequentially.trickle.map', {
       'should apply to all the elements': function() {
         Sequentially.trickle.map(
@@ -26,10 +26,12 @@ Here's a potential [JSSpec](http://jania.pe.kr/aw/moin.cgi/JSSpec) spec for `Seq
       }
     });
 
+<!-- more -->
+
 This doesn't work.  The problem is that `Sequentially.trickle.map` is asynchronous (it defers most of its computation -- including the invocation of the callback -- via `setTimeout`).  This means that `should_be` isn't called until after the spec has returned.  If it succeeds, this isn't a problem, but if it fails, JSSpec can't associate it with the failing spec -- worse, JSSpec will have already have marked it successful.
 
 Here's the version that I [actually used](http://github.com/osteele/sequentially/tree/master%2Fspecs%2Fsequentially-specs.js?raw=true):
-    
+
     describe('Sequentially.trickle.map', {
       'should apply to all the elements': function() {
         withMockTimers(function() {

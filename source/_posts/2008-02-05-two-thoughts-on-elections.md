@@ -12,6 +12,8 @@ tags: math
 
 What follow are some notes from talking about the elections and the presidential primaries with my children, and some metaphors that I found helpful in thinking about the topics.  They're not otherwise related to each other, except that they all came up over the last couple of days.
 
+<!-- more -->
+
 ## 1. Votes are Agents
 
 The [wikipedia article about voting systems](http://en.wikipedia.org/wiki/Voting_system), and the Newsweek article [When Math Warps Elections](http://www.newsweek.com/id/105586) describe a number of different systems: in particular, the America [plurality system](http://en.wikipedia.org/wiki/Plurality_voting_system)  where you casts only one vote (presumably for your favored candidate, unless you're [voting strategically](http://en.wikipedia.org/wiki/Tactical_voting)); [approval voting](http://en.wikipedia.org/wiki/Approval_voting), where you vote for all the candidates your find acceptable (again, unless you're voting strategically); and ranked-choice or [instance-runoff voting](http://en.wikipedia.org/wiki/Instant-runoff_voting), where you rank the candidates, and the candidate who was highest on the smallest number of ballots is removed from all of them until only one candidate remains.

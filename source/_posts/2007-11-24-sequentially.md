@@ -14,6 +14,8 @@ tags: [JavaScript, libraries, fun]
 
 [Sequentially](/sources/javascript/sequentially) is a JavaScript library for asychronous programming.  It makes it easy to define functions that are called later, or periodically, or that can be called only a certain number of times, or only at a certain frequency.
 
+<!-- more -->
+
     // Call a function f five times in a row
     f.only(5).repeatedly()
     // Call f five times, at one second intervals
@@ -29,7 +31,7 @@ tags: [JavaScript, libraries, fun]
     ['here', 'are', 'some', 'elements'].sequentially(
       function(word) {console.info(word, '->', word.length)})
       .periodically()
-    
+
 You can run these examples in your browser (Safari and Firefox only, for now) on this [page of examples](/sources/javascript/sequentially).  Mouse over the source code to see which outputs come from each statement.  Mouse over or click on the outputs to see which statement generates each output.
 
 This is an early version.  Some aspects aren't well thought-out; some terminology isn't consistent.  Nonetheless, some early readers have urged me to put this out.

@@ -13,6 +13,8 @@ tags: [JavaScript, monads, essays]
 
 This article is about how to deal with null values.  It follows up on [this one](http://osteele.com/archives/2007/12/cheap-monads). It's intended for code stylists: people who care a lot about the difference between one line of code and two, or keeping control statements and temporary variables to a minimum.  (A code stylist is kind of like the dual of a software architect, although one person can be both.)  It's not about code golf -- although you might learn some strokes to use on that -- but about keeping the structure of your code, even at the expression level, close to the way you think about the problem, if you think like me.
 
+<!-- more -->
+
 If you're _not_ a code stylist -- and I'm not saying that being a code stylist, any more than being a prose stylist, is either a good or a bad thing -- you might find it baffling that someone would put so much time into such simple topic.  I won't try to convince you otherwise.  In that case, you might want to check back next week, when I'll move back up to the bigger picture.  (Specifically, some fun stuff involving how to use meta-object programming to solve race conditions in client-server models.)
 
 ---

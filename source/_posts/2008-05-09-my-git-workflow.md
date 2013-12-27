@@ -15,6 +15,8 @@ tags: [git, illustrations]
 
 Here's my path to enlightment, and how I ended up using the index in my particular workflow.  There are other workflows, but this one is mine.
 
+<!-- more -->
+
 What this isn't: a Git tutorial.  It doesn't tell you how to set up git, or use it. I don't cover branches, or merging, or tags, or blobs.  There are dozens of really great articles about Git on the web; here are [some](http://del.icio.us/osteele/git).  What's here are just some pictures that _aren't_ about branches or blobs, that I wished I'd been able to look at six months ago when I was trying to figure this stuff out; I still haven't seen them elsewhere, so here they are now.
 
 ## My brief history with Git
@@ -28,7 +30,7 @@ Git's problem is its complexity.  Half of that is because it's actually more pow
 ## Git without the index
 
 I got through my first four months of Git by [pretending it was Subversion](http://git.or.cz/course/svn.html). (A faster implementation of Subversion, that works offline, with non-awful branches and merging, that can run as a client to Perforce -- but still basically Subversion.)  The executive summary of this mode of operation is that if you use "`git commit -a`" instead of "`git commit`", you can ignore the index altogether.  You can alias `ci` to "`commit -a`" (and train yourself not to use the longer `commit`, which I hadn't been doing anyway), and then you don't have to remember the command-line argument either:
-    
+
     $ cat ~/.gitconfig
     [alias]
       ci = commit -a
@@ -68,7 +70,7 @@ I'm most efficient when I can fearlessly try out risky changes.  Having a test s
 
 I used to make copies of files before I edited them; my directory would end up littered with files like `code.java.1` and `code.java.2`, which I would periodically sweep away.  Having Git handle the checkpoint and diff with them makes all this go faster.  (Having painless branches does the same for longer-running experiments, but I don't want to create and then destroy a branch for every five-minute change.)
 
-Here's another picture of the same Git commands, this time shown along a second axis, time, proceeding from top to bottom. [This is the behavior diagram to the last picture's dataflow diagram.  Kind of.]  A number of local edits adds up to something I checkpoint to the index via "`git add -u`"; after a while I've collected something I'm ready to commit; and every so many commits I push everything so far to a remote repository, for backup (although I've got other backup systems), and for sharing.  
+Here's another picture of the same Git commands, this time shown along a second axis, time, proceeding from top to bottom. [This is the behavior diagram to the last picture's dataflow diagram.  Kind of.]  A number of local edits adds up to something I checkpoint to the index via "`git add -u`"; after a while I've collected something I'm ready to commit; and every so many commits I push everything so far to a remote repository, for backup (although I've got other backup systems), and for sharing.
 
 ![](/images/2008/git-workflow.png)
 
@@ -88,5 +90,5 @@ Both of these alternatives harken back to Git as being a tool for designing VCS 
 
 [^1]: This picture shows just those commands that copy data between the local repository, the remote repository, the index, and your workspace.  There's lots more going on _inside_ these repositories (branches, tags, and heads; or, blobs, trees, commits, and refs).  In fact, during a merge, there's more going on inside the _index_, too ("mine", "ours", and "theirs").  To a first approximation, all that's orthogonal to how data gets _between_ data stores; we'll ignore it.
 
-[^2]: This isn't quite true.  You still need to use "`git add`" a new file to tell git about it, and at that point it's in your index but not in your repository.  You still don't need to _think_ about the repository in order to use it this way 
+[^2]: This isn't quite true.  You still need to use "`git add`" a new file to tell git about it, and at that point it's in your index but not in your repository.  You still don't need to _think_ about the repository in order to use it this way
 

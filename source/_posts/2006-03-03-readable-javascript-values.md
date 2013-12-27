@@ -14,6 +14,8 @@ tags: [JavaScript, libraries]
 
 One problem with JavaScript development is that the string representation of a value doesn't tell you much about the value.  For example, `[null]`, `[undefined]`, and `''` all display as the empty string.  `[1,2}`, `[[1,2]]`, and `[[^1],[^2]]` all display as `1,2` (and so does `"1,2"`).  And `({a: 1})`, `({b: 2})`, and `new MySwankyNewObject()` all display as `[object Object]`.
 
+<!-- more -->
+
 If you [use an IDE](/archives/2004/11/ides) for development, this may not be a problem.  Probably the IDE has its own string representation; even if it doesn't, you can generally drill into objects by clicking on them.  This doesn't help those us of who prefer REPL development or printf-style debugging.  When you display a debugging value (to the browser status line, to the `alert()` dialog, or to the Rhino console), you'd like some indication of what it actually _is_.  And JavaScript doesn't generally tell you, at least when the value is more complex than a string, number, or boolean.
 
 Hence, [readable.js](/sources/javascript/docs/readable).  _Readable_ adds a Readable class that can stringify a JavaScript value readably, for debugging purposes.  Readable.toReadable([1,'', null, [3, 4]]) evaluates to [1, '', null, [3, 4]], not 1,,,3,4.  And so on.

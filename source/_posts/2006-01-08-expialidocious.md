@@ -16,4 +16,6 @@ tags: [Laszlo, visualizations]
 
 [Expialidocio.us](http://expialidocio.us) is a tool for visualizing your [del.icio.us](http://del.icio.us) posting activity.  It displays a graph of your posting activity over time.  You can select a timespan from this graph, and it will show you a tag cloud weighted by just those dates.
 
+<!-- more -->
+
 Expialidocio.us was inspired by a [posting by Jon Udell](http://weblog.infoworld.com/udell/2005/12/20.html#a1357).  Coming full circle, Udell has [posted](http://weblog.infoworld.com/udell/2006/01/05.html#a1364) since posted about this application.  Since then, I've published the [sources](http://expialidocio.us).

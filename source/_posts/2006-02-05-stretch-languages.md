@@ -17,6 +17,8 @@ Recently I reviewed the programming languages I've used over the 28 years[^1] of
 
 [![](/images/2006/languages-thumb.png)](/images/2006/languages.png)
 
+<!-- more -->
+
 There are some obvious trends here[^2].  The languages are mostly getting higher level.  There are a few "survivors": languages that I've used over the the course of a decade, although discontiguously: C/C++, Common Lisp, and Java.  Java has replaced C (except for a stint around 2000 where I went back to low-level graphics programming at Alphamask), and the scripting languages have taken over from Common Lisp --- they're slower, but they're terse, have better libraries, and are easier to deploy.
 
 It didn't surprise me that there are so many languages.  For one thing, I like languages, and I enjoy learning how to program by learning new ones.  For another thing, times changes and programming languages get better.  You'd have to be crazy to program in 1970's BASIC these days.  (That's BASIC, not Visual Basic.  The language I cut my teeth on didn't have functions or structures.)  And there just isn't much call for Z80 assembly any more.

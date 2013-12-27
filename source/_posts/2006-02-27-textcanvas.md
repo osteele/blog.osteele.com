@@ -15,6 +15,8 @@ tags: [JavaScript, libraries]
 
 The two times that I've used the WHATWG canvas element recently, I've wanted a canvas with string rendering.  The most recent time that I've used the OpenLaszlo drawview class (which has substantially the same API), I've wanted string rendering too.
 
+<!-- more -->
+
 The graph in [reAnimator](/tools/reanimator) is a drawview, but with text labels for the edges.  And the graph and parse tree in the Graph and Parse tabs of [reMatch](/tools/rematch) both use WHATWG canvas for lines, but text for labels.  (These tabs are only visible in Firefox, for now.)
 
 [TextCanvas.js](/sources/javascript/textcanvas.js) implements the canvas context extended with labels, for DHTML.  And "textdrawview.lzx" implements drawview extended with labels.  They share the same API, so that I can write graphics libraries (such as graph drawing) that work with both DHTML and OpenLaszlo.  That API is described [here](/sources/javascript/textcanvas-api).

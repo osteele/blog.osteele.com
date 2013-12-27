@@ -13,6 +13,8 @@ tags: [bloviating, software-engineering, essays]
 
 The novice project manager cares about a program's size.  The experienced manager cares when it gets big.
 
+<!-- more -->
+
 Big programs are, from a developer's perspective, slow. Slow not to run, but to develop: effortful to maintain, expensive to change.  Half the job of a project manager is to keep programs small by keeping their requirements small (and half the job of an architect is to keep them small when the requirements are large); this is about the case when this isn't enough.
 
 Developing a program is like pushing a rock around a room. (The rock is called "code base".  The room is an irregular shape called "design space", with "requirements" marked off along the wall.)  Big programs are big, heavy rocks. They require more push, to get less far.

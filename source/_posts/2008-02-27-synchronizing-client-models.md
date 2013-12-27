@@ -13,6 +13,8 @@ tags: [JavaScript, client-server, essays]
 
 You're implementing a client-server application.  The client is in JavaScript.  It contains a model class, `Person`.  The model is backed by a server-side `Person` model, and a REST controller at `/person`.  Periodically, the client updates the server's model, but there can be client-side instances that don't yet exist on the server, such as when a model is first created and the server hasn't yet gotten the message.
 
+<!-- more -->
+
 I've written this code a few times now, in JavaScript, and in ActionScript.  if If you write it the obvious way, you run into an interesting set of race conditions.  Here's the code, and the race conditions, and some ad-hoc solutions.  In the next post, I'll introduce a metaobject pattern, queue ball, that I've used to solve these race conditions in a more principled and re-usable fashion.
 
 +Note: As of 2008-02-28, none of this code has been tested.  It's all extracted from code that's *like* the code here, but I haven't copied and pasted these specific examples into an execution environment, which probably means they fail.+

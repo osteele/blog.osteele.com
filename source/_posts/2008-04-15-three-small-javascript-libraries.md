@@ -13,6 +13,8 @@ tags: [JavaScript, libraries]
 
 Three small libraries, that I carry with me from project to project:
 
+<!-- more -->
+
 ## Fluently -- Construction Kit for Chainable Methods
 
 With Fluently, you can do this:
@@ -38,7 +40,7 @@ You can also define modifiers, and aliases:
           define.alias('fn3', 'fn1');
           define.modifier('not');
         });
-      
+
       o.fn3(); // same as o.fn1()
       o.fn1().and.fn2() // same as o.fn1().fn2()
       o.fn1().and.not.fn2() // options.not is set when fn2 is called

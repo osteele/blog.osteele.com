@@ -17,6 +17,8 @@ tags: [regular-expressions, tools, visualizations]
 
 Here's something I've wanted for a long time.  So I finally [built it](/tools/reanimator).  [reAnimator](/tools/reanimator) is a tool for visualizing how [regular expression](http://en.wikipedia.org/wiki/Regular_expression) engines use [finite-state automata](http://en.wikipedia.org/wiki/Finite_state_automaton) to match regular regular expression patterns against text.
 
+<!-- more -->
+
 This is intended to demonstrate the _implementation_ of regular expressions.  If you want to learn _how to use them_ instead, I recommend these references instead:
 
 * [Regular-Expressions.info](http://www.regular-expressions.info/)

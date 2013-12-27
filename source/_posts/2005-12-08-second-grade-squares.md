@@ -18,6 +18,8 @@ Here are the pictures that showed her how to figure out the answer.  We drew the
 
 ![](/images/2005/number-grid.png)
 
+<!-- more -->
+
 and I introduced the idea of a "solution structure".   A solution structure is a graphical representation of the steps of a solution.  This is the section that represents the relation between 92 and 102.
 
 ![](/images/2005/10%5e2-%3e9%5e2.png)

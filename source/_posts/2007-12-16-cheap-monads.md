@@ -15,6 +15,8 @@ tags: [JavaScript, monads, essays]
 
 Don't worry, this isn't YAMT ([Yet Another Monad Tutorial](/archives/2007/12/overloading-semicolon) ).  This is a practical post about a code smell that afflicts everyday code, and about an idiom that eliminates that smell.  It just so happens that this idiom corresponds to one of the uses for monads in Haskell, but that's just theory behind the practice, and I've saved the theory for the end.
 
+<!-- more -->
+
 This post is about style: implementation choices at the level of the expression and the statement.  Style doesn't matter much in a small program, or a write-only program (one that nobody will read later).  It isn't necessary to make a program run: by definition, it doesn't make a functional difference.  Style makes a difference to how easy or pleasant a program is to read; this can make a difference to whether it gets worked on (by its author, or somebody else) later.
 
 ## The Problem
@@ -63,7 +65,7 @@ If the code did nothing but display the merchant name and then return, we could 
     var merchantName = merchant.name;
     if (!merchantName) return;
     displayMerchantName(merchantName);
-    
+
 
 This implementation retains two of the disadvantages from the first, and it introduces a third. First, that's still an awful lot of control flow (four lines) obfuscating a tiny amount of data flow (four lines).  Second, we've still got those baton variables, `offering`, `merchant`, _etc_.  Finally, the new implementation works only if the fragment is an entire function: if `displayMerchantName` is the last statement in the function[^1].
 
@@ -75,7 +77,7 @@ How about if we eliminate the batons altogether?  Then we can combine all the te
         && product.offering.merchant
         && product.offering.merchant.name)
       displayMerchantName(product.offering.merchant.name);
-    
+
 
 This implementation has fewer lines, at least, but there's still a lot of repetition[^2] -- the text `product.offering` occurs four times.
 
@@ -90,7 +92,7 @@ We can re-introduce the temporary variables, this time within the conditional, t
         && (merchant = offering.merchant)
         && (merchantName = merchant.name))
       displayMerchantName(merchantName);
-    
+
 
 ...but now we've brought back the batons.
 
@@ -104,7 +106,7 @@ I'd like to be able to write something that matches the language of the specific
         merchantName = product.offering.merchant.merchantName;
     if (merchantName)
       displayMerchantName(merchantName);
-    
+
 
 and have the system just know that `product.offering` evaluates to null if `product` is null; and that `product.offering.merchant` evaluates to null if `product.offering` is null, _etc_.  Now, we might not like `null.property` to evaluate to null _everywhere_ (that might move bug symptoms too far away from their defect sites), but we'd like it _here_.
 
@@ -117,12 +119,12 @@ So one solution would be to write a function that applies CSS or XPath paths to 
 Without further ado, here's how to write an expression that evaluates to `object`'s `property` property if `object` is not null, and to null otherwise[^3]:
 
     (object||{}).property
-    
+
 
 And this can be chained as follows:
 
     ((object||{}).property1||{}).property2
-    
+
 
 So let's apply this, in two steps, to the problem above.  First, get rid of all the intermediate conditionals, in order to match the control flow to the narrative:
 
@@ -132,7 +134,7 @@ So let's apply this, in two steps, to the problem above.  First, get rid of all 
         merchantName = (merchant||{}).name;
     if (merchantName)
       displayMerchantName(merchantName);
-    
+
 
 And now that each intermediate variable is used only once, we can inline its value and eliminate its name:
 
@@ -140,7 +142,7 @@ And now that each intermediate variable is used only once, we can inline its val
         merchantName = (((product||{}).offering||{}).merchant||{}).name;
     if (merchantName)
       displayMerchantName(merchantName);
-    
+
 
 This isn't as clean as the E4X example, but it's relatively concise: no batons, and no non-narrative control flow.
 
@@ -152,7 +154,7 @@ What about the case where most products _don't_ have offerings, or the offerings
         merchantName = (((product||$N).offering||$N).merchant||$N).name;
     if (merchantName)
       displayMerchantName(merchantName);
-    
+
 
 (The Ruby equivalent of `{}` is `{}` for a Hash, with array-style access; and `OpenStruct.new` for an Object, with property getter syntax.  You definitely want a reusable singleton for the latter.)
 

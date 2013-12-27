@@ -13,6 +13,8 @@ tags: [JavaScript]
 
 Sometimes you need a totally opaque "constant" -- a value that isn't intended to be projected or modified, and whose only purpose is to be completely different from every other value[^1].  For example, [Functional](/sources/javascript/functional/) uses `Functional._` as a placeholder; a comment on [John Resig's blog](http://ejohn.org/blog/partial-functions-in-javascript/) suggests defining something like `Partial.PLACEHOLDER` for something similar.
 
+<!-- more -->
+
 In JavaScript, these are easy to make.  Here's one: `{}`.  And here's another: `{}`.  Note that these two values are _different_: the following code[^2] will print `true`, then `true`, then `false`:
 
     var L1 = {};

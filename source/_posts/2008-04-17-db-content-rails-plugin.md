@@ -13,6 +13,8 @@ tags: [Ruby, rails, libraries]
 
 The DB Content Rails plugin adds tasks to save and restore database content.
 
+<!-- more -->
+
 ## Usage
 
     -- dump the development database to db/archive/development-content.sql.gz

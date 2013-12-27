@@ -23,6 +23,8 @@ What's wrong with this function?  (Hint: it's meant to execute periodically on a
       });
     }
 
+<!-- more -->
+
 It's a trick question.  Maybe nothing's wrong.  But if `products` can get very long, or if the `msToDuration` is very slow, you've locked up the UI for a long time.  At best, this makes for sluggish response; at worst, the page that contains this will trigger a "script running slowly" error, and the user will likely abort all the JavaScript on the page.
 
 If this computation only needs to run once, and when (or before) the page loads, you can do it on the server.  But often a computation depends on some aspect of the client state, that isn't known when the page is requested.  In this example, the computation depends on the current time (and the current time keeps changing).  In another case, the computation might depend upon the values of some controls or other widgets on the page -- if we've gone all AJAXy, and want to show the user an instant response, even if that means some client-side computation.

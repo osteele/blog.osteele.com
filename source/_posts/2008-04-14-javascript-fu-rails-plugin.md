@@ -14,6 +14,8 @@ tags: [JavaScript, Ruby, libraries]
 
 [JavaScript Fu](http://github.com/osteele/jcon) extends Rails with a few facilities to better integrate JavaScript into Rails development:
 
+<!-- more -->
+
 1. The `notes` and `statistics` rake tasks compass JavaScript files in the `public/javascript` directory:
 
 ~~~

@@ -12,6 +12,8 @@ tags: [pompous, egocentric]
 
 My friends have been asking me how important I consider _experience_ ([again](archives/2008/02/two-thoughts-on-elections) in the context of the election), enough to write the answer down.
 
+<!-- more -->
+
 Experience can mean contact with facts and events; or, the knowledge and skill that this contact causes.  One sense measures the _past_; the other, the _present_.  It's the fact that one word has both senses that can allow one to describe the same life history as either "thirty years experience", or [one year of experience thirty times](http://www.google.com/search?q=%22one+year+of+experience+thirty+times%22).
 
 But even in its second sense, "experience" is a proxy measure for an unknowable: knowledge and skills that will be useful in the _future_.  To the extent that the future resembles the past, it's a perfect proxy; where they diverge, the correlation drops.

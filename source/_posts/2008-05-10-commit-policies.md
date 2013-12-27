@@ -17,6 +17,8 @@ Git is a complicated beast.  The Git index, if you're coming from other VCS's, i
 ![](/images/2008/git-transport.png)![](/images/2008/git-workflow.png)
 ](/archive/2008/05/my-git-workflow)
 
+<!-- more -->
+
 These pictures illustrate the multiple locations, or "data stores", that host a copy of the source tree.  These stores are: the working directory, local and remote repositories, and the index.  In order to show more of the whole development process, the second picture also includes a "distribution directory", for code that is being distributed outside of Git.  (The distribution directory could be the deployment directory of a web site, or a compiled artifact, such as a binary, that is placed in firmware or on a DVD.)
 
 ## Salmon Run Development

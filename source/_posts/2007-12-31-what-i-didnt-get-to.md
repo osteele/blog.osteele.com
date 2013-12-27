@@ -16,6 +16,8 @@ tags: [javscript, libraries, Laszlo]
 
 Here are some of the weekend projects that I didn't finish this year.  These aren't good enough to put on my project list or my [sources page](http://osteele.com/sources/).  Some of these aren't even working, and some of them I might not finish at all (most of my weekends are spoken for).  And some of them I can't bear to look at (I'm not proud of the code, and don't want to be judged by it...), but I'm making myself put them out there anyway.  I feel bad for the neglected little things, trapped on my hard drive, and I'd like to let them see the sun, even if just briefly before they flicker out and die.
 
+<!-- more -->
+
 Libraries:
 
 * [LzOSUtils](http://osteele.com/sources/openlaszlo/lzosutils) --- jQuery-compatible `ajax` function, Flash->JS bridge with callbacks, declarative Flash 8 filter effects, console that reports to Firebug, dashed lines, Prototype-compatible string and collection methods, etc.  Completely undocumented and fairly disorganized.

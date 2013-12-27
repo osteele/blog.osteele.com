@@ -15,6 +15,8 @@ Yesterday I was profiling a page that used jQuery.  The page took a long time to
 
 Hence, [jQuery.profile](http://plugins.jquery.com/project/profile).  Stick this in your page, call `$.profile.start()` to start profiling calls to `$(selector)`, and then `$.profile.done()` to stop profiling and print out something like this:
 
+<!-- more -->
+
     Selector                 Count  Total  Avg+/-stddev
     script, script, scri...    100    101ms  1.01ms+/-1.01
     script                   200     58ms  0.29ms+/-0.53

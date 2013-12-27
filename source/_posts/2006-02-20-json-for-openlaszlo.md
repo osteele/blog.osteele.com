@@ -15,6 +15,8 @@ tags: [JSON, JavaScript, Laszlo, libraries]
 
 [JSON for OpenLaszlo](/sources/openlaszlo/json/) is a [JSON](http://www.json.org/) library for OpenLaszlo.
 
+<!-- more -->
+
 I wrote this in order to implement my [regular expression visualizer](/tools/reanimator).
 
 There's a live example below.  Clicking on a button requests some JSON text from the server and parses it on the client.  The source code to the example is [here](sources/openlaszlo/json/json-example.lzx).

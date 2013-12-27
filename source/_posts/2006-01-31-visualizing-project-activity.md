@@ -14,6 +14,8 @@ tags: [Laszlo, tools, obsolete]
 
 Last week I wrote a couple of tools to keep track of [subversion](http://subversion.tigris.org/) checkins:
 
+<!-- more -->
+
 [![](/projects/images/svn2ics-thumb.png)](/tools/svn2ics)
 
 The [Subversion Log Viewer](/tools/svn-viewer) is a master-detail list of recent subversion revisions.  It's based on the OpenLaszlo [contactlist](http://www.laszlosystems.com/lps/examples/contactlist/contactlist.lzx) example.  The nicest feature is really an afterthought: at the last moment, I added faces for authors; I think this makes projects a lot friendlier.  Right now it only adds the faces to the [OpenLaszlo](http://openlaszlo.org) log; let me know if you're interested in using this for your own project, and I'll make a public API for adding faces to a repository.

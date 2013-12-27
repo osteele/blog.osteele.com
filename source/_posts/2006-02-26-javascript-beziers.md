@@ -22,6 +22,8 @@ The OpenLaszlo application below demonstrates animation along a line, a quadrati
   <embed src="/sources/javascript/bezier-demo.swf" width="320" height="300" quality="high" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"/>
 </object>
 
+<!-- more -->
+
 Drag the slider back and forth to display the point on each path at t=slider.value/100, or click the "Animate" button to animate t from 0 to 1.
 
 I wrote this in order to animate the state markers along the edges of the graph in [reAnimator](/tools/reanimator).  The GraphViz dot tool, which I'm using for graph layout, generates cubic beziers, so I had to write code to render and evaluate them.

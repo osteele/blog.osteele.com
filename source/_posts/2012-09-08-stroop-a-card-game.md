@@ -2,11 +2,13 @@
 title: "Stroop: A Card Game"
 date: '2012-09-08 11:26'
 description:
-categories: 
+categories:
 tags: [fun, games]
 ---
 
 Stroop is a card game for two or more players and a dealer, who also serves as referee. The objective is to collect the most cards, by naming cards that differ in rank and suit color from the cards that the dealer reveals.
+
+<!-- more -->
 
 Stroop is played with a standard 52-card deck. The dealer shuffles the deck and turns it face down; this is the *stock pile*. At the beginning of each round, the dealer removes the top card (the *top card*) from the stock pile, and places it face up. This begins the *stake pile*. If the stake pile contains cards, the top card is placed on top of them.
 

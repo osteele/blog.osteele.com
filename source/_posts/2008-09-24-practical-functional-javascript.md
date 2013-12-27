@@ -12,6 +12,8 @@ tags: [JavaScript, functional, talks, conferences]
 
 I'll be giving a talk next Wednesday October 1 at [The AJAX Experience](http://ajaxexperience.techtarget.com/east/index.html), on "Practical Functional JavaScript".  This could be subtitled "distributing JavaScript across time and space", or maybe just "how to do things with functions"[^1].
 
+<!-- more -->
+
 A couple of years ago I found that all the interesting AJAX programs that I wanted to write involved asynchronous communication with the server (or sometimes with a Flash plugin, or sometimes within the client but with a few seconds or minutes delay). Trying to think about and debug these programs made me feel like I was just learning how to program again (or hadn't yet), and hurt my head.  But now I can emerge, sadder but wiser, head fully healed, and with this talk in hand.
 
 I'll be covering:

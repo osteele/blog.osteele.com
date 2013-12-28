@@ -1,0 +1,11 @@
+#!/bin/bash -eu
+
+cd `dirname $0`/..
+./site.hs build || echo "Someday fix this error"
+
+cd _site
+git init
+git add .
+git ci -m 'deploy'
+git remote add origin https://github.com/osteele/blog.osteele.com.git
+git push origin +master:gh-pages

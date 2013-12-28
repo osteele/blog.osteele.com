@@ -4,8 +4,9 @@ cd `dirname $0`/..
 ./site.hs build || echo "Someday fix this error"
 
 cd _site
-git init
+echo blog.osteele.com > CNAME
+git init || echo No problem
 git add .
-git ci -m 'deploy'
-git remote add origin https://github.com/osteele/blog.osteele.com.git
+git ci -m 'deploy' || echo No problem
+git remote add origin https://github.com/osteele/blog.osteele.com.git || echo No problem
 git push origin +master:gh-pages

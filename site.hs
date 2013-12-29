@@ -9,7 +9,7 @@ import           SiteUtils
 
 --------------------------------------------------------------------------------
 main :: IO ()
-main = hakyll $ do
+main = hakyllWith config $ do
     -- Copy static files
     match "files/**" $ do
         route $ gsubRoute "files/" (const "")
@@ -73,21 +73,29 @@ main = hakyll $ do
     match "templates/*" $ compile templateCompiler
 
 
---------------------------------------------------------------------------------
+-- ==========================
+-- Options and Configurations
+-- ==========================
+config :: Configuration
+config = defaultConfiguration {
+    deployCommand = "./bin/deploy"
+}
+
+
+-- =================
+-- Context functions
+-- =================
 postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
     defaultContext
 
---------------------------------------------------------------------------------
--- Source: https://github.com/jaspervdj/jaspervdj
 feedCtx :: Context String
 feedCtx = mconcat
     [ bodyField "description"
     , defaultContext
     ]
 
---------------------------------------------------------------------------------
 feedConfiguration :: String -> FeedConfiguration
 feedConfiguration title = FeedConfiguration
     { feedTitle       = "Oliver Steele - " ++ title

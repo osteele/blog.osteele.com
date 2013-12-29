@@ -10,21 +10,15 @@ import           SiteUtils
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
-    -- Static files
-    match "images/*" $ do
-        route   idRoute
+    -- Copy static files
+    match "files/**" $ do
+        route $ gsubRoute "files/" (const "")
         compile copyFileCompiler
 
     -- Compress CSS
     match "css/*" $ do
         route   idRoute
         compile compressCssCompiler
-
-    --match (fromList ["about.rst", "contact.markdown"]) $ do
-    --    route   $ setExtension "html"
-    --    compile $ pandocCompiler
-    --        >>= loadAndApplyTemplate "templates/default.html" defaultContext
-    --        >>= relativizeUrls
 
     match "posts/*" $ do
         route $ rewritePermalinkDate `composeRoutes` setExtension "html"
@@ -39,7 +33,7 @@ main = hakyll $ do
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
 
-    create ["archive.html"] $ do
+    create ["archive/index.html"] $ do
         route idRoute
         compile $ do
             posts <- recentFirst =<< loadAll "posts/*"

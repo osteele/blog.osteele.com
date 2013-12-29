@@ -3,7 +3,7 @@ date: '2008-04-13 07:27:07'
 layout: post
 slug: flashbridge
 status: publish
-title: 'FlashBridge: proxying Flash  OpenLaszlo'
+title: FlashBridge: proxying Flash  OpenLaszlo
 wordpress_id: '270'
 categories: [JavaScript, Libraries, OpenLaszlo]
 tags: [JavaScript, flash, Laszlo, libraries]

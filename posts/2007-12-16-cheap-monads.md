@@ -3,7 +3,7 @@ date: '2007-12-16 21:49:46'
 layout: post
 slug: cheap-monads
 status: publish
-title: 'Monads on the Cheap I: The Maybe Monad'
+title: Monads on the Cheap I: The Maybe Monad
 wordpress_id: '225'
 categories: [Essays, JavaScript, Programming Languages, Tips]
 tags: [JavaScript, monads, essays]

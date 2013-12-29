@@ -1,5 +1,5 @@
 ---
-title: "Stroop: A Card Game"
+title: Stroop: A Card Game
 date: '2012-09-08 11:26'
 tags: [fun, games]
 ---

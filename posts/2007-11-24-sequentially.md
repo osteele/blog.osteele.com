@@ -3,7 +3,7 @@ date: '2007-11-24 13:06:06'
 layout: post
 slug: sequentially
 status: publish
-title: 'Sequentially: Temporal and Frequency Adverbs for JavaScript'
+title: Sequentially: Temporal and Frequency Adverbs for JavaScript
 wordpress_id: '218'
 categories: [JavaScript, Libraries, Projects]
 tags: [JavaScript, libraries, fun]

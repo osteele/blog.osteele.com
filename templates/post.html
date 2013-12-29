@@ -1,8 +1,23 @@
-<div class="info">
-    Posted on $date$
-    $if(author)$
-        by $author$
-    $endif$
+<div class="page-header">
+  <h1>$title$</h1>
 </div>
 
-$body$
+<div class="row">
+  <div class="span8">
+    $body$
+    <hr>
+    <div class="pagination">
+      <ul>
+        <ul>
+            <li><a href="/archive">Archive</a></li>
+        </ul>
+      </ul>
+    </div>
+    <hr>
+  </div>
+
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>$date$</span></div>
+  </div>
+</div>

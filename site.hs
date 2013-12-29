@@ -27,7 +27,7 @@ main = hakyll $ do
     --        >>= relativizeUrls
 
     match "posts/*" $ do
-        route $ setExtension "html"
+        route $ rewritePermalinkDate `composeRoutes` setExtension "html"
         compile $ pandocCompiler
             >>= replaceUrlPrefixes "/images/" "http://assets.osteele.com/images/"
             >>= replaceUrlPrefixes "/movies/" "http://assets.osteele.com/movies/"
@@ -37,7 +37,7 @@ main = hakyll $ do
             >>= replaceUrlPrefixes "http://osteele.com/archives/" "/posts/"
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
-            -- >>= relativizeUrls
+            >>= relativizeUrls
 
     create ["archive.html"] $ do
         route idRoute
@@ -66,7 +66,7 @@ main = hakyll $ do
             getResourceBody
                 >>= applyAsTemplate indexCtx
                 >>= loadAndApplyTemplate "templates/default.html" indexCtx
-                -- >>= relativizeUrls
+                >>= relativizeUrls
 
     -- Render RSS feed
     create ["rss.xml"] $ do

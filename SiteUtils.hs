@@ -1,19 +1,20 @@
 module SiteUtils
     ( removeExtensionsFromLocalUrls
+    , rewritePermalinkDate
     , replaceUrlPrefixes
     , setRelativeUrlBases
     ) where
 
 import           Data.List            (isPrefixOf, isSuffixOf, stripPrefix)
 import           Data.Maybe           (fromMaybe, mapMaybe)
-
+import           Text.Regex.Posix     ((=~))
 
 --------------------------------------------------------------------------------
-import           Hakyll.Core.Compiler
-import           Hakyll.Core.Item
-import           Hakyll.Web.Html
-import           Hakyll.Web.Html.RelativizeUrls
-
+--import           Hakyll.Core.Compiler
+--import           Hakyll.Core.Item
+--import           Hakyll.Web.Html
+--import           Hakyll.Web.Html.RelativizeUrls
+import           Hakyll
 
 --------------------------------------------------------------------------------
 setRelativeUrlBases :: String  -- ^ Prepend relative URLs by this prefix
@@ -26,8 +27,17 @@ setRelativeUrlBases prefix item = do
 
 
 ----------------------------------------------------------------------------------
+rewritePermalinkDate :: Routes
+rewritePermalinkDate = customRoute $ fn . toFilePath
+  where
+    fn path = case path =~ "/([0-9]{4})-([0-9]{2})-([0-9]{2})-([^/]+)$" :: (String, String, String, [String]) of
+      (_, _, _, []) -> path
+      (before, _, _, [yyyy, mm, dd, title]) -> before ++ "/" ++ yyyy ++ "/" ++ mm ++ "/" ++ title
+
+
+----------------------------------------------------------------------------------
 removeExtensionsFromLocalUrls :: String
-                                 -> Item String -> Compiler (Item String)
+                              -> Item String -> Compiler (Item String)
 removeExtensionsFromLocalUrls suffix item = do
   return $ fmap (withUrls removeLocalExtension) item
   where

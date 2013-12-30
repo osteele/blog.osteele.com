@@ -56,6 +56,8 @@ main = hakyllWith config $ do
             let indexCtx =
                     listField "posts" postCtx (return posts) `mappend`
                     constField "title" "Home"                `mappend`
+                    constField "author" "Oliver Steele"      `mappend`
+                    constField "copyright-range" copyrightRange `mappend`
                     defaultContext
 
             getResourceBody
@@ -79,16 +81,20 @@ main = hakyllWith config $ do
 -- ==========================
 config :: Configuration
 config = defaultConfiguration {
-    deployCommand = "./bin/deploy"
+    deployCommand  = "./bin/deploy"
 }
 
 
 -- =================
 -- Context functions
 -- =================
+copyrightRange = "2003 &mdash; 2013"
+
 postCtx :: Context String
 postCtx =
-    dateField "date" "%B %e, %Y" `mappend`
+    dateField "date" "%B %e, %Y"                     `mappend`
+    constField "author" "Oliver Steele"              `mappend`
+    constField "copyright-range" copyrightRange      `mappend`
     defaultContext
 
 feedCtx :: Context String

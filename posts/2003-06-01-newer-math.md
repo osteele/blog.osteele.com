@@ -1,4 +1,5 @@
 ---
+description: Appreciating math education.
 date: '2003-06-01 14:29:22'
 layout: post
 slug: newer-math

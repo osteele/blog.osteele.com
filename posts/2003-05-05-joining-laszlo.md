@@ -1,4 +1,5 @@
 ---
+description: Joining Laszlo
 date: '2003-05-05 13:59:22'
 layout: post
 slug: joining-laszlo

@@ -1,4 +1,5 @@
 ---
+description: Subversion web gui — defect
 date: '2006-01-31 23:00:01'
 layout: post
 slug: visualizing-project-activity

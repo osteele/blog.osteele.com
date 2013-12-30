@@ -1,4 +1,5 @@
 ---
+description: When RDF looked feasible
 date: '2003-05-16 00:27:55'
 layout: post
 slug: the-semantic-depths

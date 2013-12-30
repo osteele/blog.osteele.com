@@ -1,4 +1,5 @@
 ---
+description: My try at golfing
 date: '2008-02-28 17:59:08'
 layout: post
 slug: fizzbuzz-station

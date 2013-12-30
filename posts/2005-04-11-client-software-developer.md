@@ -1,4 +1,5 @@
 ---
+description: Job post
 date: '2005-04-11 14:27:28'
 layout: post
 slug: client-software-developer

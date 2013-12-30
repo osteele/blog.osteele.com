@@ -1,4 +1,5 @@
 ---
+description: An algorithm I invented(?)
 date: '2007-07-08 08:24:36'
 layout: post
 slug: division-free-lcm

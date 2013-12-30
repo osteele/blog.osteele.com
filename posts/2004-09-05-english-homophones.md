@@ -1,4 +1,5 @@
 ---
+description: Some of the more confusable common English spellings
 date: '2004-09-05 13:50:35'
 layout: post
 slug: english-homophones

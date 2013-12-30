@@ -1,4 +1,5 @@
 ---
+description: Comcast forces this now
 date: '2003-05-26 11:50:07'
 layout: post
 slug: moblesse-oblige

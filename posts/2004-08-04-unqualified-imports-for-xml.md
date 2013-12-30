@@ -1,4 +1,5 @@
 ---
+description: An import system for XML-based languages
 date: '2004-08-04 18:46:50'
 layout: post
 slug: unqualified-imports-for-xml

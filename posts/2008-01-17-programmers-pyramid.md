@@ -1,4 +1,5 @@
 ---
+description: Programmer's should read to learn how to write (with picture)
 date: '2008-01-17 13:10:07'
 layout: post
 slug: programmers-pyramid

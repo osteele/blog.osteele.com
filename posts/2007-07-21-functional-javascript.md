@@ -1,4 +1,5 @@
 ---
+description: Functional JavaScript library
 date: '2007-07-21 20:54:57'
 layout: post
 slug: functional-javascript

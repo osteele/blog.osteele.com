@@ -1,4 +1,5 @@
 ---
+description: Nowadays I use Promises for things like this
 date: '2008-04-20 18:28:00'
 layout: post
 slug: conquering-busy-cursor-sequentially

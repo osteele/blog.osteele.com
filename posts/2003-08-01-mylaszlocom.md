@@ -1,4 +1,5 @@
 ---
+description: Before jsfiddler
 date: '2003-08-01 23:28:48'
 layout: post
 slug: mylaszlocom

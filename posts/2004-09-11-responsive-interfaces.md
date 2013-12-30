@@ -1,4 +1,5 @@
 ---
+description: “Responsive” didn't mean then what it means now
 date: '2004-09-11 14:32:33'
 layout: post
 slug: responsive-interfaces

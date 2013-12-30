@@ -1,4 +1,5 @@
 ---
+description: Functional JavaScript update
 date: '2007-11-11 15:34:11'
 layout: post
 slug: functional-javascript-102

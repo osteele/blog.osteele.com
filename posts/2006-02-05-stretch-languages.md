@@ -1,4 +1,5 @@
 ---
+description: Timeline of languages in my life
 date: '2006-02-05 23:57:02'
 layout: post
 slug: stretch-languages

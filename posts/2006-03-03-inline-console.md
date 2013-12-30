@@ -1,4 +1,5 @@
 ---
+description: Portable JavaScript developer console &mdash; from before browsers had web developer consoles
 date: '2006-03-03 23:10:37'
 layout: post
 slug: inline-console

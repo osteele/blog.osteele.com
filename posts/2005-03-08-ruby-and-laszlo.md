@@ -1,4 +1,5 @@
 ---
+description: Announcing a library for using Rails with OpenLaszlo
 date: '2005-03-08 06:25:13'
 layout: post
 slug: ruby-and-laszlo

@@ -1,4 +1,5 @@
 ---
+description: Javascript Bezier library
 date: '2006-02-26 22:05:48'
 layout: post
 slug: javascript-beziers

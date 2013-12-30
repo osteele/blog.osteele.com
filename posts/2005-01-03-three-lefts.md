@@ -1,4 +1,5 @@
 ---
+description: Comments versus type declarations
 date: '2005-01-03 22:34:25'
 layout: post
 slug: three-lefts

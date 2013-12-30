@@ -1,4 +1,5 @@
 ---
+description: Some different uses for programming language comments
 date: '2003-08-31 00:47:51'
 layout: post
 slug: a-taxonomy-of-comments

@@ -1,4 +1,5 @@
 ---
+description: Rambling about elementary school programming
 date: '2004-09-08 22:12:59'
 layout: post
 slug: refactoring-for-fifth-graders

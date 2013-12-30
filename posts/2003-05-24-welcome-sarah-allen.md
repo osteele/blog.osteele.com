@@ -1,4 +1,5 @@
 ---
+description: Sarah Allen joins Laszlo
 date: '2003-05-24 10:24:33'
 layout: post
 slug: welcome-sarah-allen

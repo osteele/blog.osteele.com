@@ -1,4 +1,5 @@
 ---
+description: How we defined tags in OpenLaszlo XML
 date: '2004-07-25 07:29:31'
 layout: post
 slug: a-fresh-canvas

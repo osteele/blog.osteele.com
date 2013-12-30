@@ -1,4 +1,5 @@
 ---
+description: A proposal for XML schema versioning
 date: '2004-08-20 09:14:44'
 layout: post
 slug: xml-schema-versions

@@ -1,4 +1,5 @@
 ---
+description: Modern test libraries do this
 date: '2008-04-20 18:28:08'
 layout: post
 slug: mock-setcleartimeoutinterval

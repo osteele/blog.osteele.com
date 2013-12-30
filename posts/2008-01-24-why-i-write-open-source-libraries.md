@@ -1,4 +1,5 @@
 ---
+description: Some advantages of open source hobby projects
 date: '2008-01-24 22:13:10'
 layout: post
 slug: why-i-write-open-source-libraries

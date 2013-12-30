@@ -1,4 +1,5 @@
 ---
+description: Some syntax for using JavaScript with Rails
 date: '2008-04-14 19:36:05'
 layout: post
 slug: javascript-fu-rails-plugin

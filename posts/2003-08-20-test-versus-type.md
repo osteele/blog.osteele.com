@@ -1,4 +1,5 @@
 ---
+description: The hidden cost of manifest typing
 date: '2003-08-20 02:06:24'
 layout: post
 slug: test-versus-type

@@ -1,4 +1,5 @@
 ---
+description: Visualizing regular expressions as NFA’s and DFA’s
 date: '2006-02-19 16:50:19'
 layout: post
 slug: reanimator

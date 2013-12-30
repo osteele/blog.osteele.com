@@ -1,4 +1,5 @@
 ---
+description: This was reinvented as MVVC
 date: '2003-08-04 18:57:01'
 layout: post
 slug: rethinking-mvc

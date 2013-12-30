@@ -1,4 +1,5 @@
 ---
+description: Xerox vs. Apple vs. Microsoft vs. Dell
 date: '2003-10-04 16:18:15'
 layout: post
 slug: the-virtual-computer-company

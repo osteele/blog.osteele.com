@@ -1,4 +1,5 @@
 ---
+description: A certain race condition from when client-server model sync was a fresh problem.
 date: '2008-02-27 14:53:12'
 layout: post
 slug: synchronizing-client-models

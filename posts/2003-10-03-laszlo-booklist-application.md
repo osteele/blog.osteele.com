@@ -1,4 +1,5 @@
 ---
+description: An OpenLaszlo app I wrote
 date: '2003-10-03 21:32:35'
 layout: post
 slug: laszlo-booklist-application

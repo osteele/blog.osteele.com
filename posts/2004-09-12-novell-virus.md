@@ -1,4 +1,5 @@
 ---
+description: Kids say the funniest things
 date: '2004-09-12 16:42:05'
 layout: post
 slug: novell-virus

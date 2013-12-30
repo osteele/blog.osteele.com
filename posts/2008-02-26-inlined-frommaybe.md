@@ -1,4 +1,5 @@
 ---
+description: CoffeeScript builds this in
 date: '2008-02-26 20:26:42'
 layout: post
 slug: inlined-frommaybe

@@ -1,4 +1,5 @@
 ---
+description: Idling on thinking about the meaning of weddings
 date: '2003-07-10 16:05:09'
 layout: post
 slug: semiotics-of-weddings

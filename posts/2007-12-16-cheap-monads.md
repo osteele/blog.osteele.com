@@ -1,4 +1,5 @@
 ---
+description: An idiom that CoffeeScript’s existential operator replaces
 date: '2007-12-16 21:49:46'
 layout: post
 slug: cheap-monads

@@ -1,4 +1,5 @@
 ---
+description: Behr paint’s use of Laszlo
 date: '2003-06-21 22:45:12'
 layout: post
 slug: behr-color-center

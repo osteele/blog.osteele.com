@@ -1,5 +1,6 @@
 ---
 title: Stroop: A Card Game
+description: A card game
 date: '2012-09-08 11:26'
 tags: [fun, games]
 ---

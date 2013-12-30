@@ -1,4 +1,5 @@
 ---
+description: Visualizing basic algebra
 date: '2004-12-05 22:03:37'
 layout: post
 slug: visualizing-basic-algebra

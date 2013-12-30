@@ -1,4 +1,5 @@
 ---
+description: My JSON library for OpenLaszlo
 date: '2006-02-20 12:43:40'
 layout: post
 slug: json-for-openlaszlo

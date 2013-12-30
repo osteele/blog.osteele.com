@@ -1,4 +1,5 @@
 ---
+description: Announcing OpenLaszlo becoming open source
 date: '2004-10-05 11:50:10'
 layout: post
 slug: open-laszlo

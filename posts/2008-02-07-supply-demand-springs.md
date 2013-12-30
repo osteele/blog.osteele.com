@@ -1,4 +1,5 @@
 ---
+description: Visualizing supply and demand (illustration)
 date: '2008-02-07 23:17:43'
 layout: post
 slug: supply-demand-springs

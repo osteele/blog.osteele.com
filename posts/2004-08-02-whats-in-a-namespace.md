@@ -1,4 +1,5 @@
 ---
+description: Namespacing for XML
 date: '2004-08-02 00:47:30'
 layout: post
 slug: whats-in-a-namespace

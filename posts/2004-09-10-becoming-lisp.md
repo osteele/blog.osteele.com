@@ -1,4 +1,5 @@
 ---
+description: Python’s getting more like Lisp
 date: '2004-09-10 19:50:10'
 layout: post
 slug: becoming-lisp

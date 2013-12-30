@@ -1,4 +1,5 @@
 ---
+description: Fun library; these days I uses Promises instead
 date: '2007-11-24 13:06:06'
 layout: post
 slug: sequentially

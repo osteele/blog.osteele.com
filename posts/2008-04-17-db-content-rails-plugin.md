@@ -1,4 +1,5 @@
 ---
+description: A Rake database plugin.
 date: '2008-04-17 19:13:36'
 layout: post
 slug: db-content-rails-plugin

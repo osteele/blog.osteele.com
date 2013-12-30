@@ -1,4 +1,5 @@
 ---
+description: This stuff's in lots of git books these days
 date: '2008-05-10 19:51:30'
 layout: post
 slug: commit-policies

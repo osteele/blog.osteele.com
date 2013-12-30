@@ -1,4 +1,5 @@
 ---
+description: A package-tracking site I built some weekend
 date: '2005-12-18 21:39:57'
 layout: post
 slug: packagemapper

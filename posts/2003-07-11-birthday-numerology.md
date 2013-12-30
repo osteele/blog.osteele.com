@@ -1,4 +1,5 @@
 ---
+description: How many different times you can be twice someone's age
 date: '2003-07-11 22:58:23'
 layout: post
 slug: birthday-numerology

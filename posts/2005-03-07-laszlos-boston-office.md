@@ -1,4 +1,5 @@
 ---
+description: Laszlo’s Boston office
 date: '2005-03-07 11:45:32'
 layout: post
 slug: laszlos-boston-office

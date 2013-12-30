@@ -1,4 +1,5 @@
 ---
+description: Some pictures to represent the way I think about things
 date: '2004-10-10 11:32:31'
 layout: post
 slug: constraint-diagrams

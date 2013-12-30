@@ -1,4 +1,5 @@
 ---
+description: A lame joke
 date: '2008-01-17 20:05:23'
 layout: post
 slug: what-every-programmer-needs-to-know-about-category-theory

@@ -1,4 +1,5 @@
 ---
+description: A library to test web apps JSON against a schema
 date: '2008-04-17 12:07:30'
 layout: post
 slug: jcon-json-type-conformance

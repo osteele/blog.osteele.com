@@ -1,4 +1,5 @@
 ---
+description: Visualizing adding fractions
 date: '2005-12-18 22:58:22'
 layout: post
 slug: adding-fractions

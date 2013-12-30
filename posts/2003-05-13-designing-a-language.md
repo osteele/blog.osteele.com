@@ -1,4 +1,5 @@
 ---
+description: Thoughts on designing a programming language
 date: '2003-05-13 01:05:34'
 layout: post
 slug: designing-a-language

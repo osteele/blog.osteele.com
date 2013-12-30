@@ -1,4 +1,5 @@
 ---
+description: Fun (defunct) site I wrote based on the Remy Charlip book
 date: '2006-01-31 14:45:21'
 layout: post
 slug: fortunately

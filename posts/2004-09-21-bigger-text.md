@@ -1,4 +1,5 @@
 ---
+description: This one weird trick gives you longer battery life
 date: '2004-09-21 18:10:08'
 layout: post
 slug: bigger-text

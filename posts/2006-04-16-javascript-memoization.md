@@ -1,4 +1,5 @@
 ---
+description: Early JavaScript memoization code
 date: '2006-04-16 19:58:50'
 layout: post
 slug: javascript-memoization

@@ -1,4 +1,5 @@
 ---
+description: Defining XML-based view components in OpenLaszlo
 date: '2004-03-28 15:13:33'
 layout: post
 slug: classes-and-prototypes

@@ -1,4 +1,5 @@
 ---
+description: Some projects I didn't finish in 2007
 date: '2007-12-31 23:25:23'
 layout: post
 slug: what-i-didnt-get-to

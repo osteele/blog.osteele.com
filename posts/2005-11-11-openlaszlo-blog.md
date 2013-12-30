@@ -1,4 +1,5 @@
 ---
+description: Announcing the OpenLaszlo blog
 date: '2005-11-11 19:33:28'
 layout: post
 slug: openlaszlo-blog

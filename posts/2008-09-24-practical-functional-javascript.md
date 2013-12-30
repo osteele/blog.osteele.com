@@ -1,4 +1,5 @@
 ---
+description: My Functional Javascript talk
 date: '2008-09-24 15:06:06'
 layout: post
 slug: practical-functional-javascript

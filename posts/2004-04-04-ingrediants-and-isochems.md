@@ -1,4 +1,5 @@
 ---
+description: A couple of nonce words
 date: '2004-04-04 10:35:13'
 layout: post
 slug: ingrediants-and-isochems

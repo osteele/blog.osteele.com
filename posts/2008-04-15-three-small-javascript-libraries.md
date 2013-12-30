@@ -1,4 +1,5 @@
 ---
+description: Some meta-ish libraries from when I was doing lots of JavaScript
 date: '2008-04-15 14:36:47'
 layout: post
 slug: three-small-javascript-libraries

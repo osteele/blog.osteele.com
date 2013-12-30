@@ -1,4 +1,5 @@
 ---
+description: A poster about case and agreement in Latin
 date: '2008-05-25 13:45:05'
 layout: post
 slug: latin-agreement-and-case

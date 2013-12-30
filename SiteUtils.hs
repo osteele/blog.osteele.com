@@ -5,25 +5,17 @@ module SiteUtils
     , setRelativeUrlBases
     ) where
 
-import           Data.List            (isPrefixOf, isSuffixOf, stripPrefix)
-import           Data.Maybe           (fromMaybe, mapMaybe)
-import           Text.Regex.Posix     ((=~))
-
---------------------------------------------------------------------------------
---import           Hakyll.Core.Compiler
---import           Hakyll.Core.Item
---import           Hakyll.Web.Html
---import           Hakyll.Web.Html.RelativizeUrls
-import           Hakyll
+import Control.Exception (assert)
+import Data.List         (isPrefixOf, stripPrefix)
+import Data.Maybe        (fromMaybe)
+import Text.Regex.Posix  ((=~))
+import Hakyll
 
 --------------------------------------------------------------------------------
 setRelativeUrlBases :: String  -- ^ Prepend relative URLs by this prefix
                     -> Item String -> Compiler (Item String)
 setRelativeUrlBases prefix item = do
-  route <- getRoute $ itemIdentifier item
-  return $ case route of
-      Nothing -> item
-      Just r  -> fmap (relativizeUrlsWith $ prefix) item
+  return $ fmap (relativizeUrlsWith $ prefix) item
 
 
 ----------------------------------------------------------------------------------
@@ -31,9 +23,9 @@ rewritePermalinkDate :: Routes
 rewritePermalinkDate = customRoute $ fn . toFilePath
   where
     fn path = case path =~ "/([0-9]{4})-([0-9]{2})-([0-9]{2})-([^/]+)$" :: (String, String, String, [String]) of
-      (_, _, _, []) -> path
-      (before, _, _, [yyyy, mm, dd, title]) -> before ++ "/" ++ yyyy ++ "/" ++ mm ++ "/" ++ title
-
+      (_, _, _, [])                          -> path
+      (before, _, _, [yyyy, mm, _dd, title]) -> before ++ "/" ++ yyyy ++ "/" ++ mm ++ "/" ++ title
+      _                                      -> assert False (error "unreachable case alternative")
 
 ----------------------------------------------------------------------------------
 removeExtensionsFromLocalUrls :: String
@@ -70,8 +62,8 @@ replacePrefix :: String
               -> String
 replacePrefix prefix replacement s =
   case stripPrefix prefix s of
-    Nothing -> s
-    Just s  -> replacement ++ s
+    Nothing        -> s
+    Just remainder -> replacement ++ remainder
 
 
 ----------------------------------------------------------------------------------

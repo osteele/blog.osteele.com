@@ -1,17 +1,25 @@
 Name:               osteele-blog
 Version:            0.1.0.0
+
 Synopsis:           Oliver Steele Blog
 Description:        Oliver Steele Blog
+
+Author:             Oliver Steele
+Maintainer:         steele@osteele.com
 Homepage:           http://blog.osteele.com/
 License:            OtherLicense
 License-file:       LICENSE
-Author:             Oliver Steele
-Maintainer:         steele@osteele.com
 Copyright:          (C) 2013 Oliver Steele
-Category:           Web
-Build-type:         Simple
--- extra-source-files: README.markdown
+
 Cabal-version:      >= 1.10
+Build-type:         Simple
+Category:           Web
+
+Source-Repository head
+  Type:     git
+  Location: git://github.com/osteele/blog.osteele.com
+
+-- extra-source-files: README.markdown
 
 Executable site
   Main-is:          site.hs
@@ -20,9 +28,9 @@ Executable site
   Default-language: Haskell2010
 
   Build-depends:
-    base     >= 4.6  && < 4.7,
-    filepath >= 1.3  && < 1.4,
-    hakyll   >= 4.4  && < 4.5,
-    pandoc   >= 1.12 && < 1.13,
-    process  >= 1.1  && < 1.2,
-    regex-posix >= 0.95.2
+    base        >= 4.6  && < 4.7,
+    filepath    >= 1.3  && < 1.4,
+    hakyll      >= 4.4  && < 4.5,
+    pandoc      >= 1.12 && < 1.13,
+    process     >= 1.1  && < 1.2,
+    regex-posix >= 0.95 && < 1.0

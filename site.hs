@@ -29,6 +29,7 @@ main = hakyllWith config $ do
             >>= setRelativeUrlBases "http://osteele.com"
             >>= replaceUrlPrefixes "http://osteele.com/archive/" "/posts/"
             >>= replaceUrlPrefixes "http://osteele.com/archives/" "/posts/"
+            >>= saveSnapshot "content"
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
@@ -99,7 +100,7 @@ feedCtx = mconcat
 feedConfiguration :: String -> FeedConfiguration
 feedConfiguration title = FeedConfiguration
     { feedTitle       = "Oliver Steele - " ++ title
-    , feedDescription = "Oliver Steele’s historical blog"
+    , feedDescription = "Oliver Steele’s Blog"
     , feedAuthorName  = "Oliver Steele"
     , feedAuthorEmail = "steele@osteele.com"
     , feedRoot        = "http://blog.osteele.com"

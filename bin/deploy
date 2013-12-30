@@ -1,11 +1,11 @@
 #!/bin/bash -eu
 
 cd `dirname $0`/..
-./site.hs build || echo "Someday fix this error"
+./site.hs build
 
 cd _site
-git init || echo No problem
+git init || echo 'Re-using git repository'
+git remote add origin https://github.com/osteele/blog.osteele.com.git || echo 'Re-using remote'
 git add .
-git ci -m 'deploy' || echo No problem
-git remote add origin https://github.com/osteele/blog.osteele.com.git || echo No problem
+git ci -m 'deploy' || echo 'No changes'
 git push origin +master:gh-pages

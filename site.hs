@@ -56,9 +56,7 @@ main = hakyllWith config $ do
             let indexCtx =
                     listField "posts" postCtx (return posts) `mappend`
                     constField "title" "Home"                `mappend`
-                    constField "author" "Oliver Steele"      `mappend`
-                    constField "copyright-range" copyrightRange `mappend`
-                    defaultContext
+                    siteCtx
 
             getResourceBody
                 >>= applyAsTemplate indexCtx
@@ -88,19 +86,22 @@ config = defaultConfiguration {
 -- =================
 -- Context functions
 -- =================
-copyrightRange = "2003 &mdash; 2013"
+siteCtx :: Context String
+siteCtx =
+    constField "author" "Oliver Steele"              `mappend`
+    constField "feedTitle" "Oliver Steele’s Blog"    `mappend`
+    constField "copyright-range" "2003 &mdash; 2013" `mappend`
+    defaultContext
 
 postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y"                     `mappend`
-    constField "author" "Oliver Steele"              `mappend`
-    constField "copyright-range" copyrightRange      `mappend`
-    defaultContext
+    siteCtx
 
 feedCtx :: Context String
 feedCtx = mconcat
     [ bodyField "description"
-    , defaultContext
+    , siteCtx
     ]
 
 feedConfiguration :: String -> FeedConfiguration

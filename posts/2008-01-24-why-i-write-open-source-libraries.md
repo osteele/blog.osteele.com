@@ -7,7 +7,7 @@ status: publish
 title: Why Write Open Source Libraries
 wordpress_id: '237'
 categories: [Programming]
-tags: open source
+tags: open-source
 ---
 
 1. [Exploration](/archives/2008/01/get-lost).  I can sample platforms and sample [stretch languages](/archives/2006/02/stretch-languages) without sinking my stakeholders if I fail.  Also, it's easier to try something radical in a small, green field project than in a big one.

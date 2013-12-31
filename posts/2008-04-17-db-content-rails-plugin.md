@@ -7,7 +7,7 @@ status: publish
 title: DB Content Rails Plugin
 wordpress_id: '292'
 categories: [Libraries, Ruby]
-tags: Ruby, rails, libraries
+tags: Ruby, Rails, libraries
 ---
 
 The DB Content Rails plugin adds tasks to save and restore database content.

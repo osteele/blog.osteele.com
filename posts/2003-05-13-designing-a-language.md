@@ -7,7 +7,7 @@ status: publish
 title: Designing a Language
 wordpress_id: '12'
 categories: [Programming Languages]
-tags: programming languages
+tags: programming-languages
 ---
 
 One of the things we're building at Laszlo is LZX, a language for Rich Internet Applications.  (Some of the other things we're building are the client, server, and compiler pieces necessary to make applications written in that language actually do anything.)

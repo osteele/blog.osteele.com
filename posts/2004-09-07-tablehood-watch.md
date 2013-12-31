@@ -7,7 +7,7 @@ status: publish
 title: Tablehood Watch
 wordpress_id: '101'
 categories: [Systems Thinking]
-tags: bloviating
+tags: random
 ---
 
 [Tucker](http://pt.withy.org/) asked me if there was a name for the phenomenon where someone you don't know asks you to watch over their possessions.  I'm asked to do this a few times a day, for anything from books to laptops, at the [ERC](http://www.wi-fihotspotlist.com/loc/9/2395299.php).  (At the [yuppie establishments](http://www.starbucks.com) that I also frequent, I'm not asked at all.)

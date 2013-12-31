@@ -7,7 +7,7 @@ status: publish
 title: The Semantic Depths
 wordpress_id: '13'
 categories: [Technology]
-tags: [RDF, essays, bloviating]
+tags: RDF, essays, technology
 ---
 
 Dave Winer [misses the point](http://scriptingnews.userland.com/2003/05/12#When:4:32:21AM) of the Semantic Web.  Winer criticizes RDF as though it were an application, intended for direct interaction with users creating and searching content.  RDF isn't an application; it's an operating system, on which applications can be built.

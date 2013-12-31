@@ -7,7 +7,7 @@ status: publish
 title: Functional JavaScript
 wordpress_id: '209'
 categories: [JavaScript, Libraries, Projects]
-tags: [JavaScript, libraries, functional, fun]
+tags: JavaScript, libraries, functional, fun
 ---
 
 *Functional* is a JavaScript library for [functional programming](http://en.wikipedia.org/wiki/Functional_programming).  It defines the standard higher-order functions (`map`, `reduce`, `filter`) that you can read about elsewhere on the web.  It also defines functions for partial function application and [function-_level_](http://en.wikipedia.org/wiki/Function-level_programming) programming: `curry`, `partial`, `compose`, `guard`, and `until`.  Finally, it introduces "string lambdas", which let you write `'x -> x+1'`, `'x+1'`, or even `'+1'` as synonyms for `function(x) {return x+1}`.

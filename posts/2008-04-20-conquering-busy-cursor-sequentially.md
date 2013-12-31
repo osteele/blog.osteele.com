@@ -7,7 +7,7 @@ status: publish
 title: Conquering the Busy Cursor with Sequentially
 wordpress_id: '295'
 categories: [JavaScript, Libraries]
-tags: [JavaScript, concurrency]
+tags: JavaScript, concurrency
 ---
 
 What's wrong with this function?  (Hint: it's meant to execute periodically on a JavaScript page.)

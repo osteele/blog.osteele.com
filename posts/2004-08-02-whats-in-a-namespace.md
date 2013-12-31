@@ -7,7 +7,7 @@ status: publish
 title: What’s in a Namespace?
 wordpress_id: '84'
 categories: [OpenLaszlo, XML]
-tags: [Laszlo, XML]
+tags: Laszlo, XML
 ---
 
 [Last week](http://osteele.com/archives/2004/07/a-fresh-canvas) I discussed the fact that "namespace hygiene" --- the use of XML namespaces --- would cause a simple Laszlo program such as this one:

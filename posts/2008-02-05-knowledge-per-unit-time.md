@@ -7,7 +7,7 @@ status: publish
 title: Knowledge Per Unit Time
 wordpress_id: '244'
 categories: [General]
-tags: [pompous, egocentric]
+tags: general
 ---
 
 My friends have been asking me how important I consider _experience_ ([again](archives/2008/02/two-thoughts-on-elections) in the context of the election), enough to write the answer down.

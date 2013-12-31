@@ -7,7 +7,7 @@ status: publish
 title: JCON: Ruby Gem for JSON type conformance
 wordpress_id: '289'
 categories: [JavaScript, Libraries, Ruby]
-tags: [JavaScript, Ruby, libraries]
+tags: JavaScript, Ruby, libraries
 ---
 
 [JCON](http://jcon.rubyforge.org) (the **J**avaScript **Con**formance gem) tests JSON values against ECMAScript 4.0-style type definitions

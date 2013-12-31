@@ -7,7 +7,7 @@ status: publish
 title: Newer Math
 wordpress_id: '23'
 categories: [Math Education]
-tags: math
+tags: math, education
 ---
 
 [Seymour Papert](http://www.papert.org/) used to tell a story contrasting the practices of medicine and education, in order to illustrate how little the latter has improved.  Place a physician from the previous century in a modern operating room and he[^1] won't have a clue about what to do.  Transport a teacher forward in time and [they'll](/archives/2003/06/nobodys_on_that_train.html) fit right in.  The moral is that the practice of medicine has made great strides during the last century; the practice of education hasn't progressed at all.

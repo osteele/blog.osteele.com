@@ -7,7 +7,7 @@ status: publish
 title: Most Fun I’ve Ever Had
 wordpress_id: '27'
 categories: [Health]
-tags: [egocentric, stories, lifehacking]
+tags: stories, lifehacking
 ---
 
 I just finished moving some heavy furniture around within my apartment.  This was harder than it sounds, because I'm not allowed to put a heavy load through my spine.  I had to come up with ways of lifting and moving furniture that transmitted the forces across different parts of my body instead.  I ended up sliding around on my back on a towel on the floor, and pushing the furniture above me, so that I could use my arm and chest strength instead of my back.

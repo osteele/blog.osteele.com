@@ -7,7 +7,7 @@ status: publish
 title: Serving Client-Side Applications
 wordpress_id: '123'
 categories: [Essays, Software]
-tags: [MVC, essays]
+tags: MVC, essays
 ---
 
 [Update 2006: "Model N" never caught on.  A few months after I wrote this, Jesse James Garrett coined the term AJAX.  This is what the architecture described in this post is known as today.]

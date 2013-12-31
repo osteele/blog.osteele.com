@@ -7,7 +7,7 @@ status: publish
 title: Visualizing Subversion Project Activity
 wordpress_id: '165'
 categories: [OpenLaszlo, Projects, Visualizations]
-tags: [Laszlo, tools, obsolete]
+tags: Laszlo, tools, obsolete
 ---
 
 Last week I wrote a couple of tools to keep track of [subversion](http://subversion.tigris.org/) checkins:

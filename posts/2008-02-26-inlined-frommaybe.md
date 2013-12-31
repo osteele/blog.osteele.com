@@ -7,7 +7,7 @@ status: publish
 title: More Monads on the Cheap: Inlined fromMaybe
 wordpress_id: '261'
 categories: [Essays, JavaScript]
-tags: [JavaScript, monads, essays]
+tags: JavaScript, monads, essays
 ---
 
 This article is about how to deal with null values.  It follows up on [this one](http://osteele.com/archives/2007/12/cheap-monads). It's intended for code stylists: people who care a lot about the difference between one line of code and two, or keeping control statements and temporary variables to a minimum.  (A code stylist is kind of like the dual of a software architect, although one person can be both.)  It's not about code golf -- although you might learn some strokes to use on that -- but about keeping the structure of your code, even at the expression level, close to the way you think about the problem, if you think like me.

@@ -7,7 +7,7 @@ status: publish
 title: The Apple Boutique
 wordpress_id: '121'
 categories: [Essays, Technology]
-tags: [apple, essays]
+tags: apple, essays
 ---
 
 One --- but only one --- reason for Apple's appeal is that _Apple products are luxury goods_.  (I'll get to the second reason in a moment.)  Apple products compete on design, not price.  The Apple stores, with their hardwood floors and wide open spaces, are modeled after a luxury car showroom, and don't share the convenience store layout and shelving of other computer stores.

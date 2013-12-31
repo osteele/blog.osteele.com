@@ -7,7 +7,7 @@ status: publish
 title: Synchronizing Client Models
 wordpress_id: '265'
 categories: [Essays, JavaScript]
-tags: [JavaScript, client-server, essays]
+tags: JavaScript, client-server, essays
 ---
 
 You're implementing a client-server application.  The client is in JavaScript.  It contains a model class, `Person`.  The model is backed by a server-side `Person` model, and a REST controller at `/person`.  Periodically, the client updates the server's model, but there can be client-side instances that don't yet exist on the server, such as when a model is first created and the server hasn't yet gotten the message.

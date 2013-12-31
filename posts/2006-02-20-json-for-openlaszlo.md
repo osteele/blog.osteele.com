@@ -7,7 +7,7 @@ status: publish
 title: JSON for OpenLaszlo
 wordpress_id: '174'
 categories: [JavaScript, Libraries, OpenLaszlo, Projects]
-tags: [JSON, JavaScript, Laszlo, libraries]
+tags: JSON, JavaScript, Laszlo, libraries
 ---
 
 [JSON for OpenLaszlo](/sources/openlaszlo/json/) is a [JSON](http://www.json.org/) library for OpenLaszlo.

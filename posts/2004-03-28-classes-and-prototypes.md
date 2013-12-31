@@ -7,7 +7,7 @@ status: publish
 title: Instance-First Development
 wordpress_id: '76'
 categories: [OpenLaszlo, Programming, Software Development]
-tags: [Laszlo, programming-languages, software-engineering]
+tags: Laszlo, programming-languages, software-engineering
 ---
 
 [LZX](http://www.laszlosystems.com/developer/) is a [prototype-based language](http://en.wikipedia.org/wiki/Prototype-based_programming): any attribute that can be attached to a class definition, can be attached to an instance of that class instead.  This is handy in UI programming, where there are a number of objects with one-off behaviors.  It's also handy in prototyping and incremental program development, where it creates the possibility for a novel kind of refactoring.

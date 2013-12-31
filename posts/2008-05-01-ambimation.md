@@ -7,7 +7,7 @@ status: publish
 title: Ambimation
 wordpress_id: '313'
 categories: [Illustrations]
-tags: [illustrations, animations]
+tags: illustrations, animations
 ---
 
 ![](/images/oflip.png)

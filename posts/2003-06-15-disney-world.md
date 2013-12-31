@@ -7,7 +7,7 @@ status: publish
 title: Disney World
 wordpress_id: '25'
 categories: [Family]
-tags: [pompous, egocentric]
+tags: family
 ---
 
 I just got back from a week with the family at [Disney World](http://www.disneyworld.com/).  I thoroughly enjoyed it.  The surface part of my mind was completely taken in by the sensation of being in the jungle (at Animal Kingdom) and in a variety of countries (Epcot), while my analytic self was taken with admiration at how well run it was: the depth of architecture, landscaping, design, marketing, and business operations.  Like looking at an [Impressionist painting](http://www.ibiblio.org/wm/paint/glo/impressionism/) from far enough to see the light, and then close enough to apprehend its construction.

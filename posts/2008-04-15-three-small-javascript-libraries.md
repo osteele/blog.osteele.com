@@ -7,7 +7,7 @@ status: publish
 title: Three Small JavaScript Libraries
 wordpress_id: '284'
 categories: [JavaScript, Libraries]
-tags: [JavaScript, libraries]
+tags: JavaScript, libraries
 ---
 
 Three small libraries, that I carry with me from project to project:

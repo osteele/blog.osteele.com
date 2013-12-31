@@ -7,7 +7,7 @@ status: publish
 title: Declarative Directions
 wordpress_id: '5'
 categories: [Systems Thinking]
-tags: [pompous, egocentric]
+tags: cognition
 ---
 
 I've noticed that there's two ways of giving directions to a location (say, when a driver pulls over to ask you how to get to a restaurant).  Declarative directions specify where a location is relative to the current location; for example, "Two blocks ahead and across the street."  Procedural directions specify the steps that have to be taken to reach a location; for example, "Go straight three blocks, take a u-turn, go one block, and it's the first building on your right."

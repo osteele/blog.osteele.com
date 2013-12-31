@@ -8,7 +8,7 @@ status: publish
 title: “Stretch” Languages, or, 28 years of programming
 wordpress_id: '168'
 categories: [Essays, Programming, Visualizations]
-tags: [programming-languages, egocentric, visualizations, essays]
+tags: programming-languages, visualizations, essays
 ---
 
 Recently I reviewed the programming languages I've used over the 28 years[^1] of my programming career.  The result is shown in the chart below.  (Click on the image to see it full size.)

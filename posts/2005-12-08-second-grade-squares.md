@@ -7,7 +7,7 @@ status: publish
 title: Second grade squares
 wordpress_id: '144'
 categories: [Illustrations, Math Education, Visualizations]
-tags: [math, visualizations]
+tags: math, visualizations
 ---
 
 I posed a second-grader the question of what nine squared was.  She reasoned that ten squared is 100, and nine times ten is ten less then that, and nine times nine is nine less than that, so the answer is 81.  Then I asked her what eight squared was, and she was flummoxed.  She saw that it was a similar problem to the one she'd just solved, but wasn't sure how to apply the analogy.

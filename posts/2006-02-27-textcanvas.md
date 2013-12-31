@@ -7,7 +7,7 @@ status: publish
 title: Canvas with Text
 wordpress_id: '183'
 categories: [JavaScript, Libraries, OpenLaszlo, Projects]
-tags: [JavaScript, libraries]
+tags: JavaScript, libraries
 ---
 
 The two times that I've used the WHATWG canvas element recently, I've wanted a canvas with string rendering.  The most recent time that I've used the OpenLaszlo drawview class (which has substantially the same API), I've wanted string rendering too.

@@ -7,7 +7,7 @@ status: publish
 title: XML Schema Versioning with RELAX NG
 wordpress_id: '94'
 categories: [Essays, XML]
-tags: [XML, essays]
+tags: XML, essays
 ---
 
 XML schemas change over time, for the same reasons that library APIs evolve in programming language.  Over time, the schema designers introduce new content, and change or remove existing content, as they acquire greater familiarity with the domain model and the use cases, as they add additional functionality, and as they fix design bugs.

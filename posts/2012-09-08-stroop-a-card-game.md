@@ -2,7 +2,7 @@
 title: Stroop: A Card Game
 description: A card game
 date: '2012-09-08 11:26'
-tags: [fun, games]
+tags: fun, games
 ---
 
 Stroop is a card game for two or more players and a dealer, who also serves as referee. The objective is to collect the most cards, by naming cards that differ in rank and suit color from the cards that the dealer reveals.

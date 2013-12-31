@@ -7,7 +7,7 @@ status: publish
 title: Test versus Type
 wordpress_id: '63'
 categories: [Software]
-tags: [TDD, software-engineering]
+tags: TDD, software-engineering
 ---
 
 A lightweight language such as Python or JavaScript fits a lot of program design into a small amount of source text.  A heavyweight language such as C++ or Java uses more tokens to express the same design.

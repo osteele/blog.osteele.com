@@ -7,7 +7,7 @@ status: publish
 title: Marvin’s Cake
 wordpress_id: '213'
 categories: [Family]
-tags: [family, fun]
+tags: family, fun
 ---
 
 Marvin's birthday cake:

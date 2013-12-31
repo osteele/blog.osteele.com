@@ -7,7 +7,7 @@ status: publish
 title: What I didn’t get to
 wordpress_id: '230'
 categories: [JavaScript, Libraries, Open Source, OpenLaszlo, Projects]
-tags: [javscript, libraries, Laszlo]
+tags: javscript, libraries, Laszlo
 ---
 
 Here are some of the weekend projects that I didn't finish this year.  These aren't good enough to put on my project list or my [sources page](http://osteele.com/sources/).  Some of these aren't even working, and some of them I might not finish at all (most of my weekends are spoken for).  And some of them I can't bear to look at (I'm not proud of the code, and don't want to be judged by it...), but I'm making myself put them out there anyway.  I feel bad for the neglected little things, trapped on my hard drive, and I'd like to let them see the sun, even if just briefly before they flicker out and die.

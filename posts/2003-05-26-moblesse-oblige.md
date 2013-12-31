@@ -7,7 +7,7 @@ status: publish
 title: Moblesse Oblige
 wordpress_id: '20'
 categories: [Inventions, Technology]
-tags: inventions
+tags: inventions, technology
 ---
 
 Or, easements for WiFi.

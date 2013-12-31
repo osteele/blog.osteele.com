@@ -7,7 +7,7 @@ status: publish
 title: jQuery Profile Plugin
 wordpress_id: '311'
 categories: [JavaScript, Libraries]
-tags: [JavaScript, jquery, plugin, github]
+tags: JavaScript, jquery, plugin, github
 ---
 
 Yesterday I was profiling a page that used jQuery.  The page took a long time to initialize.  Firebug Profile (a _great_ tool) told me that the time was in jQuery, but that wasn't much help -- the page initialization code had a _lot_ of calls to jQuery, to bind functions to various page elements, and most of them were harmless.

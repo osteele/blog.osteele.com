@@ -7,7 +7,7 @@ status: publish
 title: Latin Agreement and Case
 wordpress_id: '343'
 categories: [Illustrations, Words]
-tags: [language, posters, illustrations]
+tags: language, posters, illustrations
 ---
 
 [![](/images/2008/latin%20agreement.png)](/images/2008/latin%20agreement.png)

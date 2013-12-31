@@ -7,7 +7,7 @@ status: publish
 title: Minimizing Code Paths in Asychronous Code
 wordpress_id: '302'
 categories: [Libraries, Tips]
-tags: [JavaScript, concurrency]
+tags: JavaScript, concurrency
 ---
 
 Have you ever written a function that looks like this?

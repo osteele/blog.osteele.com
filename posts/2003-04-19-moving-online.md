@@ -7,7 +7,7 @@ status: publish
 title: Moving Online
 wordpress_id: '3'
 categories: [General]
-tags: [meta, egocentric]
+tags: meta
 ---
 
 Welcome to my blog!  I'll be using this space to write about languages, software, and cognition.

@@ -7,7 +7,7 @@ status: publish
 title: Visualizing Regular Expressions
 wordpress_id: '171'
 categories: [OpenLaszlo, Projects, Python, Visualizations]
-tags: [regular-expressions, tools, visualizations]
+tags: regular-expressions, tools, visualizations
 ---
 
 ![](/images/2006/rematch-small.png)

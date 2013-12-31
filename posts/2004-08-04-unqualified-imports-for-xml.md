@@ -7,7 +7,7 @@ status: publish
 title: Unqualified Imports for XML
 wordpress_id: '87'
 categories: [Essays, OpenLaszlo, XML]
-tags: [Laszlo, XML, essays]
+tags: Laszlo, XML, essays
 ---
 
 In [A Fresh Canvas](/archives/2004/07/a-fresh-canvas) I argued that there's a human-factors advantage to allowing an XML document to contain names from multiple namespaces without requiring namespace prefixes on the elements from all but one of them.  In [What's in a Namespace](/archives/2004/08/whats-in-a-namespace) I looked at how namespaces and namespace imports work in programming languages, which generally allow both qualified imports (like XML Namespace) and unqualified imports as well.

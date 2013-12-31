@@ -7,7 +7,7 @@ status: publish
 title: JavaScript Fu Rails Plugin
 wordpress_id: '278'
 categories: [JavaScript, Libraries, Ruby]
-tags: [JavaScript, Ruby, libraries]
+tags: JavaScript, Ruby, libraries
 ---
 
 [JavaScript Fu](http://github.com/osteele/jcon) extends Rails with a few facilities to better integrate JavaScript into Rails development:

@@ -7,7 +7,7 @@ status: publish
 title: The DSL Tower
 wordpress_id: '10'
 categories: [Programming Languages]
-tags: [DSL, pompous]
+tags: DSLs, programming languages
 ---
 
 A [domain-specific language](http://www.google.com/search?q=domain+specific+language) is a language for dealing with a specific problem domain, such as students at a university or entries in a blog.  DSL implementation has become so easy, and some of the domains have become so deep, that there's now a market for subdomain-specific languages (SDSLs).

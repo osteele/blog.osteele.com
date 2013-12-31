@@ -7,7 +7,7 @@ status: publish
 title: Supply/Demand Springs
 wordpress_id: '245'
 categories: [Illustrations, Visualizations]
-tags: [illustrations, visualizations]
+tags: illustrations, visualizations
 ---
 
 [![](/images/2008/supply-demand-small.png)](/images/2008/supply-demand.png)

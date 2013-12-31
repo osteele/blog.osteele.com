@@ -7,7 +7,7 @@ status: publish
 title: A Taxonomy of Comments
 wordpress_id: '64'
 categories: [Essays, Programming]
-tags: [programming, essays]
+tags: programming, essays
 ---
 
 Christian Sepulveda writes about [comments in source code](http://christiansepulveda.com/blog/archives/000028.html):

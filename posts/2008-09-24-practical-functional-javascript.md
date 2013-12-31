@@ -7,7 +7,7 @@ status: publish
 title: Practical Functional JavaScript
 wordpress_id: '344'
 categories: [JavaScript]
-tags: [JavaScript, functional, talks, conferences]
+tags: JavaScript, functional, talks, conferences
 ---
 
 I'll be giving a talk next Wednesday October 1 at [The AJAX Experience](http://ajaxexperience.techtarget.com/east/index.html), on "Practical Functional JavaScript".  This could be subtitled "distributing JavaScript across time and space", or maybe just "how to do things with functions"[^1].

@@ -7,7 +7,7 @@ status: publish
 title: Self-Printing JavaScript Literals
 wordpress_id: '247'
 categories: [JavaScript, Tips]
-tags: [JavaScript]
+tags: JavaScript
 ---
 
 Sometimes you need a totally opaque "constant" -- a value that isn't intended to be projected or modified, and whose only purpose is to be completely different from every other value[^1].  For example, [Functional](/sources/javascript/functional/) uses `Functional._` as a placeholder; a comment on [John Resig's blog](http://ejohn.org/blog/partial-functions-in-javascript/) suggests defining something like `Partial.PLACEHOLDER` for something similar.

@@ -7,7 +7,7 @@ status: publish
 title: Inline JavaScript Console
 wordpress_id: '191'
 categories: [JavaScript, Libraries, Projects]
-tags: [JavaScript, libraries, obsolete]
+tags: JavaScript, libraries, obsolete
 ---
 
 Last week for the first time I did [some serious browser JavaScript programming](/tools/rework).  I put the following tools to good use, but ran against limits with each of them:

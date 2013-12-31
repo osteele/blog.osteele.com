@@ -7,7 +7,7 @@ status: publish
 title: Constraint Diagrams
 wordpress_id: '113'
 categories: [Systems Thinking, Visualizations]
-tags: [visualizations, lifehacking]
+tags: visualizations, lifehacking
 ---
 
 Decisions involve tradeoffs.  Time at work subtracts from time with your family; money saved for the future subtracts from goods and services now; many food choices trade off among taste, convenience, price, and nutrition.

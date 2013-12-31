@@ -7,7 +7,7 @@ status: publish
 title: Visualizing Basic Algebra
 wordpress_id: '125'
 categories: [Math Education, Visualizations]
-tags: [math, illustrations]
+tags: math, illustrations
 ---
 
 Last weekend, I shared some interesting properties of numbers with my kids.

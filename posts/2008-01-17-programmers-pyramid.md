@@ -7,7 +7,7 @@ status: publish
 title: The Programmer’s Food Pyramid
 wordpress_id: '234'
 categories: [Illustrations, Programming]
-tags: [illustrations, programming]
+tags: illustrations, programming
 ---
 
 [![Programmer's Food Pyramid](/images/2008/programmers-pyramid.png)](/images/2008/programmers-pyramid.png)

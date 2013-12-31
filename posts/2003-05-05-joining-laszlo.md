@@ -7,7 +7,7 @@ status: publish
 title: Joining Laszlo
 wordpress_id: '9'
 categories: [OpenLaszlo]
-tags: [Laszlo, egocentric]
+tags: Laszlo
 ---
 
 I first met the folks at Laszlo Systems in December of 2000, when I was the CTO of AlphaMask.  A decade earlier Laszlo's founder David Temkin, my business parter Mike Reed, and I had all worked at Apple on technologies associated with the Newton.  Mike and I were in San Francisco, and David invited us by to see Laszlo.

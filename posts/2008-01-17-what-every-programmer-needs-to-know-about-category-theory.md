@@ -7,6 +7,6 @@ status: publish
 title: What Every Programmer Needs to Know About Category Theory
 wordpress_id: '236'
 categories: [Amusements]
-tags: [pompous, fun]
+tags: fun
 ---
 

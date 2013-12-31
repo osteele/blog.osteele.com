@@ -7,7 +7,7 @@ status: publish
 title: Sequentially: Temporal and Frequency Adverbs for JavaScript
 wordpress_id: '218'
 categories: [JavaScript, Libraries, Projects]
-tags: [JavaScript, libraries, fun]
+tags: JavaScript, libraries, fun
 ---
 
 [Sequentially](/sources/javascript/sequentially) is a JavaScript library for asychronous programming.  It makes it easy to define functions that are called later, or periodically, or that can be called only a certain number of times, or only at a certain frequency.

@@ -7,7 +7,7 @@ status: publish
 title: Expialidocio.us
 wordpress_id: '160'
 categories: [OpenLaszlo, Projects, Visualizations]
-tags: [Laszlo, visualizations]
+tags: Laszlo, visualizations
 ---
 
 [![](/projects/images/expialidocious-graphics-thumb.png)](http://expialidocio.us)

@@ -7,7 +7,7 @@ status: publish
 title: Nobody’s On That Train
 wordpress_id: '32'
 categories: [Words]
-tags: [language, egocentric, pompous]
+tags: language
 ---
 
 I used to be an unrepetant nineteenth century grammarian.  I never used a preposition to end a sentence; I took care <strike>to never</strike> never to split an infinitive; I knew "who" from "whom"; and I never, ever, used "they" for "he or she".

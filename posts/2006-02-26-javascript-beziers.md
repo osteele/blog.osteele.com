@@ -7,7 +7,7 @@ status: publish
 title: Javascript Beziers
 wordpress_id: '179'
 categories: [JavaScript, Libraries, OpenLaszlo, Projects]
-tags: [JavaScript, Laszlo]
+tags: JavaScript, Laszlo
 ---
 
 The OpenLaszlo application below demonstrates animation along a line, a quadratic Bezier, and a cubic Bezier (the top three paths).  It also demonstrates (the bottom path) animation along a path composed of multiple segments.

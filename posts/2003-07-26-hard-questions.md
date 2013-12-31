@@ -7,7 +7,7 @@ status: publish
 title: Hard Questions
 wordpress_id: '39'
 categories: [Systems Thinking]
-tags: [math, physics, family]
+tags: math, physics, family
 ---
 
 These are some hard questions my kids asked me when they were very young, with answers below:

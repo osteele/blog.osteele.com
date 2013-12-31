@@ -7,7 +7,7 @@ status: publish
 title: JavaScript Gradient Roundrects
 wordpress_id: '195'
 categories: [JavaScript, Libraries, Projects]
-tags: [JavaScript, libraries]
+tags: JavaScript, libraries
 ---
 
 [JavaScript Gradient Roundrects](/sources/javascript/docs/gradients) adds gradient roundrects to an HTML page, without images.  It uses the WHATWG canvas tag if it's available.  Otherwise it uses a stack of divs, whose heights are adaptively chosen according to the height of the graded element, the color components, and the radius curvature.  There's a demo [here](/sources/javascript/demos/gradients.html).

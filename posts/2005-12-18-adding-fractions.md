@@ -7,7 +7,7 @@ status: publish
 title: Adding Fractions
 wordpress_id: '151'
 categories: [Illustrations, Math Education]
-tags: [math, illustrations, visualizations]
+tags: math, illustrations, visualizations
 ---
 
 Here's a picture I drew to explain addition and subtraction of fractions to the sixth-grader:

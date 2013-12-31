@@ -7,7 +7,7 @@ status: publish
 title: A Mock for {set,clear}{Timeout,Interval}
 wordpress_id: '298'
 categories: [JavaScript, Libraries]
-tags: [JavaScript, libraries, github]
+tags: JavaScript, libraries, github
 ---
 
 Here's a potential [JSSpec](http://jania.pe.kr/aw/moin.cgi/JSSpec) spec for `Sequentially.trickle.map`:

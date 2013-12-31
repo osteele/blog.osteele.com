@@ -7,7 +7,7 @@ status: publish
 title: The Other OO
 wordpress_id: '37'
 categories: [Software Development, Systems Thinking]
-tags: bloviating
+tags: cognition
 ---
 
 I've been reading about Col John Boyd's [OODA Loop](http://www.mindsim.com/MindSim/Corporate/OODA.html) --- Observe, Orient, Decide, and Act --- and I realized that some of the thinking based on this theory articulates intuitive reasons I'd had for liking zero defect milestones.  Strategies such as "shortening your loop" and "getting inside" the enemy's loop  are those that zero defect milestones facilitate.  If "Act" is the process of shipping a release, keeping the software in a shippable state preserves the ability of an organization to change the length of its loop based solely on external schedule requirements, without added constraints due to the accumulation of quality and other technical debts.

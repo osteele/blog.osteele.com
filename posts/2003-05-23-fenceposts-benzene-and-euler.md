@@ -7,7 +7,7 @@ status: publish
 title: Fenceposts, Benzene, and Euler
 wordpress_id: '15'
 categories: [Family, Math Education]
-tags: [math, family]
+tags: math, family, education
 ---
 
 These questions came up on a family drive last weekend:

@@ -7,7 +7,7 @@ status: publish
 title: Dot Numbers
 wordpress_id: '57'
 categories: [Illustrations, Math Education, Visualizations]
-tags: [math, illustrations]
+tags: math, illustrations
 ---
 
 Dot numbers are a new notation for numbers, that make integer addition look like rational multiplication.  They may be useful in primary school math education.  The idea is that once you understand integers and addition, you can learn another way to look at it that sets you up to understand fractions and multiplication.

@@ -7,7 +7,7 @@ status: publish
 title: The Biofuel Economy
 wordpress_id: '323'
 categories: [Illustrations, Visualizations]
-tags: [pompous, illustrations]
+tags: illustrations
 ---
 
 (Or, a [Cobordism](http://en.wikipedia.org/wiki/Cobordism) of Carbon.)

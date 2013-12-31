@@ -7,7 +7,7 @@ status: publish
 title: Refactoring for Fifth Graders
 wordpress_id: '102'
 categories: [Family, Programming]
-tags: [math, family, programming]
+tags: math, family, programming
 ---
 
 I gave Miles a set of Logo programming problems:

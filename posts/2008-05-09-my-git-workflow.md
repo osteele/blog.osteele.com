@@ -7,7 +7,7 @@ status: publish
 title: My Git Workflow
 wordpress_id: '329'
 categories: [Illustrations, Software Development]
-tags: [git, illustrations]
+tags: git, illustrations
 ---
 
 [Git](http://git.or.cz/)'s great!  But it's difficult to learn (it was for me, anyway) -- especially the index, which unlike the power-user features, comes up in day-to-day operation.

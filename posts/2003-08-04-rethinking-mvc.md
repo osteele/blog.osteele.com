@@ -7,7 +7,7 @@ status: publish
 title: Rethinking MVC
 wordpress_id: '41'
 categories: [Essays, OpenLaszlo]
-tags: [Laszlo, MVC, essays]
+tags: Laszlo, MVC, essays
 ---
 
 In the Model-View-Controller architecture, the Model is decoupled from information about the user interface.  In a Data-Driven Presentation, the data contains all the information necessary to assemble the user-interface elements.  These design patterns appear at first to be exclusive mutually exclusive: either the data contains presentation information, or it doesn't.  This apparent conflict is because of a confusion between the Model of MVC, and the Data in DDP.

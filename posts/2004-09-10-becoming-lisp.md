@@ -7,7 +7,7 @@ status: publish
 title: Becoming Lisp
 wordpress_id: '104'
 categories: [Programming Languages]
-tags: [Python, programming-languages]
+tags: Python, programming-languages
 ---
 
 Python really is [becoming lisp][google-becoming-lisp].  With the [type/class unification](http://www.python.org/2.2/descrintro.html), [decorators](http://www.python.org/cgi-bin/moinmoin/PythonDecorators), and [generator expressions](http://www.python.org/peps/pep-0289.html), it's jumped from 80 percent of Common Lisp + CLOS to 90 percent[^1], and for web tasks the web programming libraries often make up the difference.

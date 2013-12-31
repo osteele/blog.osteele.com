@@ -7,7 +7,7 @@ status: publish
 title: Functional Javascript 1.0.2
 wordpress_id: '214'
 categories: [JavaScript, Libraries, Projects]
-tags: [JavaScript, libraries, functional]
+tags: JavaScript, libraries, functional
 ---
 
 Thanks to everyone who has commented or contributed, praised or pitched in --- I've released an update to [Functional Javascript](/sources/javascript/functional), with these changes:

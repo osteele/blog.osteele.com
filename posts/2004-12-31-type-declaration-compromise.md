@@ -7,7 +7,7 @@ status: publish
 title: The Type Declaration Compromise
 wordpress_id: '128'
 categories: [Essays, Software Development]
-tags: [programming-languages, essays]
+tags: programming-languages, essays
 ---
 
 > A vice grip is the wrong tool for every job. --- anonymous

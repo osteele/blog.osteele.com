@@ -7,7 +7,7 @@ status: publish
 title: Code Samples from Practical Functional JavaScript
 wordpress_id: '357'
 categories: [JavaScript]
-tags: [JavaScript, functional, talks, conferences]
+tags: JavaScript, functional, talks, conferences
 ---
 
 The code samples from my [talk at the Ajax Experience conference](/archives/2008/09/practical-functional-javascript) are now available [here](/talks/ajaxian-2008/samples).

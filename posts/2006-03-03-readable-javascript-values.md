@@ -7,7 +7,7 @@ status: publish
 title: Readable JavaScript Values
 wordpress_id: '188'
 categories: [JavaScript, Libraries, Projects]
-tags: [JavaScript, libraries]
+tags: JavaScript, libraries
 ---
 
 One problem with JavaScript development is that the string representation of a value doesn't tell you much about the value.  For example, `[null]`, `[undefined]`, and `''` all display as the empty string.  `[1,2}`, `[[1,2]]`, and `[[^1],[^2]]` all display as `1,2` (and so does `"1,2"`).  And `({a: 1})`, `({b: 2})`, and `new MySwankyNewObject()` all display as `[object Object]`.

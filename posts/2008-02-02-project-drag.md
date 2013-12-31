@@ -7,7 +7,7 @@ status: publish
 title: Adding the Easy Piece; or, The Metaphor of the Rock
 wordpress_id: '241'
 categories: [Essays, Software Development]
-tags: [bloviating, software-engineering, essays]
+tags: software-engineering, essays
 ---
 
 The novice project manager cares about a program's size.  The experienced manager cares when it gets big.

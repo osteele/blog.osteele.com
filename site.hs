@@ -60,16 +60,14 @@ main = hakyllWith config $ do
         let title = "Tag: " ++ tag
         route $ downcaseRoute
         compile $ do
-            list <- postList tags pattern recentFirst
+            posts <- recentFirst =<< loadAll pattern
+            let ctx = constField "title" title <>
+                        tagsField "tags" tags <>
+                        listField "posts" postCtx (return posts) <>
+                        siteCtx
             makeItem ""
-                >>= loadAndApplyTemplate "templates/posts.html"
-                        (constField "title" title `mappend`
-                            constField "body" list `mappend`
-                            siteCtx)
-                >>= loadAndApplyTemplate "templates/default.html"
-                        (constField "title" title `mappend`
-                            siteCtx)
-                >>= removeExtensionsFromLocalUrls ".html"
+                >>= loadAndApplyTemplate "templates/posts.html" ctx
+                >>= loadAndApplyTemplate "templates/default.html" ctx
                 >>= relativizeUrls
 
     -- Render index
@@ -97,18 +95,6 @@ main = hakyllWith config $ do
                 >>= renderRss (feedConfiguration "All posts") feedCtx
 
     match "templates/*" $ compile templateCompiler
-
-
--- ==========================
--- Tags
--- ==========================
-
-postList :: Tags -> Pattern -> ([Item String] -> Compiler [Item String]) -> Compiler String
-postList tags pattern preprocess' = do
-    postItemTpl <- loadBody "templates/post-item.html"
-    posts'      <- loadAll pattern
-    posts       <- preprocess' posts'
-    applyTemplateList postItemTpl postCtx posts
 
 
 -- ==========================

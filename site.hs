@@ -57,7 +57,7 @@ main = hakyllWith config $ do
      -- Create one page per tag
     tagsRules tags $ \tag pattern -> do
         let title = "Tag: " ++ tag
-        route idRoute
+        route $ downcaseRoute
         compile $ do
             list <- postList tags pattern recentFirst
             makeItem ""

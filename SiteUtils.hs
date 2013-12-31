@@ -1,10 +1,12 @@
 module SiteUtils
-    ( removeExtensionsFromLocalUrls
+    ( downcaseRoute
+    , removeExtensionsFromLocalUrls
     , rewritePermalinkDate
     , replaceUrlPrefixes
     , setRelativeUrlBases
     ) where
 
+import Data.Char              (toLower)
 import Control.Exception (assert)
 import Data.List         (isPrefixOf, stripPrefix)
 import Data.Maybe        (fromMaybe)
@@ -16,6 +18,11 @@ setRelativeUrlBases :: String  -- ^ Prepend relative URLs by this prefix
                     -> Item String -> Compiler (Item String)
 setRelativeUrlBases prefix item = do
   return $ fmap (relativizeUrlsWith $ prefix) item
+
+
+----------------------------------------------------------------------------------
+downcaseRoute :: Routes
+downcaseRoute = customRoute $ map toLower . toFilePath
 
 
 ----------------------------------------------------------------------------------

@@ -1,11 +1,5 @@
 #!/bin/bash -eu
 
 cd `dirname $0`/..
-./site.hs build
-
-cd _site
-git init || echo 'Re-using git repository'
-git remote add origin https://github.com/osteele/blog.osteele.com.git || echo 'Re-using remote'
-git add .
-git ci -m 'deploy' || echo 'No changes'
-git push origin +master:gh-pages
+./bin/site build
+./bin/site deploy

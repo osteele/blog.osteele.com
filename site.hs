@@ -115,7 +115,7 @@ postList tags pattern preprocess' = do
 -- ==========================
 config :: Configuration
 config = defaultConfiguration {
-    deployCommand  = "./bin/deploy"
+    deployCommand  = "rsync -aiz --delete _site/ osteele.com:/var/www/blog.osteele.com"
 }
 
 

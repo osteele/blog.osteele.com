@@ -13,7 +13,7 @@ main :: IO ()
 main = hakyllWith config $ do
     -- Copy static files
     match "files/**" $ do
-        route $ gsubRoute "files/" (const "")
+        route $ gsubRoute "files/" (const "") `composeRoutes` gsubRoute "htaccess" (const ".htaccess")
         compile copyFileCompiler
 
     -- Compress CSS

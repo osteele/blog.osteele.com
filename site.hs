@@ -68,6 +68,7 @@ main = hakyllWith config $ do
                 >>= loadAndApplyTemplate "templates/default.html"
                         (constField "title" title `mappend`
                             siteCtx)
+                >>= removeExtensionsFromLocalUrls ".html"
                 >>= relativizeUrls
 
     -- Render index
@@ -83,6 +84,7 @@ main = hakyllWith config $ do
             getResourceBody
                 >>= applyAsTemplate indexCtx
                 >>= loadAndApplyTemplate "templates/default.html" indexCtx
+                >>= removeExtensionsFromLocalUrls ".html"
                 >>= relativizeUrls
 
     -- Render RSS feed

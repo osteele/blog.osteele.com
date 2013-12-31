@@ -1,50 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>$title$ | $feedTitle$</title>
     <link rel="alternate" type="application/rss+xml" title="$feedTitle$" href="http://www.osteele.com/rss.xml" />
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!-- Bootstrap -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" >
-    <link rel="stylesheet" type="text/css" href="/css/default.css" />
-    <link rel="stylesheet" type="text/css" href="/css/tables.css" />
-    <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
-
+    <!-- <link rel="stylesheet" href="/css/default.css" /> -->
+    <!-- <link rel="stylesheet" href="/css/tables.css" /> -->
+    <!-- <link rel="stylesheet" href="/css/syntax.css" /> -->
   </head>
 
   <body>
-    <div class="navbar">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="brand" href="http://www.osteele.com">$author$</a>
-          <ul class="nav">
-            <li><a href="/archive">Archive</a></li>
+
+    <div class="navbar navbar-default navbar-inverse navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="http://www.osteele.com">$author$</a>
+        </div>
+        <nav class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/">Archive</a></li>
             <li><a href="https://github.com/osteele">GitHub</a></li>
             <li><a href="http://www.linkedin.com/in/osteele">LinkedIn</a></li>
           </ul>
-        </div>
+        </div><!--/.nav-collapse -->
       </div>
     </div>
 
     <div class="container">
-      <div class="content">
-        $body$
-      </div>
+      $body$
+    </div>
 
-      <footer>
-        <p>&copy; $author$ $copyright-range$
-          with help from <a href="http://jaspervdj.be/hakyll" target="_blank">Hakyll</a>
-          and <a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap</a>
-        </p>
-      </footer>
+    <footer class="footer">
+      <div class="navbar navbar-static-bottom">
+        <div class="navbar-inner">
+          <div class="container">
+            <p>&copy; $author$ $copyright-range$
+              with help from <a href="http://jaspervdj.be/hakyll" target="_blank">Hakyll</a>
+              and <a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap</a>
+            </p>
+          </div>
+        </div>
+      <div>
+    </footer>
 
-    </div> <!-- /container -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
   </body>
 </html>

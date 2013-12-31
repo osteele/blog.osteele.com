@@ -126,7 +126,7 @@ siteCtx :: Context String
 siteCtx =
     constField "author" "Oliver Steele"              `mappend`
     constField "feedTitle" "Oliver Steele’s Blog"    `mappend`
-    constField "copyright-range" "2003 &mdash; 2013" `mappend`
+    constField "copyright-range" "2003 &ndash; 2013" `mappend`
     defaultContext
 
 postCtx :: Context String

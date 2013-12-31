@@ -2,10 +2,11 @@
 
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
-import           Data.Monoid (mappend, mconcat)
+import           Data.Monoid ((<>), mappend, mconcat)
 import           Hakyll
 import           SiteUtils
 
+--import Data.Monoid (, mconcat, mempty)
 
 --------------------------------------------------------------------------------
 main :: IO ()
@@ -20,6 +21,7 @@ main = hakyllWith config $ do
         route   idRoute
         compile compressCssCompiler
 
+    -- Render posts
     match "posts/*" $ do
         route $ rewritePermalinkDate `composeRoutes` setExtension "html"
         compile $ pandocCompiler
@@ -29,7 +31,7 @@ main = hakyllWith config $ do
             >>= setRelativeUrlBases "http://osteele.com"
             >>= replaceUrlPrefixes "http://osteele.com/archive/" "/posts/"
             >>= replaceUrlPrefixes "http://osteele.com/archives/" "/posts/"
-            >>= saveSnapshot "content"
+            >>= saveSnapshot "content" -- for RSS
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
@@ -49,6 +51,26 @@ main = hakyllWith config $ do
     --            >>= removeExtensionsFromLocalUrls ".html"
     --            >>= relativizeUrls
 
+    -- Buid Tags
+    tags <- buildTags "posts/*" (fromCapture "tags/*.html")
+
+     -- Create one page per tag
+    tagsRules tags $ \tag pattern -> do
+        let title = "Tag: " ++ tag
+        route idRoute
+        compile $ do
+            list <- postList tags pattern recentFirst
+            makeItem ""
+                >>= loadAndApplyTemplate "templates/posts.html"
+                        (constField "title" title `mappend`
+                            constField "body" list `mappend`
+                            siteCtx)
+                >>= loadAndApplyTemplate "templates/default.html"
+                        (constField "title" title `mappend`
+                            siteCtx)
+                >>= relativizeUrls
+
+    -- Render index
     match "index.html" $ do
         route $ setExtension "html"
         compile $ do
@@ -72,6 +94,18 @@ main = hakyllWith config $ do
                 >>= renderRss (feedConfiguration "All posts") feedCtx
 
     match "templates/*" $ compile templateCompiler
+
+
+-- ==========================
+-- Tags
+-- ==========================
+
+postList :: Tags -> Pattern -> ([Item String] -> Compiler [Item String]) -> Compiler String
+postList tags pattern preprocess' = do
+    postItemTpl <- loadBody "templates/post-item.html"
+    posts'      <- loadAll pattern
+    posts       <- preprocess' posts'
+    applyTemplateList postItemTpl postCtx posts
 
 
 -- ==========================

@@ -11,6 +11,9 @@ import           SiteUtils
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyllWith config $ do
+    -- Buid Tags
+    tags <- buildTags "posts/*" (fromCapture "tags/*.html")
+
     -- Copy static files
     match "files/**" $ do
         route $ gsubRoute "files/" (const "") `composeRoutes` gsubRoute "htaccess" (const ".htaccess")
@@ -32,8 +35,9 @@ main = hakyllWith config $ do
             >>= replaceUrlPrefixes "http://osteele.com/archive/" "/posts/"
             >>= replaceUrlPrefixes "http://osteele.com/archives/" "/posts/"
             >>= saveSnapshot "content" -- for RSS
-            >>= loadAndApplyTemplate "templates/post.html"    postCtx
+            >>= loadAndApplyTemplate "templates/post.html"    (tagsField "tags" tags `mappend` postCtx)
             >>= loadAndApplyTemplate "templates/default.html" postCtx
+            >>= removeExtensionsFromLocalUrls ".html"
             >>= relativizeUrls
 
     --create ["archive/index.html"] $ do
@@ -50,9 +54,6 @@ main = hakyllWith config $ do
     --            >>= loadAndApplyTemplate "templates/default.html" archiveCtx
     --            >>= removeExtensionsFromLocalUrls ".html"
     --            >>= relativizeUrls
-
-    -- Buid Tags
-    tags <- buildTags "posts/*" (fromCapture "tags/*.html")
 
      -- Create one page per tag
     tagsRules tags $ \tag pattern -> do

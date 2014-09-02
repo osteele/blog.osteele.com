@@ -1,0 +1,20 @@
+#!/bin/bash -eu
+
+HOST=osteele.com
+DOMAIN=blog.osteele.com
+
+cd "$(dirname $0)"/..
+jekyll build
+cp files/htaccess _site/.htaccess
+
+rsync -aiz _site/ ${HOST}:/var/www/${DOMAIN} --delete --delete-excluded
+rsync config/${DOMAIN}.conf ${HOST}:/etc/apache2/sites-available/${DOMAIN}
+
+ssh ${HOST} a2enmod -q actions
+ssh ${HOST} a2enmod -q rewrite
+ssh ${HOST} a2enmod -q proxy
+ssh ${HOST} a2enmod -q proxy_http
+ssh ${HOST} a2enmod -q headers
+
+ssh ${HOST} a2ensite -q ${DOMAIN}
+ssh ${HOST} apachectl graceful

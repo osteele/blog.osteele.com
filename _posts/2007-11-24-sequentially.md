@@ -4,7 +4,7 @@ date: '2007-11-24 13:06:06'
 layout: post
 slug: sequentially
 status: publish
-title: Sequentially: Temporal and Frequency Adverbs for JavaScript
+title: "Sequentially: Temporal and Frequency Adverbs for JavaScript"
 wordpress_id: '218'
 categories: [JavaScript, Libraries, Projects]
 tags: JavaScript, libraries, fun
@@ -65,4 +65,3 @@ Or maybe that's all overkill, and it's just a few combinators for frequency, ite
 ---
 
 [^1]: More accurately, functional programming is about saturating the argument positions of both nouns and verbs.  Its closest analogy is to _theories_ of language, such as Montague Grammar and Categorial grammar, rather than to language _itself_.  This may be why functional programming is for many people less than intuitive.
-

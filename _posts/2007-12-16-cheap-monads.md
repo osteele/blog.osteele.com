@@ -4,7 +4,7 @@ date: '2007-12-16 21:49:46'
 layout: post
 slug: cheap-monads
 status: publish
-title: Monads on the Cheap I: The Maybe Monad
+title: "Monads on the Cheap I: The Maybe Monad"
 wordpress_id: '225'
 categories: [Essays, JavaScript, Programming Languages, Tips]
 tags: JavaScript, monads, essays
@@ -176,4 +176,3 @@ You won't find "null contagion" proposed as an implementation technique on the w
 [^2]: "Repetition" is defined as "a host site for a defect infection".
 
 [^3]: JavaScript has more than one null object.  This code takes advantage of the fact that an Object (even one with no properties) is _never_ null, while `undefined` --- the value of an undefined property access --- _is_ null.
-

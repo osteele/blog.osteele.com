@@ -1,46 +1,63 @@
 ---
-title: Archive
+layout: default
+title: Oliver’s Blog
 ---
 
-<p>
-I published this blog from 2003 to 2008.
-<p>
+<div class="home">
 
-<p>
-Maintaining it doubled as a means to keep up with server, web, and publishing technologies.
-Over time it migrated from <a href="http://movabletype.org">Movable Type</a>,
-to <a href="http://wordpress.org">Wordpress</a>,
-to <a href="https://www.djangoproject.com">Django</a>,
-back to Wordpress, to <a href="http://jekyllrb.com">Jekyll</a> and <a href="http://ruhoh.com">Ruhoh</a>,
-and finally to <a href="http://jaspervdj.be/hakyll/">Hakyll</a> &mdash;
-with unpublished attempts in <a href="https://ghost.org">Ghost</a> and <a href="http://zespia.tw/hexo/">Hexo</a>.
-<p>
+  <h1 class="page-heading">Home</h1>
 
-<p>
-The software and projects described here have mostly been superceded,
-and the thoughts seemed more original and interesting to me when the internet and I were both younger,
-and fewer people had shared their experiences with programming, software engineering, and internet technologies.
-Whenever I remove them people ask where they went, though.
-So here they are.
-</p>
+  <p>
+  I published this blog from 2003 to 2008.
+  <p>
 
-<p>
-Popular posts included
-<a href='./posts/2004/11/ides'>The IDE Divide</a> and
-<a href='./posts/2007/12/overloading-semicolon'>Overloading Semicolon</a>.
-</p>
+  <p>
+  Maintaining it doubled as a means to keep up with server, web, and publishing technologies.
+  Over time it migrated from <a href="http://movabletype.org">Movable Type</a>,
+  to <a href="http://wordpress.org">Wordpress</a>,
+  to <a href="https://www.djangoproject.com">Django</a>,
+  back to Wordpress, to <a href="http://jekyllrb.com">Jekyll</a> and <a href="http://ruhoh.com">Ruhoh</a>,
+  and finally to <a href="http://jaspervdj.be/hakyll/">Hakyll</a> &mdash;
+  with unpublished attempts in <a href="https://ghost.org">Ghost</a> and <a href="http://zespia.tw/hexo/">Hexo</a>.
+  <p>
 
-<p>
-Posts that failed to make a splash include
-<a href="./posts/2004/12/serving-clients">Service Clients</a> (an early attempt to describe AJAX), and
-<a href="./posts/2003/08/rethinking-mvc">Rethinking MVC</a> (an early attempt to describe <a href="http://en.wikipedia.org/wiki/Model_View_ViewModel">MVVM</a>).
-</p>
+  <p>
+  The software and projects described here have mostly been superceded,
+  and the thoughts seemed more original and interesting to me when the internet and I were both younger,
+  and fewer people had shared their experiences with programming, software engineering, and internet technologies.
+  Whenever I remove them people ask where they went, though.
+  So here they are.
+  </p>
 
-<p>
-The illustrations in my <a href='./posts/2008/05/my-git-workflow'>My Git Workflow</a>
-have been adapted (with permission) and improved many times. You can find better versions, including interactive versions, elsewhere on the web.
-</p>
+  <p>
+  Popular posts included
+  <a href='./posts/2004/11/ides'>The IDE Divide</a> and
+  <a href='./posts/2007/12/overloading-semicolon'>Overloading Semicolon</a>.
+  </p>
 
-<h2>Posts</h2>
+  <p>
+  Posts that failed to make a splash include
+  <a href="./posts/2004/12/serving-clients">Service Clients</a> (an early attempt to describe AJAX), and
+  <a href="./posts/2003/08/rethinking-mvc">Rethinking MVC</a> (an early attempt to describe <a href="http://en.wikipedia.org/wiki/Model_View_ViewModel">MVVM</a>).
+  </p>
 
-$partial("templates/post-list.html")$
+  <p>
+  The illustrations in my <a href='./posts/2008/05/my-git-workflow'>My Git Workflow</a>
+  have been adapted (with permission) and improved many times. You can find better versions, including interactive versions, elsewhere on the web.
+  </p>
+
+
+  <h2>Posts</h2>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-description">{{ post.description }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

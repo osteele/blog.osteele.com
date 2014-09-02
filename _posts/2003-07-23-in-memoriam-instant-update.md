@@ -4,7 +4,7 @@ date: '2003-07-23 21:05:23'
 layout: post
 slug: in-memoriam-instant-update
 status: publish
-title: In Memoriam: Instant Update
+title: "In Memoriam: Instant Update"
 wordpress_id: '36'
 categories: [Technology]
 ---

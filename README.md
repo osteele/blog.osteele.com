@@ -4,23 +4,17 @@ This repo contains the source for my personal [blog.osteele.com](blog.osteele.co
 
 (The source for my [main site wwww.osteele.com](wwww.osteele.com) is at https://github.com/osteele/osteele.com.)
 
+## Setup
 
-## Install (Mac OS X)
+Install [Docker Compose](https://docs.docker.com/compose/install/)
 
-    brew install haskell-platform
-    gem install bundler jekyll rdiscount
+## Develop
 
-
-## Preview
-
-    jekyll serve
-    open http://0.0.0.0:4000/
-
+    docker-compose up
 
 ## Deploy
 
-    ./bin/site deploy
-
+    git push
 
 # LICENSE
 

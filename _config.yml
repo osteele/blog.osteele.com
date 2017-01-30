@@ -9,6 +9,8 @@ timezone: America/New_York
 twitter_username: osteele
 github_username:  osteele
 
+permalink: /:year/:month/:title/
+
 exclude: [TODO, Vagrantfile, bin, config]
 
 # Build settings

@@ -17,33 +17,33 @@ I made up dot numbers a few years ago to try to explain negative numbers to my t
 ### Basics
 
 A dot number is a way of writing a number.  A dot number is represented as a number of dots above a line.  This is the number 3, as a dot number:
-![](http://osteele.com/images/2003/mirror-3.png)
+![](http://images.osteele.com/2003/mirror-3.png)
 
 A negative dot number is a number of dots below the line.  This is the dot number -3:
-![](http://osteele.com/images/2003/mirror--3.png).
+![](http://images.osteele.com/2003/mirror--3.png).
 
 ### Addition
 
 To add two dot numbers, combine the dots above the line, and the dots below the line.  This is 3 plus 2:
-![](http://osteele.com/images/2003/mirror-3+2.png)
+![](http://images.osteele.com/2003/mirror-3+2.png)
 
 This is -3 plus -2:
-![](http://osteele.com/images/2003/mirror--3-2.png)
+![](http://images.osteele.com/2003/mirror--3-2.png)
 
 And this is 3 plus -2:
-![](http://osteele.com/images/2003/mirror-3+-2.png)
+![](http://images.osteele.com/2003/mirror-3+-2.png)
 
 ### Cancelling
 
 A dot number is in normal form if all its dots (if any) are on the same side of the line.  A dot number that isn't in normal form can be "normalizing", or transformed into another dot number that represents the same integer and is in normal form.  As long as there's a dot above the line and a dot below the line, cross the dots out.  The pairs of dots "cancel" each other.
 
 The preceding number (3 plus -2) can be normalized.
-![](http://osteele.com/images/2003/mirror-3-2-normalize.png)
+![](http://images.osteele.com/2003/mirror-3-2-normalize.png)
 
 To subtract a number, flip it upside down and add that.   This is 3 minus 2:
-![](http://osteele.com/images/2003/mirror-3-2.png)
-![](http://osteele.com/images/2003/mirror-3+-2.png)
-![](http://osteele.com/images/2003/mirror-3-2-normalize.png)
+![](http://images.osteele.com/2003/mirror-3-2.png)
+![](http://images.osteele.com/2003/mirror-3+-2.png)
+![](http://images.osteele.com/2003/mirror-3-2-normalize.png)
 
 ### Dots and Factors
 

@@ -38,11 +38,11 @@ Neither is an ITL necessarily a dynamically typed language.  Haskell and ML are 
 
 It's common knowledge that it takes longer to get a program in an Explicitly-Typed Language to first clean compile, because it takes time to get the type declarations right.  Initial program development consists of editing type declarations as well as non-declaration text (the expressions, control flow, and program structure), followed by a block of time to get the program to first clean compile.  The white area below represents work on the non-declaration portion of a program; the gray stripes represent work on type declarations.
 
-![](http://osteele.com/images/2003/tdd-n1.png)
+![](http://images.osteele.com/2003/tdd-n1.png)
 
 In order to show the division between time spent on type declarations and time spent on other program text more clearly, I'm going to slide the type declarations to the right:
 
-![](http://osteele.com/images/2003/tdd-1.png)
+![](http://images.osteele.com/2003/tdd-1.png)
 
 This picture appears to show that it takes more time to develop a program that contains type declarations.  The received wisdom among ETL fans is that what you get for this extra time is error checking.  ETL development takes longer, but gives you a more robust product.  The equivalent ITL development effort (which isn't shown here) would be even longer, because it would include debugging time to catch the problems that the compiler didn't.  In fact, some of these problems might not show up until the product is in the field.
 
@@ -54,7 +54,7 @@ TDD advocates have noted that if you write your test case first, you also get er
 
 The comparison of an ETL, where the extra work goes into typing explicit types, and an ITL with TDD, where the extra work goes into test cases, looks like this:
 
-![](http://osteele.com/images/2003/tdd-2.png)
+![](http://images.osteele.com/2003/tdd-2.png)
 
 Let's say you could start with a program without type declarations.  Would you rather add type declarations, which catch a certain class of problems at compile time?    Or would you rather add test cases, which in a strongly typed language catch this same class of problems at runtime, and catch problems that the type system can't express as well?
 
@@ -64,7 +64,7 @@ But why not use TDD with an ETL?
 
 Here's what happens when you use TDD with an ETL.  You're taking that first picture, and multiplying it by two: once for the test cases, and again for the program itself.
 
-![](http://osteele.com/images/2003/tdd-3.png)
+![](http://images.osteele.com/2003/tdd-3.png)
 
 Robert Martin [compares this](http://www.itworld.com/AppDev/1262/itw-0314-rcmappdevint/page_1.html) TDD to dual-entry bookkeeping.  Explicit types are another form a dual-entry bookkeeping.  Using both explicit type declarations and test cases to validate is triple-entry bookkeeping.  (And the time spent writing explicit types could have been spent on more test cases, or more of the program.)
 
@@ -78,7 +78,7 @@ The problem is that once type declarations are part of the source text, they've 
 
 In a waterfall model of code construction, where all the code is written, brought to clean compile, and works the first time, this doesn't matter.  In incremental development, where compilable program is debugged or extended to handle additional features or test cases, the cost can be high.
 
-![](http://osteele.com/images/2003/tdd-4.png)
+![](http://images.osteele.com/2003/tdd-4.png)
 
 Types are similar to comments, test cases, and end-user documentation in this way, except that types are coupled more closely to each line of source text.  Factor out a variable from an expression, and the method comment and end-user documentation can stay the same, but a new type declaration is required.  This tight coupling makes the maintenance tax on types even higher than it is for other program annotations, and the tradeoff for when to start adding them, if at all, is different.
 

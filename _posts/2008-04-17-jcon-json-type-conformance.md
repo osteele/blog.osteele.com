@@ -28,7 +28,7 @@ JCON also defines an [RSpec](http://rspec.info) matcher, `conforms_to_js`:
     [1, 2, 'xyzzy'].should_not conform_to_js('[int, string]')  # 2 isn't a string
     {:x => 1}.should conform_to_js('{x: int}')
 
-Use JCON together with the [JavaScript Fu Rails plugin](http://osteele.com/archives/2008/04/javascript-fu-rails-plugin) to test the argument values to functions in generated JavaScript:
+Use JCON together with the [JavaScript Fu Rails plugin](/2008/04/javascript-fu-rails-plugin) to test the argument values to functions in generated JavaScript:
 
     # this will succeed if e.g. response contains a script tag that includes
     #   fn("id", {x:1, y:2}, true)

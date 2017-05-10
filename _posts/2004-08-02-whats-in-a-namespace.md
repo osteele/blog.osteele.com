@@ -10,7 +10,7 @@ categories: [OpenLaszlo, XML]
 tags: Laszlo, XML
 ---
 
-[Last week](http://osteele.com/archives/2004/07/a-fresh-canvas) I discussed the fact that "namespace hygiene" --- the use of XML namespaces --- would cause a simple Laszlo program such as this one:
+[Last week](/2004/07/a-fresh-canvas) I discussed the fact that "namespace hygiene" --- the use of XML namespaces --- would cause a simple Laszlo program such as this one:
 
     <canvas>
       <include href="button.lzx"></include>

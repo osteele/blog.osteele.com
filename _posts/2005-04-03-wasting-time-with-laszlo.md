@@ -14,7 +14,7 @@ Last month, Geert Bevin wrote an article called [wasting time with Laszlo](http:
 
 ![](http://images.osteele.com/2005/blablalist.png)
 
-Of course, while the bad thing about web application programming is that you're dealing with [two different platforms](http://osteele.com/archives/2004/08/web-mvc) (even if one of them is just DHTML), the good thing is that you can choose them independently.  I'm planning to use Laszlo on the client with PHP and Rails on the server, now that [serverless deployment](http://www.davidtemkin.com/mtarchive/000009.html) makes that possible.
+Of course, while the bad thing about web application programming is that you're dealing with [two different platforms](/2004/08/web-mvc) (even if one of them is just DHTML), the good thing is that you can choose them independently.  I'm planning to use Laszlo on the client with PHP and Rails on the server, now that [serverless deployment](http://www.davidtemkin.com/mtarchive/000009.html) makes that possible.
 
 | *Site*             | [Ta-da lists](http://www.tadalist.com/) | [Bla-bla list](http://blablalist.com/) |
 | :-                 | :-                                      | :-                                     |

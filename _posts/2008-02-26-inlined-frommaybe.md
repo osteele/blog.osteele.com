@@ -10,7 +10,7 @@ categories: [Essays, JavaScript]
 tags: JavaScript, monads, essays
 ---
 
-This article is about how to deal with null values.  It follows up on [this one](http://osteele.com/archives/2007/12/cheap-monads). It's intended for code stylists: people who care a lot about the difference between one line of code and two, or keeping control statements and temporary variables to a minimum.  (A code stylist is kind of like the dual of a software architect, although one person can be both.)  It's not about code golf -- although you might learn some strokes to use on that -- but about keeping the structure of your code, even at the expression level, close to the way you think about the problem, if you think like me.
+This article is about how to deal with null values.  It follows up on [this one](/2007/12/cheap-monads). It's intended for code stylists: people who care a lot about the difference between one line of code and two, or keeping control statements and temporary variables to a minimum.  (A code stylist is kind of like the dual of a software architect, although one person can be both.)  It's not about code golf -- although you might learn some strokes to use on that -- but about keeping the structure of your code, even at the expression level, close to the way you think about the problem, if you think like me.
 
 <!-- more -->
 
@@ -52,7 +52,7 @@ Let's make this problem harder.  This time, `products` _might_ be an array, but 
 
 Well, yes.  But this is the real world.  Maybe you're reading an attribute from a deserialized XML element. XML schemas allow for this kind of abbreviation, and using it makes documents more concise (and therefore both lower bandwidth and easier to inspect for debugging), so you'll probably see this at some point.  Maybe you're reading or a property from a JSON object, where the server omits null lists (for the same reasons -- message size and debuggability -- as for XML).  Or maybe you're reading `products` from a library that represents empty lists by `null` -- for performance reasons (to avoiding making empty lists), or for backwards compatibility, or just out of laziness.  I've seen all of the cases, a number of times.
 
-Or maybe you used the technique in [Monads on the Cheap](http://osteele.com/archives/2007/12/cheap-monads) to write something like `(order||{}).products`.  Now that you've propogated a null `order` into a null `products` -- to avoid wrapping an `if` statement around the code that dealt with `order` --  you've got to pay the piper.  You followed my advice and I dug you into a hole; now I'd better toss you a rope ladder.
+Or maybe you used the technique in [Monads on the Cheap](/2007/12/cheap-monads) to write something like `(order||{}).products`.  Now that you've propogated a null `order` into a null `products` -- to avoid wrapping an `if` statement around the code that dealt with `order` --  you've got to pay the piper.  You followed my advice and I dug you into a hole; now I'd better toss you a rope ladder.
 
 ## Solution 1: Fixing the input on entry
 

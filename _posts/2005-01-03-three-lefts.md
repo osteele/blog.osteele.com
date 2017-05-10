@@ -10,7 +10,7 @@ categories: [Essays, Software Development]
 tags: programming-languages, essays
 ---
 
-A few days ago [I argued](http://osteele.com/archives/2004/12/type-declaration-compromise) that even though type declarations aren't the best possible solution for any _particular_ problem, they can be the right solution for solving _several problems at once_.  I baffled even [smart](http://patricklogan.blogspot.com/2005/01/more-than-two-wrongs-might-make-right.html) [people](http://www.cincomsmalltalk.com/blog/blogView?showComments=true&entry;=3282205449).  If I had longer I'd write a clarification.  As it is, I'll just give an example.
+A few days ago [I argued](/2004/12/type-declaration-compromise) that even though type declarations aren't the best possible solution for any _particular_ problem, they can be the right solution for solving _several problems at once_.  I baffled even [smart](http://patricklogan.blogspot.com/2005/01/more-than-two-wrongs-might-make-right.html) [people](http://www.cincomsmalltalk.com/blog/blogView?showComments=true&entry;=3282205449).  If I had longer I'd write a clarification.  As it is, I'll just give an example.
 
 ## Type Declarations as Documentation
 

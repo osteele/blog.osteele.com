@@ -14,6 +14,6 @@ It was months in the conception, weeks in the making, and minutes in the configu
 
 <!-- more -->
 
-On a related topic, Laszlo Systems has launched Laszlo Mail, a high-polish web mail product focused on cross-browser portability and on user experience . I first wrote about Laszlo Mail [here](http://osteele.com/archives/2005/03/laszlo-mail). Laszlo Mail is an excellent example of the kind of application that we created OpenLaszlo in order to enable.  As Jonathan Boutelle [says](http://www.jonathanboutelle.com/mt/archives/2005/11/laszlomail_serv.html): "It feels like a candy-coated swiss army knife, an appealing mix of aesthetics and pragmatic design."
+On a related topic, Laszlo Systems has launched Laszlo Mail, a high-polish web mail product focused on cross-browser portability and on user experience . I first wrote about Laszlo Mail [here](/2005/03/laszlo-mail). Laszlo Mail is an excellent example of the kind of application that we created OpenLaszlo in order to enable.  As Jonathan Boutelle [says](http://www.jonathanboutelle.com/mt/archives/2005/11/laszlomail_serv.html): "It feels like a candy-coated swiss army knife, an appealing mix of aesthetics and pragmatic design."
 
 Congratulations to the Laszlo Mail team on getting this done. The Laszlo Mail team has a blog too, [here](http://www.laszlomail.com/blog).

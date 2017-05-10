@@ -28,7 +28,7 @@ This talk is really the flip side of [functional javascript](http://osteele.com/
 
 The *main* purpose of this talk is to be useful to practicing developers.  But it should also be fun.  AJAX lets you do a lot on the web that's fun to look at and use.  It can be fun to program too, and I'd like to get some of that across.
 
-If you're interested in the *type* of things I've posted [here](http://osteele.com/archives/category/javascript), but found that those zoomed through the material too quickly or that you wanted to see more of a connection to real-world production programming, then this is the talk for you.
+If you're interested in the *type* of things I've posted [here](/category/javascript), but found that those zoomed through the material too quickly or that you wanted to see more of a connection to real-world production programming, then this is the talk for you.
 
 The bad news: [It's at 8am](http://ajaxexperience.techtarget.com/east/html/eventsataglance.html).  I promise not to think badly of you if you take a nap, and to make loud noises when it's time for you to go your next talk.
 

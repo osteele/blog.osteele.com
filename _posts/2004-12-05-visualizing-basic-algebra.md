@@ -24,30 +24,30 @@ Multiplication and division are grounded in visuospatial concepts, which is why 
 
 Addition is associative:
 
-![](/images/2004/grounded-proofs/line-assoc.png)
+![](http://images.osteele.com/2004/grounded-proofs/line-assoc.png)
 
 and commutative:
 
-![](/images/2004/grounded-proofs/line-commute.png)
+![](http://images.osteele.com/2004/grounded-proofs/line-commute.png)
 
 ## Multiplication is Commutative
 
 The commutative law is that _a_Ã—_b_=_b_Ã—_a_.  If a rectangle _a_ high and _b_ wide represents _a_Ã—_b_ , this is the same as saying that rotation is area-preserving:
 
-![](/images/2004/grounded-proofs/ab=ba.png)
+![](http://images.osteele.com/2004/grounded-proofs/ab=ba.png)
 
 Or, in the case of three factors, volume preserving:
 
-![](/images/2004/grounded-proofs/abc=bca.png)
+![](http://images.osteele.com/2004/grounded-proofs/abc=bca.png)
 
 ## Distributive Law
 
-![](/images/2004/grounded-proofs/ab+ac.png)
+![](http://images.osteele.com/2004/grounded-proofs/ab+ac.png)
 
 ## Associativity
 
-![](/images/2004/grounded-proofs/3d-assoc1.png)
-![](/images/2004/grounded-proofs/3d-assoc2.png)
+![](http://images.osteele.com/2004/grounded-proofs/3d-assoc1.png)
+![](http://images.osteele.com/2004/grounded-proofs/3d-assoc2.png)
 
 ## Difference of Squares
 
@@ -55,7 +55,7 @@ The perfect squares are 0, 1, 4, 9, 16, â€¦.  The differences between succes
 
 In algebra, this is because the _n_2 terms in (_n_+1)2=_n_2+2_n_+1 and in _n_2 cancel, leaving 2_n_+1. Here's why this is true in geometry:
 
-![](/images/2004/grounded-proofs/(n+1)^2.png)
+![](http://images.osteele.com/2004/grounded-proofs/(n+1)^2.png)
 
 ## Product of Alternates
 
@@ -67,7 +67,7 @@ In algebra, this is because the _n_2 terms in (_n_+1)2=_n_2+2_n_+1 and in _n_2 c
 
 The product of two numbers adjacent to a median, is one less than the square of the median.  For example, 52=25, and 6Ã—4=25-1=24.  Algebraically, this is because (_n_+1)(_n_-1)=_n_2-1.  Geometrically:
 
-![](/images/2004/grounded-proofs/4x4.png) !/images/2004/grounded-proofs/4x3.png! !/images/2004/grounded-proofs/3x3-4x3.png!
+![](http://images.osteele.com/2004/grounded-proofs/4x4.png) !/images/2004/grounded-proofs/4x3.png! !/images/2004/grounded-proofs/3x3-4x3.png!
 
 ## Triangle Numbers
 
@@ -77,21 +77,21 @@ There are two geometric proofs.  The first requires two cases: one for even _n_,
 
 First, the two-case proof, and some terminology.  Cut a line at an integer mark as nearly in half as you can.  The big piece is the superhalf.  The little piece is the subhalf.
 
-![](/images/2004/grounded-proofs/subhalf.png)
+![](http://images.osteele.com/2004/grounded-proofs/subhalf.png)
 
 For an even number such as 6, the subhalf and superhalf are the same as the half (3).  For an odd number such as 5, the subhalf (2) and superhalf (3) differ by one.  The subhalf and superhalf of any integer sum to that integer: 3+3=6, and 2+3=5.
 
 Now the first proof. If _n_ is even, take the top half of the triangle and fold it over onto the bottom half.  Each row has the same length, because the base increases by one going up, and the flipped top increases by one going down.  That length is the width of the original base, plus one from the tip.  Since there are _n_/2 rows, the triangle has the area of a rectangle that is _n_/2 high and _n_+1 wide.
 
-![](/images/2004/grounded-proofs/1..n-even.png)
+![](http://images.osteele.com/2004/grounded-proofs/1..n-even.png)
 
 For odd _n_, take the top _sub_half of the triangle and fold it onto the bottom _super_half, extending each row except the bottom.  The new rectangle is (_n_+1)/2 high (the superhalf), but only _n_ wide.  Multiply these out, and out the same as the first case.
 
-![](/images/2004/grounded-proofs/1..n-odd.png)
+![](http://images.osteele.com/2004/grounded-proofs/1..n-odd.png)
 
 A proof that doesn't require two cases is to use two triangles.  Consider the two triangles, which collectively have the area _n_Ã—(_n_ + 1):
 
-![](/images/2004/grounded-proofs/n(n+1).png)
+![](http://images.osteele.com/2004/grounded-proofs/n(n+1).png)
 
 This is the same, in algebraic terms, of taking the sum [1+_n_]+[2+(_n_-1)]+â€¦+[(_n_-1)+2]+[_n_+1]=_n_Ã—(_n_+1).
 

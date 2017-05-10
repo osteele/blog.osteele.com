@@ -12,7 +12,7 @@ tasg: [fun, ruby, fizzbuzz]
 
 Uh oh!  I [overthought fizzbuzz](http://weblog.raganwald.com/2007/01/dont-overthink-fizzbuzz.html:)
 
-![](/images/2008/fizzbuzz-station.png)
+![](http://images.osteele.com/2008/fizzbuzz-station.png)
 
 <!-- more -->
 

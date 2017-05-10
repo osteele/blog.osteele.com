@@ -12,7 +12,7 @@ tags: illustrations
 
 (Or, a [Cobordism](http://en.wikipedia.org/wiki/Cobordism) of Carbon.)
 
-![](/images/2008/biofuel-economy.png)
+![](http://images.osteele.com/2008/biofuel-economy.png)
 
 Here's my understanding of [this](http://en.wikipedia.org/wiki/Food_vs_fuel#Impact_on_poor_countries) (with the energy cost dip greatly exaggerated).
 

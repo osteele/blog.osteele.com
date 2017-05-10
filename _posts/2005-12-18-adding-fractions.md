@@ -12,7 +12,7 @@ tags: math, illustrations, visualizations
 
 Here's a picture I drew to explain addition and subtraction of fractions to the sixth-grader:
 
-![](/images/2005/3div4-2div3.jpg)
+![](http://images.osteele.com/2005/3div4-2div3.jpg)
 
 <!-- more -->
 

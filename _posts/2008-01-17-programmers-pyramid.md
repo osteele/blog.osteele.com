@@ -10,7 +10,7 @@ categories: [Illustrations, Programming]
 tags: illustrations, programming
 ---
 
-[![Programmer's Food Pyramid](/images/2008/programmers-pyramid.png)](/images/2008/programmers-pyramid.png)
+[![Programmer's Food Pyramid](http://images.osteele.com/2008/programmers-pyramid.png)](http://images.osteele.com/2008/programmers-pyramid.png)
 
 <!-- more -->
 

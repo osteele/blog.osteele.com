@@ -13,7 +13,7 @@ tags: git, illustrations
 Git is a complicated beast.  The Git index, if you're coming from other VCS's, is a new concept.  Yesterday [I described](/archives/2008/05/my-git-workflow) how I use the Git index in my workflow:
 
 [
-![](/images/2008/git-transport.png)![](/images/2008/git-workflow.png)
+![](http://images.osteele.com/2008/git-transport.png)![](http://images.osteele.com/2008/git-workflow.png)
 ](/archive/2008/05/my-git-workflow)
 
 <!-- more -->
@@ -24,13 +24,13 @@ These pictures illustrate the multiple locations, or "data stores", that host a 
 
 The x axis in these pictures is actually meaningful.  In fact, it has several meanings.  Towards the left is personal (only I can see my working directory); towards the right is public (the remote repository is visible to other developers; the distribution directory to users as well).  Towards the left is closer to closer to development, towards the right is closer to production.  Towards the left is easier to change; towards the right is more stable[^1].
 
-![](/images/2008/datastore-spectrum.png)
+![](http://images.osteele.com/2008/datastore-spectrum.png)
 
 Two of the most important properties of a project are its design flexibility (the ease with which developers can change it), and its stability.  Flexibility is necessary in order to maintain development velocity, to accommodate changing requirements, and to explore design spaces.  Stability is important in order to maintain quality (by allowing settling time for bugs, and by reducing their injection rate), and to synchronize with separately developed artifacts (test suites, test plans, and documentation, if they're not in the repository; and books, forum and blog postings, and user knowledge).  Unfortunately, these properties conflict.
 
 Putting each of these constraints at the opposite end of the chain of data stores allows you to compromise each individual data store less.  You don't need to maintain as stable a workspace, but the remote repository needn't be yanked around as much.
 
-![](/images/2008/flexible-stable.png)
+![](http://images.osteele.com/2008/flexible-stable.png)
 
 I picture the process of moving edits from my working directory to a distribution as a multi-stage [transmission](http://en.wikipedia.org/Transmission_%28mechanical%29), where each step to the right steps down in speed (development velocity) but up in torque (quality).  Making the chain longer means there's more of an impedance match between any two successive stores.  This is why DVCS is better than VCS; and it's why I like to use the index as a staging area[^2].
 
@@ -46,7 +46,7 @@ Git's data stores are in many ways like anonymous, built-in branches, with a bui
 
 Here's an example of the policies I use in my personal projects, or for the non-shared part (the workspace, index, and local repository) of a collaborative project.  "Revision Frequency" is how often I typically make changes to each data store, when I'm developing it full-time.
 
-![](/images/2008/commit-policies.png)
+![](http://images.osteele.com/2008/commit-policies.png)
 
 Policies implement the intent of the salmon run.  By placing unrestrictive policies to the left, I can checkpoint my work frequently.  By placing restrictive policies on the right, I can maintain the stability of releases.  And by incrementing the restrictiveness of these policies in small steps, I reduce the backlog of code that is "trapped" towards the left.  Compare this to a centralized VCS, in which (since there's no local repository), developers may keep changes out of VCS for hours or days (since the alternative is making a central branch, which is expensive to create and expensive to tear down).  Or compare to a DVCS system without an index, where the overhead of either making and tearing down branches, or of pruning temporary commits, can discourage a developer from making a checkpoint every minute or two.  (At least they discourage me, even though these operations are far less expensive than with centralized VCS.)
 

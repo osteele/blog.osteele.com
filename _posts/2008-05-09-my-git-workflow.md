@@ -41,7 +41,7 @@ I got through my first four months of Git by [pretending it was Subversion](http
 
 Git keeps copies of your source tree in the locations in this diagram[^1].  (I'll call these locations "data stores".)
 
-![](/images/2008/git-transport.png)
+![](http://images.osteele.com/2008/git-transport.png)
 
 The data store that's new, relative to every other DVCS that I know about, is the "index".  The one that's new relative to centralized VCS's such as Subversion and Perforce is the "local repository".
 
@@ -71,7 +71,7 @@ I used to make copies of files before I edited them; my directory would end up l
 
 Here's another picture of the same Git commands, this time shown along a second axis, time, proceeding from top to bottom. [This is the behavior diagram to the last picture's dataflow diagram.  Kind of.]  A number of local edits adds up to something I checkpoint to the index via "`git add -u`"; after a while I've collected something I'm ready to commit; and every so many commits I push everything so far to a remote repository, for backup (although I've got other backup systems), and for sharing.
 
-![](/images/2008/git-workflow.png)
+![](http://images.osteele.com/2008/git-workflow.png)
 
 I've even added another step, releasing a distribution, that goes outside of git.  This uses rsync (or scp, or some other build or deployment tool) to upload a tar file (or update a web site, or build a binary to place on a DVD).
 

@@ -13,7 +13,7 @@ tags: programming-languages, visualizations, essays
 
 Recently I reviewed the programming languages I've used over the 28 years[^1] of my programming career.  The result is shown in the chart below.  (Click on the image to see it full size.)
 
-[![](/images/2006/languages-thumb.png)](/images/2006/languages.png)
+[![](http://images.osteele.com/2006/languages-thumb.png)](http://images.osteele.com/2006/languages.png)
 
 <!-- more -->
 
@@ -27,7 +27,7 @@ The reason is that different languages are good at different things.  When I fir
 
 This is what the second chart shows.  Again, click on the thumbnail to see the full size version.  And beware! --- the colors don't mean the same thing as in the chart above. (Sorry.)
 
-[![](/images/2006/languages-by-use-thumb.png)](/images/2006/languages-by-use.png)
+[![](http://images.osteele.com/2006/languages-by-use-thumb.png)](http://images.osteele.com/2006/languages-by-use.png)
 
 I use four kinds of languages: *utility languages*, for writing tools and solving problems; *application languages*, for writing distributable integrated applications; *system programming languages*, for implementing operating systems and low-level libraries; and a fourth category of languages, which I'll call "stretch languages", for learning how to program.  (I also dabble with bash for shell programming and R for statistics, but I don't really think of the way I use them as programming.)
 

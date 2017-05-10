@@ -20,4 +20,4 @@ This puts us in [good company](http://www.wired.com/news/mac/0,2125,66276,00.htm
 
 Henry posted [some photos](http://niftykeen.blogspot.com/2005_03_01_niftykeen_archive.html) he took last week.  Here's one; click on the image for more.
 
-![Oliver, Amy, Tucker, and Henry](/images/2005/inside-er.jpg)
+![Oliver, Amy, Tucker, and Henry](http://images.osteele.com/2005/inside-er.jpg)

@@ -18,7 +18,7 @@ In the Model-View-Controller architecture, the Model is decoupled from informati
 
 The Model-View-Controller (MVC) architecture consists of a Model, which simulates a real-world or "business" object, and a View, which represents the user interface of the object.  (There's also a Controller, but I'm not going to talk about that here.)
 
-![](/images/2003/model-view.png)
+![](http://images.osteele.com/2003/model-view.png)
 
 The Model contains objects that represent the state and logic of a business object such employee or a book.  The View contains object-specific views that encapsulate the state and logic necessary to present a Model object  to the user.
 
@@ -26,7 +26,7 @@ The Model contains objects that represent the state and logic of a business obje
 
 MVC is great architectural pattern.  Here's another pattern.  In a Data-Driven Presentation (DDP) architecture, an application's presentation is specified declaratively, by data structures that are interpreted as declarations about the presentation elements.  This is sometimes called "data binding".  [LZX](http://www.laszlosystems.com/developers) is an example of a language that does this.
 
-![](/images/2003/data-presentation.png)
+![](http://images.osteele.com/2003/data-presentation.png)
 
 ### Two's a Crowd?
 
@@ -42,7 +42,7 @@ Data is a declarative description of _anything_, whether it's business objects s
 
 This leaves an MVC implementation free to contain data that describes the business objects, in the Model, and data that describes the presentation, in the View.  In other words, MVC and DDP can be combined.
 
-![](/images/2003/model-view-data.png)
+![](http://images.osteele.com/2003/model-view-data.png)
 
 ### An Example: the Laszlo Blogging Widget
 
@@ -50,6 +50,6 @@ The need for this kind of architecture came up in a [blogging widget](/archives/
 
 No, because this data structure isn't in the Model, it's in the View.  The Model data sets are the channel list and the RSS feeds; the structure that the stylesheet creates from this reflects the structure of the presentation, and is part of the View.
 
-![](/images/2003/model-view-server-client.png)
+![](http://images.osteele.com/2003/model-view-server-client.png)
 
 An alternative would have been to write procedural code that interprets the Model data and creates individual view instances from this.  In this case it would be clear that the procedural code was part of the view.  Replacing this procedural code by declarative code shouldn't be viewed as taking a step backwards in architectural clarity.  Instead, it simply illustrates that declarative code (data) can be part of the MVC View.

@@ -23,7 +23,11 @@ defaults:
       layout: post
 
 exclude:
+- docker-compose.yml
+- Gemfile
+- Gemfile.lock
 - TODO
 - bin
 - config
 - scripts
+- templates

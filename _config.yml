@@ -1,3 +1,6 @@
+# Jekyll settings
+timezone: America/New_York
+
 # Site settings
 title: "Oliver Steele | Blog"
 email: steele@osteele.com
@@ -11,15 +14,6 @@ github_username:  osteele
 
 permalink: /:year/:month/:title/
 
-exclude: [TODO, Vagrantfile, bin, config]
-
-# Build settings
-markdown: kramdown
-kramdown:
-  input: GFM
-
-highligher: pygments
-
 defaults:
   -
     scope:
@@ -27,3 +21,9 @@ defaults:
       type: "posts"
     values:
       layout: post
+
+exclude:
+- TODO
+- bin
+- config
+- scripts

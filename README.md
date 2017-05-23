@@ -6,15 +6,22 @@ This repo contains the source for my personal [blog.osteele.com](blog.osteele.co
 
 ## Setup
 
-Install [Docker Compose](https://docs.docker.com/compose/install/)
+1. [Install Jekyll](https://jekyllrb.com/docs/installation/)
+2. `bundle install`
+
+Alternate: Install [Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Develop
 
-    docker-compose up
+1. `bundle exec jekyll serve`
+  Alternate: `docker-compose up`
+2. Browse to [localhost:4000](http://localhost:4000)
 
 ## Deploy
 
-    git push
+```bash
+git push
+```
 
 # LICENSE
 

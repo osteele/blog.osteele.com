@@ -14,7 +14,7 @@ Last weekend, I shared some interesting properties of numbers with my kids.
 
 The great thing about explaining something to a non-expert is that you have to actually understand the topic.  (This is why making teaching universities and research universities the same actually makes sense.)  If you hide behind a formalism, the explanation won't work.  Usually, this means that you didn't understand why the formalism worked either.
 
-This is why I thought "why are far away things smaller?" was such a [great question](/archives/2003/07/hard-questions).  "Similar triangles" answers are brittle, and if a tiny error makes far away things come out _bigger_ instead, you won't catch yourself until you got to the end of the proof.
+This is why I thought "why are far away things smaller?" was such a [great question](/2003/07/hard-questions).  "Similar triangles" answers are brittle, and if a tiny error makes far away things come out _bigger_ instead, you won't catch yourself until you got to the end of the proof.
 
 Some of the interesting properties of numbers are: that (_n_ + 1)Ã—(_n_-1)=_n_2-1: that the perfect squares (0,1,4,9,...) go up by successive odd numbers (1,3,5,...); and that the area of a triangular number (1+2+...+_n_) has a closed form.  These properties are easy to show using algebra, but to a child, the algebra doesn't make sense.
 

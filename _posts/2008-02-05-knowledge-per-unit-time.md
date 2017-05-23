@@ -10,7 +10,7 @@ categories: [General]
 tags: general
 ---
 
-My friends have been asking me how important I consider _experience_ ([again](archives/2008/02/two-thoughts-on-elections) in the context of the election), enough to write the answer down.
+My friends have been asking me how important I consider _experience_ ([again](/2008/02/two-thoughts-on-elections) in the context of the election), enough to write the answer down.
 
 <!-- more -->
 

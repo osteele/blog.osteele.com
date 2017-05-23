@@ -32,11 +32,11 @@ If you're interested in the *type* of things I've posted [here](/category/javasc
 
 The bad news: [It's at 8am](http://ajaxexperience.techtarget.com/east/html/eventsataglance.html).  I promise not to think badly of you if you take a nap, and to make loud noises when it's time for you to go your next talk.
 
-Update: A draft of the talk is [here](/talks/Oliver_Steele_Functional_JavaScript_v2.pdf) (PDF).  It doesn't include most of the code samples.
+Update: A draft of the talk is [here](http://osteele.com/talks/Oliver_Steele_Functional_JavaScript_v2.pdf) (PDF).  It doesn't include most of the code samples.
 
 Update 2: The final version with screenshots of all the code is [here](http://www.slideshare.net/osteele/oliver-steele-functional-javascript-presentation).  I'll publish a runnable version of the examples soon.
 
-Update 3: The runnable examples are [here](/archives/2008/10/code-samples-from-practical-functional-javascript).
+Update 3: The runnable examples are [here](/2008/10/code-samples-from-practical-functional-javascript).
 
 ---
 

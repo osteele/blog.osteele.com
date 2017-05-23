@@ -88,7 +88,7 @@ The C portion is the wonderful [GraphViz](http://http://www.graphviz.org).  PyFS
 
 An OpenLaszlo class on the client interprets the JavaScript graph description into a sequence of drawing instructions.  It also saves the node positions, so that it can animate against them.
 
-**Update**: Some of the support libraries are now available as open source.  See [JSON for OpenLaszlo](/archives/2006/02/json-for-openlaszlo), [JavaScript Beziers](/archives/2006/02/javascript-beziers), and [Canvas with Text](/archives/2006/02/textcanvas).  [OpenLaszlo](http://www.openlaszlo.org) and [PyFSA](/software/python/fsa/) were available previously.
+**Update**: Some of the support libraries are now available as open source.  See [JSON for OpenLaszlo](/2006/02/json-for-openlaszlo), [JavaScript Beziers](/2006/02/javascript-beziers), and [Canvas with Text](/2006/02/textcanvas).  [OpenLaszlo](http://www.openlaszlo.org) and [PyFSA](/software/python/fsa/) were available previously.
 
 ### Implementation choices
 

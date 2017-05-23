@@ -10,7 +10,7 @@ categories: [Essays, JavaScript, Tips]
 tags: JavaScript, essays
 ---
 
-Computing the length of a Bezier curve is expensive, but the length of a given Bezier doesn't change over time.  In my [JavaScript Bezier implementation](/archives/2006/02/javascript-beziers), I wanted to compute the length only the first time it's need, and save this result in order to return instantly thereafter.
+Computing the length of a Bezier curve is expensive, but the length of a given Bezier doesn't change over time.  In my [JavaScript Bezier implementation](/2006/02/javascript-beziers), I wanted to compute the length only the first time it's need, and save this result in order to return instantly thereafter.
 
 <!-- more -->
 

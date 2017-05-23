@@ -10,7 +10,7 @@ categories: [Essays, JavaScript, Programming Languages, Tips]
 tags: JavaScript, monads, essays
 ---
 
-Don't worry, this isn't YAMT ([Yet Another Monad Tutorial](/archives/2007/12/overloading-semicolon) ).  This is a practical post about a code smell that afflicts everyday code, and about an idiom that eliminates that smell.  It just so happens that this idiom corresponds to one of the uses for monads in Haskell, but that's just theory behind the practice, and I've saved the theory for the end.
+Don't worry, this isn't YAMT ([Yet Another Monad Tutorial](/2007/12/overloading-semicolon) ).  This is a practical post about a code smell that afflicts everyday code, and about an idiom that eliminates that smell.  It just so happens that this idiom corresponds to one of the uses for monads in Haskell, but that's just theory behind the practice, and I've saved the theory for the end.
 
 <!-- more -->
 

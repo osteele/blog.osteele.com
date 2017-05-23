@@ -10,11 +10,11 @@ Over time it migrated from [Movable Type](http://movabletype.org), to [Wordpress
 
 The software and projects described here have mostly been superceded, and the thoughts seemed more original and interesting to me when the internet and I were both younger, and fewer people had shared their experiences with programming, software engineering, and internet technologies. Whenever I remove them people ask where they went, though. So here they are.
 
-Popular posts included [The IDE Divide](./posts/2004/11/ides) and [Overloading Semicolon](./posts/2007/12/overloading-semicolon).
+Popular posts included [The IDE Divide](/2004/11/ides) and [Overloading Semicolon](/2007/12/overloading-semicolon).
 
-Posts that failed to make a splash include [Service Clients](./posts/2004/12/serving-clients) (an early attempt to describe what was later named AJAX), and [Rethinking MVC](./posts/2003/08/rethinking-mvc) (an early attempt to describe what was later named [MVVM](http://en.wikipedia.org/wiki/Model_View_ViewModel)).
+Posts that failed to make a splash include [Service Clients](/2004/12/serving-clients) (an early attempt to describe what was later named AJAX), and [Rethinking MVC](/2003/08/rethinking-mvc) (an early attempt to describe what was later named [MVVM](http://en.wikipedia.org/wiki/Model_View_ViewModel)).
 
-The illustrations in my [My Git Workflow](./posts/2008/05/my-git-workflow) have been adapted (with permission) and improved many times. You can find better versions, including interactive versions, elsewhere on the web.
+The illustrations in my [My Git Workflow](/2008/05/my-git-workflow) have been adapted (with permission) and improved many times. You can find better versions, including interactive versions, elsewhere on the web.
 
 ## Posts
 

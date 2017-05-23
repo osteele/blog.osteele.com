@@ -10,7 +10,7 @@ categories: [Illustrations, Software Development]
 tags: git, illustrations
 ---
 
-Git is a complicated beast.  The Git index, if you're coming from other VCS's, is a new concept.  Yesterday [I described](/archives/2008/05/my-git-workflow) how I use the Git index in my workflow:
+Git is a complicated beast.  The Git index, if you're coming from other VCS's, is a new concept.  Yesterday [I described](/2008/05/my-git-workflow) how I use the Git index in my workflow:
 
 [
 ![](http://images.osteele.com/2008/git-transport.png)![](http://images.osteele.com/2008/git-workflow.png)

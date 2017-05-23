@@ -83,7 +83,7 @@ Ryan's workflow is completely incompatible with mine.  Ryan uses the repository 
 
 There's another way to do this particular task -- of checkpointing after every few edits, but only persisting some of these checkpoints into the repository.  This is to commit each checkpoint to the repository (and go back to ignoring the index -- at least for checkpointing -- so this might work with Ryan's), and `rebase` them later.  Git lets you squash a number of commits into a single commit before you push it to a public repository (and edit, reorder, and drop unpushed commits too) -- that's the `rebase -i` block in the previous illustration, and you can read about it [here](http://blog.moertel.com/articles/2007/12/10/how-i-stopped-missing-darcs-and-started-loving-git).  This is a perfectly legitimate mode of operation; it's just one that I don't use.
 
-Both of these alternatives harken back to Git as being a tool for designing VCS workflows, as much as being a VCS system itself.  The reasons I don't use them myself bring us to Commit Policies, which I'll write about [tomorrow](/archives/2008/05/commit-policies).
+Both of these alternatives harken back to Git as being a tool for designing VCS workflows, as much as being a VCS system itself.  The reasons I don't use them myself bring us to Commit Policies, which I'll write about [tomorrow](/2008/05/commit-policies).
 
 ---
 

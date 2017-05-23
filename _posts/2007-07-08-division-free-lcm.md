@@ -12,7 +12,7 @@ tags: math
 
 ## Division-free GCD
 
-A few years ago I described an [algorithm for computing the greatest common denominator without division](/archives/2005/12/adding-fractions).  (Euclid's algorithm requires division, in order to compute the remainder.)  Although less efficient than the standard algorithm, I found it easier to teach to my children when they were learning to add fractions.
+A few years ago I described an [algorithm for computing the greatest common denominator without division](/2005/12/adding-fractions).  (Euclid's algorithm requires division, in order to compute the remainder.)  Although less efficient than the standard algorithm, I found it easier to teach to my children when they were learning to add fractions.
 
 I've made a movie of the steps involved [here](/movies/gcd.mov).  (The Quicktime player has a bug: if the movie plays the first step over and over, try waiting it out, but if it doesn't get past the first step after three or four times, then press your browser's Reload button.)
 

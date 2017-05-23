@@ -63,7 +63,7 @@ If the channel doesn't supply a picture, then a larger number of recent posts ar
 
 ## Architecture
 
-I had already written a JSP that applied a stylesheet to an XML document, and returned the transformed document.  (I used this to write the [](archives/2003/06/prettyprinting_wth_xslt.html)LZX source viewer.)  I decided to use this JSP to normalize the RSS dialects into a single structure that could be used to drive a [Data-Driven Presentation](/archives/2003/08/rethinking_mvc.html).  I also used it to aggregate multiple RSS channels into a single document, in order to minimize the client-server requests.
+I had already written a JSP that applied a stylesheet to an XML document, and returned the transformed document.  (I used this to write the [](/2003/06/prettyprinting_wth_xslt.html)LZX source viewer.)  I decided to use this JSP to normalize the RSS dialects into a single structure that could be used to drive a [Data-Driven Presentation](/2003/08/rethinking_mvc.html).  I also used it to aggregate multiple RSS channels into a single document, in order to minimize the client-server requests.
 
 The front end was relatively trivial.  It ended up at [94 lines of source code](http://mylaszlo.com/lps-v1/viewer/viewer.jsp?file=/ows/lbw/lbw.lzx), after I added formatting and animation.
 
@@ -88,7 +88,7 @@ I used `dataset` to create a dataset named `channels` and bind it to an XML feed
       </view>
     </view>
 
-(This is an instance of the [Data-Driven Presentation](/archives/2003/08/rethinking_mvc.html) pattern.  [This tutorial](http://laszlosystems.com/developers/tutorials/data.php) describes the use of the `datapath` attribute, and [this one](http://laszlosystems.com/developers/tutorials/data_app_1.php) shows how to use data binding to build an application.)
+(This is an instance of the [Data-Driven Presentation](/2003/08/rethinking_mvc.html) pattern.  [This tutorial](http://laszlosystems.com/developers/tutorials/data.php) describes the use of the `datapath` attribute, and [this one](http://laszlosystems.com/developers/tutorials/data_app_1.php) shows how to use data binding to build an application.)
 
 Matching the view structure to the XML structure was a hassle, because the failure mode for failing to match the structure of the XML was silent, and because the APIs for inspecting XML data were difficult to figure out so I couldn't use the debugger to inspect the structure.  (The APIs are being fixed for the next release.)
 

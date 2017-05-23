@@ -23,7 +23,7 @@ What I came up with is [inline-console.js](/sources/javascript/inline-console.js
 The point of this is to be as lightweight as possible.  Add
 `script type="text/javascript" src="inline-console.js"` (appropriately tagged) to the document head, and the script will take care of adding the UI.
 
-For more fun, include [readable.js](/archives/2006/03/readable-javascript-values) after inline-console.js.  Then `{a: 1}` will print as `{a: 1}` instead of `[object Object]`.
+For more fun, include [readable.js](/2006/03/readable-javascript-values) after inline-console.js.  Then `{a: 1}` will print as `{a: 1}` instead of `[object Object]`.
 
 Here's an example.  Try entering some JavaScript expressions, such as `2*3`, `Math.sqrt(2)`, or `document.body`, and then pressing "Eval".  (Click [here](/sources/javascript/demos/inline-console.html) to open the example in a separate window, where you can view source.)
 

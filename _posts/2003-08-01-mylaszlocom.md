@@ -20,6 +20,6 @@ Some applications that people have already posted:
 
 * An online version of Sam LLoyd's [Fifteen Puzzle](http://mylaszlo.com/lps-v1/bazan/14-15Problem_improved/14-15Problem_improved.lzx).
 
-* My [Laszlo Blogging Widget](/archives/2003/08/laszlo_blogging_widget.html).
+* My [Laszlo Blogging Widget](/2003/08/laszlo_blogging_widget.html).
 
 and almost a dozen more.

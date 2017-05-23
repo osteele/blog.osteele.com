@@ -23,7 +23,7 @@ A server-side web application generates a sequence of HTML web pages.  Each of t
 ![](http://images.osteele.com/2004/serving-clients/server-webapp-dataflow.png)
 ![](http://images.osteele.com/2004/serving-clients/webapp-dataflow-legend-1.png)
 
-This is [Server-Side MVC](/archives/2004/08/web-mvc), or Model 2.  I actually haven't shown enough details in the diagram to distinguish this from Model 1 (the code that implements the Model, View, and Controller should be in separate files), but that's because this is mostly irrelevant to this discussion.  If this bothers you, pretend that there are additional files hiding in the server side of the diagram.
+This is [Server-Side MVC](/2004/08/web-mvc), or Model 2.  I actually haven't shown enough details in the diagram to distinguish this from Model 1 (the code that implements the Model, View, and Controller should be in separate files), but that's because this is mostly irrelevant to this discussion.  If this bothers you, pretend that there are additional files hiding in the server side of the diagram.
 
 ## Introducing the Client-Side Application
 

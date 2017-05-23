@@ -10,7 +10,7 @@ categories: [Math Education]
 tags: math, education
 ---
 
-[Seymour Papert](http://www.papert.org/) used to tell a story contrasting the practices of medicine and education, in order to illustrate how little the latter has improved.  Place a physician from the previous century in a modern operating room and he[^1] won't have a clue about what to do.  Transport a teacher forward in time and [they'll](/archives/2003/06/nobodys_on_that_train.html) fit right in.  The moral is that the practice of medicine has made great strides during the last century; the practice of education hasn't progressed at all.
+[Seymour Papert](http://www.papert.org/) used to tell a story contrasting the practices of medicine and education, in order to illustrate how little the latter has improved.  Place a physician from the previous century in a modern operating room and he[^1] won't have a clue about what to do.  Transport a teacher forward in time and [they'll](/2003/06/nobodys_on_that_train.html) fit right in.  The moral is that the practice of medicine has made great strides during the last century; the practice of education hasn't progressed at all.
 
 I used to believe this story, and maybe it was true in the sixties.  But in 1998, when I was looking for school for my rising kindergartner, I sat in on a number of elementary school curriculum nights.  Among them was a presentation by the math teacher Bob Lawler[^2] at [Shady Hill School](http://www.shs.org/index_html.asp).  This was the first time I'd set foot in an elementary school in 25 years, and things had changed.  Math today, at least in the better schools, is taught nothing the way it was when I was a child.
 

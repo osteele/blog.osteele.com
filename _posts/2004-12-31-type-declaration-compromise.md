@@ -80,4 +80,4 @@ Some [insightful](http://patricklogan.blogspot.com/2004/12/roi-of-optional-type-
 
 ## Addendum
 
-I've added a follow-up [here](/archives/2005/01/three-lefts).
+I've added a follow-up [here](/2005/01/three-lefts).

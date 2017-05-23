@@ -10,7 +10,7 @@ categories: [Essays, OpenLaszlo, XML]
 tags: Laszlo, XML, essays
 ---
 
-In [A Fresh Canvas](/archives/2004/07/a-fresh-canvas) I argued that there's a human-factors advantage to allowing an XML document to contain names from multiple namespaces without requiring namespace prefixes on the elements from all but one of them.  In [What's in a Namespace](/archives/2004/08/whats-in-a-namespace) I looked at how namespaces and namespace imports work in programming languages, which generally allow both qualified imports (like XML Namespace) and unqualified imports as well.
+In [A Fresh Canvas](/2004/07/a-fresh-canvas) I argued that there's a human-factors advantage to allowing an XML document to contain names from multiple namespaces without requiring namespace prefixes on the elements from all but one of them.  In [What's in a Namespace](/2004/08/whats-in-a-namespace) I looked at how namespaces and namespace imports work in programming languages, which generally allow both qualified imports (like XML Namespace) and unqualified imports as well.
 
 I also said that I would demonstrate that unqualified imports could be added to XML in a well-defined way, if certain conditions were met.  (The conditions are that the set of names in each namespace is known when the document is processed.  This is the same condition that programming languages such as C++ and Java, that resolve the namespace of unqualified names at compile time, impose.)  Here's where I make good on that promise.
 

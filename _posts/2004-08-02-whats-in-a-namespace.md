@@ -156,4 +156,4 @@ I think there's a reason that none of C++, Java, Python, and Haskell confines yo
 
 ## Is there a way out?
 
-In my [next post](/archives/2004/08/unqualified-imports-for-xml) I'll propose a way to make XML look more like a programming language in its use of namespaces, discuss where it's appropriate to do this (there are plenty of places XML Namespaces are used today where my proposal _wouldn't_ be appropriate), and give a proof of concept, in XSLT, that this can be done with a well-defined semantics.
+In my [next post](/2004/08/unqualified-imports-for-xml) I'll propose a way to make XML look more like a programming language in its use of namespaces, discuss where it's appropriate to do this (there are plenty of places XML Namespaces are used today where my proposal _wouldn't_ be appropriate), and give a proof of concept, in XSLT, that this can be done with a well-defined semantics.

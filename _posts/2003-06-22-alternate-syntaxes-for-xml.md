@@ -18,9 +18,9 @@ if the problem is authoring a target format with redundant structure, where the 
 
 If you're going to write your document in a language that has to be transformed into a target document anyway, maybe it's better to ditch the markup.  These are some languages (or formats) that were designed to translate into XML:
 
-  * [RELAX NG Compact Syntax](http://www.oasis-open.org/committees/relax-ng/compact-20021121.html) -- for RELAX NG
-  * [n3](http://www.w3.org/2000/10/swap/Primer) -- for RDF
-  * Setext, [ReStructuredText](http://docutils.sourceforge.net/rst.html), and a large number of WikiText formats, designed to translate into HTML.
+* [RELAX NG Compact Syntax](http://www.oasis-open.org/committees/relax-ng/compact-20021121.html) -- for RELAX NG
+* [n3](http://www.w3.org/2000/10/swap/Primer) -- for RDF
+* Setext, [ReStructuredText](http://docutils.sourceforge.net/rst.html), and a large number of WikiText formats, designed to translate into HTML.
 
 The reason not to use a domain-specific language for human-writable documents is that parsing is hard.  (One of XML's advantages is that a parser for a domain-specific langauge is only one or two lines in any modern language, as long as that domain-specific language is an application of XML.)  Todd Preobsting [suggests](http://research.microsoft.com/~toddpro/papers/disruptive.ppt) parsing for a subset of CFL languages as a builtin language feature, but for now learning how to use use a parser generator (such as [ANTLR](http://www.antlr.org/), [Yapps](http://theory.stanford.edu/~amitp/Yapps/), [Spark](http://pages.cpsc.ucalgary.ca/~aycock/spark/), [PLY](http://systems.cs.uchicago.edu/ply/)) is still a significant undertaking.
 

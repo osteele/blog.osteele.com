@@ -63,7 +63,6 @@ If the code did nothing but display the merchant name and then return, we could 
     if (!merchantName) return;
     displayMerchantName(merchantName);
 
-
 This implementation retains two of the disadvantages from the first, and it introduces a third. First, that's still an awful lot of control flow (four lines) obfuscating a tiny amount of data flow (four lines).  Second, we've still got those baton variables, `offering`, `merchant`, _etc_.  Finally, the new implementation works only if the fragment is an entire function: if `displayMerchantName` is the last statement in the function[^1].
 
 How about if we eliminate the batons altogether?  Then we can combine all the tests into a single conditional:
@@ -74,7 +73,6 @@ How about if we eliminate the batons altogether?  Then we can combine all the te
         && product.offering.merchant
         && product.offering.merchant.name)
       displayMerchantName(product.offering.merchant.name);
-
 
 This implementation has fewer lines, at least, but there's still a lot of repetition[^2] -- the text `product.offering` occurs four times.
 
@@ -90,7 +88,6 @@ We can re-introduce the temporary variables, this time within the conditional, t
         && (merchantName = merchant.name))
       displayMerchantName(merchantName);
 
-
 ...but now we've brought back the batons.
 
 (You may also have a stylistic object to the assignments inside of conditionals in this latest attempt. I'm not completely against the construct, but I avoid it unless it makes the code clearer, and it's not clear that it does that, here.)
@@ -104,7 +101,6 @@ I'd like to be able to write something that matches the language of the specific
     if (merchantName)
       displayMerchantName(merchantName);
 
-
 and have the system just know that `product.offering` evaluates to null if `product` is null; and that `product.offering.merchant` evaluates to null if `product.offering` is null, _etc_.  Now, we might not like `null.property` to evaluate to null _everywhere_ (that might move bug symptoms too far away from their defect sites), but we'd like it _here_.
 
 This property --- that member access to a property of null is itself null -- could be called "null contagion".  Many languages have "float contagion", where an arithmetic operation produces a float if either of its arguments is a float.  (_i.e._ `a+b` is equivalent to `float(a)+float(b)` if _either_ of `a` or `b` is a float.)  "Null contagion" is similar to float contagion except that it only applies to the member access (`.`) operator, and only from left to right.
@@ -117,11 +113,9 @@ Without further ado, here's how to write an expression that evaluates to `object
 
     (object||{}).property
 
-
 And this can be chained as follows:
 
     ((object||{}).property1||{}).property2
-
 
 So let's apply this, in two steps, to the problem above.  First, get rid of all the intermediate conditionals, in order to match the control flow to the narrative:
 
@@ -132,14 +126,12 @@ So let's apply this, in two steps, to the problem above.  First, get rid of all 
     if (merchantName)
       displayMerchantName(merchantName);
 
-
 And now that each intermediate variable is used only once, we can inline its value and eliminate its name:
 
     var product = ...,
         merchantName = (((product||{}).offering||{}).merchant||{}).name;
     if (merchantName)
       displayMerchantName(merchantName);
-
 
 This isn't as clean as the E4X example, but it's relatively concise: no batons, and no non-narrative control flow.
 
@@ -151,7 +143,6 @@ What about the case where most products _don't_ have offerings, or the offerings
         merchantName = (((product||$N).offering||$N).merchant||$N).name;
     if (merchantName)
       displayMerchantName(merchantName);
-
 
 (The Ruby equivalent of `{}` is `{}` for a Hash, with array-style access; and `OpenStruct.new` for an Object, with property getter syntax.  You definitely want a reusable singleton for the latter.)
 

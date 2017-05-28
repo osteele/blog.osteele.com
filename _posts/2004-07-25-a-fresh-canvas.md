@@ -20,7 +20,8 @@ A major difference between LZX and the Dashboard extensions, at the language des
 
 ## Foreign Tags
 
-The "foreign" tags that LZX currently supports are limited to three
+The "foreign" tags that LZX currently supports are limited to three:
+
 * [XHTML](http://www.w3.org/TR/xhtml1/) tags within a `dataset` tag or a tag that extends or contains it.  For example, `**click** me`.
 
 * The `include` tag from [XInclude](http://www.w3.org/TR/xinclude/): `include`

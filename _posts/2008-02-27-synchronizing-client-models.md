@@ -56,7 +56,6 @@ Here's the model, with some server proxy mojo mixed in:[^1]
       }
     }
 
-
 This implementation uses [jQuery](http://jquery.com/) for transport, and assumes a `Hash.merge` method from some collection library (say, Prototype's).  It creates a class by setting `prototype` directly, and it doesn't detect or recover from XHR errors.  All these choices are just to have something concrete to write about; they don't affect the substance of this article.
 
 ## A Day at the Races
@@ -70,22 +69,21 @@ Do you see the race conditions?  There's at least three: `create+update`, `creat
       aPerson.update({name:'Edgar Dijkstra'});
     }
 
-
 The problem with `createThenUpdate` is that `aPerson` won't have an `id` by the time `update` is called, so `update` won't send the new values to the server.  The call to `create` is synchronous, but the communication with the server, and therefore the call to the callback (that sets `aPerson.id`) is _a_synchronous, and therefore won't occur until `Person.create` returns.
 
 In detail:
 
-# `createUpdate` calls `Person.create`
-# `Person.create` calls `new Person`
-# `aPerson.create` calls `jQuery.post`
-# `jQuery.post` calls `XMLHttpRequest.send` (not shown)
-# `XMLHTTPRequest.send`, `jQuery.post`, and `aPerson.create` _return_
-# `createUpdate` calls `aPerson.update`
-# _[time passes]_
-# Client sends HTTP Request to server
-# _[more time passes]_
-# Client receives HTTP Response
-# Callback in `aPerson.create` sets `aPerson.id`
+* `createUpdate` calls `Person.create`
+* `Person.create` calls `new Person`
+* `aPerson.create` calls `jQuery.post`
+* `jQuery.post` calls `XMLHttpRequest.send` (not shown)
+* `XMLHTTPRequest.send`, `jQuery.post`, and `aPerson.create` _return_
+* `createUpdate` calls `aPerson.update`
+* _[time passes]_
+* Client sends HTTP Request to server
+* _[more time passes]_
+* Client receives HTTP Response
+* Callback in `aPerson.create` sets `aPerson.id`
 
 ### Solution 1: Explicit Callbacks
 

@@ -80,7 +80,6 @@ _v1.xml_
       <a></a>
     </root>
 
-
 A version 1 document has a mandatory `x` attribute, an optional `z` attribute (not present in `v1.xml`), and an optional `a` child.  No other attributes or children are allowed.
 
 In a version 2 document, the `x` attribute has been removed, and there is a new mandatory `y` attribute.  A root may have more than one `a` element (as opposed to a version 1 document, which may have just one), and a `b` element as well (as opposed to a version 1 document, which does not allow this element).  The `z` attribute is still optional.
@@ -92,7 +91,6 @@ _v2.xml_
       <a></a>
       <b></b>
     </root>
-
 
 A version 2 document is distinguished from a version 1 document by the value of its `version` attribute.  A version 1 document has a `version` of "1.0".  A version 2 document has a `version` of "2.0".
 
@@ -108,7 +106,6 @@ _v1.rnc_
       element a {empty}?
     }
 
-
 _v2.rnc_
 
     start = root
@@ -119,7 +116,6 @@ _v2.rnc_
       element a {empty}* &
       element b {empty}?
     }
-
 
 ## Schema Definition Alternatives
 
@@ -138,13 +134,11 @@ The following schema accepts the union of the version 1 and version 2 schemas.  
       element b {empty}
     }
 
-
 The problem with this solution is that, although it accepts any version 1 or version 2 document, it also accepts a number of documents that are neither version 1 nor version 2.  It does this because each portion of the schema accepts the content model of either version or version 2, regardless of whether the same or a different content model version was used in a different portion of the schema.  For example, the schema accepts the following hybrid document, which declares itself to be version 1 but includes some content version 1-specific content (the `x` attribute) and some version 2-specific content (the `y` attribute and the `b` element):
 
     <root y="2" x="1" version="1.0">
       <b></b>
     </root>
-
 
 ### Alternative 2: Local Disjunction
 
@@ -158,7 +152,6 @@ This can be done with a disjunction:
       ...
     }
 
-
 This solution doesn't have any of the problems of the pointwise union.  It accepts all version 1 and all version 2 documents, and nothing else.
 
 The problem with this solution is that it is unmaintainable as the grammar increases in complexity.  Consider a schema such as the following:
@@ -171,14 +164,12 @@ The problem with this solution is that it is unmaintainable as the grammar incre
     b = element b {b* & c*}
     c = element c {a*}
 
-
 Imagine that the only change, aside from the value of the `version` attribute, is the addition of an `x` attribute to `c`:
 
     c = element c {
       attribute x {string}? &
       a*
     }
-
 
 If the document root has a `version` of "1.0", the `x` attribute is not permitted anywhere in the document.  If it has a `version` of "2.0", the `x` attribute is allowed on every `c` element, but nowhere else.
 
@@ -230,7 +221,6 @@ The updated schema, that accepts an `x` attribute within the `c` element when `v
       c.content &= attribute x {string}?
     }
 
-
 However, this modularization comes with a price.  Attempting to factor the v1 and v2 schemas yields something like this:
 
 _common.rnc_
@@ -242,13 +232,11 @@ _common.rnc_
     root.content = a?
     a = element a {empty}
 
-
 _modularized-v1.rnc_
 
     include "common.rnc"
     root.version = attribute version {"1.0"}
     root.content &= attribute x {string}?
-
 
 _modularized-v2.rnc_
 
@@ -256,7 +244,6 @@ _modularized-v2.rnc_
     root.version = attribute version {"2.0"}
     root.content &= a*
     root.content &= element b {string}?
-
 
 The content of the `root` element has been distributed to the point where it's difficult to read the content of either a version 1 or a version 2 document.  The greater abstraction and extensibility comes at the price of readability.
 
@@ -286,7 +273,6 @@ _combined.rnc_
       )
     }
     a = element a {empty}
-
 
 Note that, with the exception of the `v:version` annotations, this schema is almost exactly the same as the _local disjunction_ alternative from above.  It accepts any version 1 or version 2 document, but it also accepts hybrid documents that are neither valid version 1 nor version 2 documents.  Nonetheless, it is useful as it stands, as a human-readable description of the schema, and as an overly permissive approximation for documentation tools or schema-aware editors.
 
@@ -321,7 +307,6 @@ Applying this stylesheet to the combined schema above, with `version` set to `1.
     > xsltproc --param version 1.0 combined.rng v1.rng
     > trang v1.rng v1.rnc
 
-
 A Walsh union can be used to create a schema that validates against either of `v1.rnc` or `v2.rnc`, depending on the value of the `version` attribute.  In fact, one could use the Xalan, Saxon, or XSLT 2.0 output redirection extensions to write a stylesheet that created all the versions of a schema (by iterating over the values of `//@v:version`), and whose main output was a Walsh union that included them all.
 
 If the `version` attribute is marked as optional in the schema definition, this same technique can be used to implement optional versioning.  If the attribute is missing altogether, it can be used to implement implicit versioning.
@@ -333,4 +318,3 @@ Dare Obasanjo, [On Versioning XML Vocabularies](http://www.xml.com/pub/a/2004/07
 David Orchard, [Providing Compatible Schema Evolution](http://www.pacificspirit.com/Authoring/Compatibility/ProvidingCompatibleSchemaEvolution.html)
 
 Norm Walsh, [Validating XSLT 2.0](http://norman.walsh.name/2004/07/25/xslt20)
-

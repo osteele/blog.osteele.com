@@ -18,11 +18,11 @@ A couple of years ago I found that all the interesting AJAX programs that I want
 
 I'll be covering:
 
-  * Talking REST asynchronously to your server -- *without* dipping into bleeding-edge technologies such as [Comet](http://en.wikipedia.org/wiki/Comet_(programming)) and [Bayeux](http://svn.xantus.org/shortbus/trunk/bayeux/bayeux.html).[^2]
+* Talking REST asynchronously to your server -- *without* dipping into bleeding-edge technologies such as [Comet](http://en.wikipedia.org/wiki/Comet_(programming)) and [Bayeux](http://svn.xantus.org/shortbus/trunk/bayeux/bayeux.html).[^2]
 
-  * Deferred execution and lightweight multithreading without [Google Gears](http://code.google.com/apis/gears/api_workerpool.html).[^3]
+* Deferred execution and lightweight multithreading without [Google Gears](http://code.google.com/apis/gears/api_workerpool.html).[^3]
 
-  * Messaging between the Flash and the HTML within a page.  I'll put this last so that if you aren't interested in Flash you don't have to worry about when to wake up.
+* Messaging between the Flash and the HTML within a page.  I'll put this last so that if you aren't interested in Flash you don't have to worry about when to wake up.
 
 This talk is really the flip side of [functional javascript](http://osteele.com/sources/javascript/functional/) and [sequentially](http://osteele.com/sources/javascript/sequentially/). Those were *non-production* experiments to take functional javascript _to an extreme_.  "Practical", on the other hand, will be about real-world techniques I've used to write web sites such as [Browsegoods](http://browsegoods.com), [FanSnap](http://fansnap.com), Style&amp;Share, and the [goWebtop Calendar](http://www.gowebtop.com), and that resulted in some of the JavaScript-related libraries [here](http://github.com/osteele).
 
@@ -45,4 +45,3 @@ Update 3: The runnable examples are [here](/2008/10/code-samples-from-practical-
 [^2]: COMET and Bayeaux are cool, but the server-side support can be scary.
 
 [^3]: Another cool technology, but for the typical occasional-use consumer-facing site, you can't count on it.
-

@@ -42,7 +42,6 @@ To make this interesting, let's assume this is in a language that doesn't have a
     // Hungarian notation:
     function gcd(nA, nB) {...}
 
-
 *Assertions:*
 
     function gcd(a, b) {

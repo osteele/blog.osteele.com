@@ -14,27 +14,27 @@ tags: JavaScript, Ruby, libraries
 
 <!-- more -->
 
-1. The `notes` and `statistics` rake tasks compass JavaScript files in the `public/javascript` directory:
+1\. The `notes` and `statistics` rake tasks compass JavaScript files in the `public/javascript` directory:
 
-~~~
-    $ rake notes
-    public/javascripts/controls.js:
-      * [782] [TODO] improve sanity check
+```bash
+$ rake notes
+public/javascripts/controls.js:
+  * [782] [TODO] improve sanity check
 
-    $ rake stats
-    | Name                 | Lines |   LOC | Classes | Methods | M/C | LOC/M |
-    [...]
-    | JavaScript           |  7287 |  6322 |       0 |       0 |   0 |     0 |
-    [...]
-~~~
+$ rake stats
+| Name                 | Lines |   LOC | Classes | Methods | M/C | LOC/M |
+[...]
+| JavaScript           |  7287 |  6322 |       0 |       0 |   0 |     0 |
+[...]
+```
 
-2. The `call_js` [RSpec](http://rspec.info/) matcher asserts that a string or response contains a script tag, that contains JavaScript that calls the named function or method:
+2\. The `call_js` [RSpec](http://rspec.info/) matcher asserts that a string or response contains a script tag, that contains JavaScript that calls the named function or method:
 
-~~~
-    response.should call_js('fn')
-    response.should call_js('fn(true)')
-    response.should call_js('gApp.setup')
-~~~
+```ruby
+response.should call_js('fn')
+response.should call_js('fn(true)')
+response.should call_js('gApp.setup')
+```
 
 If you pass a block to `call_js`, it's called back with the argument list, parsed as though it were a JSON array:
 
@@ -54,14 +54,14 @@ Use this with [`jcon`](http://jcon.rubyforge.org/) to test for type conformance,
       args.should conform_to_js('[[Array, (int, boolean)], {x: double, y: double}]')
     end
 
-3. The `page.onload` page generator method generates code that executes the content
+3\. The `page.onload` page generator method generates code that executes the content
 of the block upon the completion of page load:
 
-~~~
-      page.onload do
-        page.call alert', 'page loaded!'
-      end
-~~~
+```ruby
+  page.onload do
+    page.call alert', 'page loaded!'
+  end
+```
 
 These lines generate one of these (depending on whether the [jRails](http://ennerchi.com/projects/jrails) plugin has been loaded):
 

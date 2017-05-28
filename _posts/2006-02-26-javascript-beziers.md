@@ -48,6 +48,7 @@ A couple of caveats:
 * This animates along the Bezier parameterization, not the path length.  This was good enough for my application, but you could get animation that speeds up and slows down, depending on how you choose your control points.
 
 * <strike>The demo code is written for brevity, not speed.  In particular, it re-renders the background each time, which involves some expensive math to render the cubic.  In reAnimator, I placed the animated elements on a separate view in front of the background.  I didn't do that here because I wanted to share code between the OpenLaszlo and HTML demos, and the techniques for doing overlays were too different.</strike>
+
 Using a separate overlay for the background didn't actually speed this up.  The hot spot is the parametric position calculation.
 
 ---

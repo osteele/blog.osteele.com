@@ -12,9 +12,9 @@ tags: math, physics, family
 
 These are some hard questions my kids asked me when they were very young, with answers below:
 
-  * Why are far away things small?
-  * Why is it easier to pull a stroller (along a driveway with large gravel) than to push it?
-  * Why can we breath air but not dirt?
+* Why are far away things small?
+* Why is it easier to pull a stroller (along a driveway with large gravel) than to push it?
+* Why can we breath air but not dirt?
 
 The challenge in answering this kind of question is to create an answer that's comprehensible to anyone capable of framing the question.  So, for example, the answer to the first question doesn't have to do with ratios and similar triangles: this is a fine computer graphics explanation for undegraduates, but is (to use a metaphor) the assembly language version of an answer that can be written in Java.  (Or the Java version of an answer that can be written in Haskell :-)
 

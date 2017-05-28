@@ -98,7 +98,7 @@ And here are the _after_ cases, where `offer.products` is allowed to be null:
 
 ## Non-local Transformations
 
-There's something funny about the "temporary variable" program transformation.  `offer.products` is an _expression_ -- you can nest it in another expression: as the argument to a function, before a property accessor, or as part of a conditional.  `var products = offer.products||[]; ...; ...(products)...` is a _ statement sequence_.  In fact, it's a _statement sequence with a hole_ -- it doesn't strictly embed the original code, but it isn't strictly embedded by it, either; instead, it's woven in.
+There's something funny about the "temporary variable" program transformation.  `offer.products` is an _expression_ -- you can nest it in another expression: as the argument to a function, before a property accessor, or as part of a conditional.  `var products = offer.products||[]; ...; ...(products)...` is a _statement sequence_.  In fact, it's a _statement sequence with a hole_ -- it doesn't strictly embed the original code, but it isn't strictly embedded by it, either; instead, it's woven in.
 
 These differences -- that this transformation _changes the syntactic type_ of the code that you're applying it to (from an expression to a statement), and that you have to weave it into the existing code -- make it non-local.[^4]  Here's what I mean by this:
 

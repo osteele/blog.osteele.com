@@ -113,18 +113,19 @@ The aggregated channels feed looked exactly the same, except that each `channel`
 
 If I'd investigated OPML more I would have used it instead.  I was on an airplane at this point with only the RSS feeds I'd cached to work with, and my example OPML files didn't have title attributes so I thought this wasnt part of the format, and I might as well make up my own.
 
-### Hours five and six:
+### Hours five and six
+
 Extended the front end to show multiple channels.  Added the channel description and image.  This took a while because I had to try several different layouts before I got something that looked nice both with and without a blog picture, and then I had to learn some new features to resize the image correctly.
 
 _At this point I had something functionally complete, but ugly.  It looked like it had been designed by a programmer.  (It had.)_
 
 _I showed the result to our visual designer, Peter Andrea, for a consult.  Peter recommended a different way to animate between blogs, a border here, some color choices there, and gave me some artwork for the "Powered by Laszlo", and I went back to work._
 
-### Hour seven:
+### Hour seven
 
 Plugged in the artwork and the color changes.  Changed the "Powered by" area from a "virtual channel" generated on the server, to a hardcoded UI element in the application source.  (One of Peter's suggestions was that it should look and behave more differently.)
 
-### Hours eight and nine:
+### Hours eight and nine
 
 Added borders.  This was the other major hassle (aside from debugging data binding -- see hour one) that had to do with presentation language.  I had to nest a couple of existing views inside of other views and this threw off both the automatically computed sizes and the code that traversed the hierarchy to refer to views.  (There wasn't much of this code, but it was hard to change correctly.)
 

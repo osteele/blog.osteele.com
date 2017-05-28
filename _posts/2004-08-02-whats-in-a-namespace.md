@@ -60,34 +60,34 @@ Programming languages that use `import` generally have two styles for specifying
 
 Consider the difference between the following two Java statements:
 
-``` java
-    import java.util.List;
+```java
+import java.util.List;
 ```
 
-``` java
-    import java.util.*;
+```java
+import java.util.*;
 ```
 
 The first line makes `List` available as a name for `java.util.List`.  The second line does this too, but makes any other class and interface names in `java.util` available, without the preceding `java.util.`, as well.
 
 This corresponds to the distinction between the Python statements:
 
-``` java
-    from java.util import List
+```java
+from java.util import List
 ```
 
-``` java
-    from java.util import *
+```java
+from java.util import *
 ```
 
 and also between the Haskell statements:
 
-```
-    import Prelude
+```haskell
+import Prelude
 ```
 
-```
-    import Prelude {List}
+```haskell
+import Prelude {List}
 ```
 
 The point of the multiple examples being that this is a pretty widely accepted design for namespaces, not just an accident of Java.

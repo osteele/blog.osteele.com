@@ -39,8 +39,6 @@ The fact that functional.js itself no longer contains any regular expressions mi
 
 I'll also put in a plug here for Braithwaite's [String#to_proc](http://weblog.raganwald.com/2007/10/stringtoproc.html), which is a port of string lambdas to Ruby:
 
-
-
     (1..5).map &'*2'
       -> [2, 4, 6, 8, 10]
     (1..5).inject &'+'
@@ -49,6 +47,4 @@ I'll also put in a plug here for Braithwaite's [String#to_proc](http://weblog.ra
     factorial.call(5)
       -> 120
 
-
 I've been a Raganwald fan for a while; and Ruby is my favorite server-side glue language, I look forward to using it there...
-

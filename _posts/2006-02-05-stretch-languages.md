@@ -75,7 +75,6 @@ Right now my stretch language is Haskell.  When I write in Haskell, I feel like 
 [Serbo-Croation](http://science.webhostinggeeks.com/stretch-jezici): Thanks to Jovana Milutinovich of the University of
 Belgrade in Serbia for translating this article into Serbo-Croatin.
 
-
 [^1]: I first learned to program in seventh grade, from the TRS-80 Level I Basic reference.  That makes me both (1) almost 30, and (2) innumerate.
 
 [^2]: In this entire essay, I'm quantifying over the languages I use and the way I use them.  YMMV.

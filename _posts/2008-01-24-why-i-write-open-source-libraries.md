@@ -12,15 +12,15 @@ tags: open-source
 
 1. [Exploration](/2008/01/get-lost).  I can sample platforms and sample [stretch languages](/2006/02/stretch-languages) without sinking my stakeholders if I fail.  Also, it's easier to try something radical in a small, green field project than in a big one.
 
-2. [Altitude training](/2008/01/make-things-hard-for-yourself) (link TBD).  I can make myself jump through hoops that I wouldn't feel ethical asking someone to pay me to jump through.  I did this recently with [Sequentially](/sources/javascript/sequentially); the next time I needed to simulate concurrent processes in a more serious context, it was a *lot* easier.
+2. [Altitude training](/2008/01/make-things-hard-for-yourself) (link TBD).  I can make myself jump through hoops that I wouldn't feel ethical asking someone to pay me to jump through.  I did this recently with [Sequentially]({{ site.sources }}/javascript/sequentially); the next time I needed to simulate concurrent processes in a more serious context, it was a *lot* easier.
 
 3. Encapsulating components.  My answer to [Steve Yegge's problem](http://steve-yegge.blogspot.com/2007/12/codes-worst-enemy.html) is to refactor my code into libraries.  When I write programs that run on Linux, or the JVM, or a browser, I get those features, but the code sizes of those libraries don't really count against me.  Why not do that with my own code, too.[^1]
 
-This was the motivation for [LzOsUtils](/sources/openlaszlo/lzosutils) and [Fluently](/sources/javascript/fluently) (both [didn't get to](/2007/12/what-i-didnt-get-to) projects), most recently: they were part of other projects, but they were respectively large/tricky enough that I wanted to be able to compartmentalize them, and think about them separately.
+This was the motivation for [LzOsUtils]({{ site.sources }}/openlaszlo/lzosutils) and [Fluently]({{ site.sources }}/javascript/fluently) (both [didn't get to](/2007/12/what-i-didnt-get-to) projects), most recently: they were part of other projects, but they were respectively large/tricky enough that I wanted to be able to compartmentalize them, and think about them separately.
 
 5. The Golden Rule.  I've benefitted hugely from open source projects; why not give back a little?
 
-6. You *can* take it with you!  I've written things that I want to use in more than one project; this is easier if they're in library form.  That was the motivation for [LzTestKit](/sources/openlaszlo/lztestkit) (another [didn't get to](/2007/12/what-i-didnt-get-to) project), most recently.
+6. You *can* take it with you!  I've written things that I want to use in more than one project; this is easier if they're in library form.  That was the motivation for [LzTestKit]({{ site.sources }}/openlaszlo/lztestkit) (another [didn't get to](/2007/12/what-i-didnt-get-to) project), most recently.
 
 7. Fame and fortune!  Just kidding.  You get more fame from working on one project (if it's the right one) for a long time.  And there's more fortune in straight consulting.
 

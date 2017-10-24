@@ -16,7 +16,7 @@ The OpenLaszlo application below demonstrates animation along a line, a quadrati
   <param name="movie" value="http:/sources/javascript/bezier-demo.swf"/>
   <param name="quality" value="high"/>
   <param name="controller" value=""/>
-  <embed src="/sources/javascript/bezier-demo.swf" width="320" height="300" quality="high" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"/>
+  <embed src={{ site.sources }}/javascript/bezier-demo.swf" width="320" height="300" quality="high" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"/>
 </object>
 
 <!-- more -->
@@ -25,23 +25,23 @@ Drag the slider back and forth to display the point on each path at t=slider.val
 
 I wrote this in order to animate the state markers along the edges of the graph in [reAnimator](/tools/reanimator).  The GraphViz dot tool, which I'm using for graph layout, generates cubic beziers, so I had to write code to render and evaluate them.
 
-If you're writing for <strike>FireFox</strike> a browser that supports the canvas element, you can use the same code with the new HTML canvas element.   Click on "Start Animation" to animate the points on the canvas below.  And click [here](/sources/javascript/bezier-demo.html) to open the HTML applet in its own window.
+If you're writing for <strike>FireFox</strike> a browser that supports the canvas element, you can use the same code with the new HTML canvas element.   Click on "Start Animation" to animate the points on the canvas below.  And click [here]({{ site.sources }}/javascript/bezier-demo.html) to open the HTML applet in its own window.
 
-<iframe src="/sources/javascript/bezier-demo.html?inline=true" width="315" height="300" style="border: 0" scrolling="no"></iframe>
+<iframe src={{ site.sources }}/javascript/bezier-demo.html?inline=true" width="315" height="300" style="border: 0" scrolling="no"></iframe>
 
 Files:
 
-* [bezier.js](/sources/javascript/bezier.js) --- measurement, interpolation, sampling, and subdivision for arbitrary-order Beziers
+* [bezier.js]({{ site.sources }}/javascript/bezier.js) --- measurement, interpolation, sampling, and subdivision for arbitrary-order Beziers
 
-* [path.js](/sources/javascript/path.js) --- measurement, interpolation, and sampling for paths composed of multiple lines and Beziers
+* [path.js]({{ site.sources }}/javascript/path.js) --- measurement, interpolation, and sampling for paths composed of multiple lines and Beziers
 
-* [bezier-demo.js](/sources/javascript/bezier-demo.js) --- the code to draw the paths in the demo.  This is platform-agnostic, and works in OpenLaszlo (bezier-demo.lzx) and HTML (bezier-demo.html).
+* [bezier-demo.js]({{ site.sources }}/javascript/bezier-demo.js) --- the code to draw the paths in the demo.  This is platform-agnostic, and works in OpenLaszlo (bezier-demo.lzx) and HTML (bezier-demo.html).
 
-* [bezier-demo.lzx](/sources/javascript/bezier-demo.lzx) --- the OpenLaszlo demo
+* [bezier-demo.lzx]({{ site.sources }}/javascript/bezier-demo.lzx) --- the OpenLaszlo demo
 
-* [bezier-demo.html](/sources/javascript/bezier-demo.html) --- the HTML demo
+* [bezier-demo.html]({{ site.sources }}/javascript/bezier-demo.html) --- the HTML demo
 
-* [drawview-patches.js](/sources/openlaszlo/drawview-patches.js) --- patches to the OpenLaszlo LzDrawView.  This includes an implementation of LzDrawView.bezierCurveTo.
+* [drawview-patches.js]({{ site.sources }}/openlaszlo/drawview-patches.js) --- patches to the OpenLaszlo LzDrawView.  This includes an implementation of LzDrawView.bezierCurveTo.
 
 A couple of caveats:
 

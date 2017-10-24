@@ -16,7 +16,7 @@ One problem with JavaScript development is that the string representation of a v
 
 If you [use an IDE](/2004/11/ides) for development, this may not be a problem.  Probably the IDE has its own string representation; even if it doesn't, you can generally drill into objects by clicking on them.  This doesn't help those us of who prefer REPL development or printf-style debugging.  When you display a debugging value (to the browser status line, to the `alert()` dialog, or to the Rhino console), you'd like some indication of what it actually _is_.  And JavaScript doesn't generally tell you, at least when the value is more complex than a string, number, or boolean.
 
-Hence, [readable.js](/sources/javascript/docs/readable).  _Readable_ adds a Readable class that can stringify a JavaScript value readably, for debugging purposes.  Readable.toReadable([1,'', null, [3, 4]]) evaluates to [1, '', null, [3, 4]], not 1,,,3,4.  And so on.
+Hence, [readable.js]({{ site.sources }}/javascript/docs/readable).  _Readable_ adds a Readable class that can stringify a JavaScript value readably, for debugging purposes.  Readable.toReadable([1,'', null, [3, 4]]) evaluates to [1, '', null, [3, 4]], not 1,,,3,4.  And so on.
 
 To make it easier to *use* the Readable class, *Readable* comes with a couple of hooks.  First of all, it defines defines info, warn, error, and debug functions[^1] that display their arguments to the user.  In Rhino, these functions call through to `print`.  In a browser, they use `alert()` --- unless [fvlogger](http://www.alistapart.com/articles/jslogging) has been loaded first, in which case they use it instead[].  You can also replace Readable.log(level, message) or
 Readable.display(message) to add your own behavior; for example,
@@ -26,9 +26,9 @@ Secondly, Readable can add toString methods to Array.prototype and Object.protot
 
 Files:
 
-* [readable.js](/sources/javascript/readable.js)
+* [readable.js]({{ site.sources }}/javascript/readable.js)
 
-* [documentation](/sources/javascript/docs/readable)
+* [documentation]({{ site.sources }}/javascript/docs/readable)
 
 **Update**: Fixed for Internet Explorer.
 

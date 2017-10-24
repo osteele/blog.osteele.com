@@ -9,6 +9,7 @@ email: steele@osteele.com
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.osteele.com" # the base hostname & protocol for your site
 timezone: America/New_York
+sources: http://osteele.com/sources
 twitter_username: osteele
 github_username:  osteele
 

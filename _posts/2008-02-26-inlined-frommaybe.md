@@ -302,7 +302,7 @@ Although, as with Haskell, you'd write this differently in idiomatic Scala:
 
 [^1]: `forEach` was [added in JavaScript 1.6](http://developer.mozilla.org/en/docs/New_in_JavaScript_1.6), and works in Firefox.  You can get cross-browser implementations from [Dean Edwards](http://dean.edwards.name/weblog/2006/07/enum/) or the [Mozilla Developer Center](http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Objects:Array:forEach#Compatibility;) or with frameworks such as the JQuery (in the [jQuery collection plugin](http://plugins.jquery.com/project/Collection)), [Prototype](http://www.prototypejs.org/api/array#method-each) (where it's called `each`), or [MochiKit](http://www.mochikit.com/doc/html/MochiKit/Iter.html#fn-foreach) (where it's a top-level function).
 
-[^2]: `anArray.pluck` is from Prototype.  In pure JavaScript 1.6 (or another library that extends JavaScript with the 1.6 collection functions), this would be `products.map(function(product) { return product.id })`.  Or in [Functional](/sources/javascript/functional/), it's `map('_.id', products)`
+[^2]: `anArray.pluck` is from Prototype.  In pure JavaScript 1.6 (or another library that extends JavaScript with the 1.6 collection functions), this would be `products.map(function(product) { return product.id })`.  Or in [Functional]({{ site.sources }}/javascript/functional/), it's `map('_.id', products)`
 
 [^3]: In conjunction with monads on the cheap, in the scenario where `products` might be null because `order` might be null, the code looks like this: `var products = (order||{}).products || []`.  In fact, this is simply an extension of _monads_, where the default value is the empty array, instead of `{}`.
 

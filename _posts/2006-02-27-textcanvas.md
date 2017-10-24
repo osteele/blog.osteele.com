@@ -16,23 +16,23 @@ The two times that I've used the WHATWG canvas element recently, I've wanted a c
 
 The graph in [reAnimator](/tools/reanimator) is a drawview, but with text labels for the edges.  And the graph and parse tree in the Graph and Parse tabs of [reMatch](/tools/rematch) both use WHATWG canvas for lines, but text for labels.  (These tabs are only visible in Firefox, for now.)
 
-[TextCanvas.js](/sources/javascript/textcanvas.js) implements the canvas context extended with labels, for DHTML.  And "textdrawview.lzx" implements drawview extended with labels.  They share the same API, so that I can write graphics libraries (such as graph drawing) that work with both DHTML and OpenLaszlo.  That API is described [here](/sources/javascript/textcanvas-api).
+[TextCanvas.js]({{ site.sources }}/javascript/textcanvas.js) implements the canvas context extended with labels, for DHTML.  And "textdrawview.lzx" implements drawview extended with labels.  They share the same API, so that I can write graphics libraries (such as graph drawing) that work with both DHTML and OpenLaszlo.  That API is described [here]({{ site.sources }}/javascript/textcanvas-api).
 
-The first example below is an OpenLaszlo application that uses textdrawview; view source [here](/sources/openlaszlo/textdrawview-example.lzx).
+The first example below is an OpenLaszlo application that uses textdrawview; view source [here]({{ site.sources }}/openlaszlo/textdrawview-example.lzx).
 
-If you're using Firefox, you can also view the DHTML example.  This uses TextCanvas; open it in a separate page [here](/sources/javascript/textcanvas-example.html).
+If you're using Firefox, you can also view the DHTML example.  This uses TextCanvas; open it in a separate page [here]({{ site.sources }}/javascript/textcanvas-example.html).
 
 Files:
 
-* [textcanvas.js](/sources/javascript/textcanvas.js) --- DHTML implementation
+* [textcanvas.js]({{ site.sources }}/javascript/textcanvas.js) --- DHTML implementation
 
-* [textcanvas-example.html](/sources/javascript/textcanvas-example.html) --- DHTML example (shown running above)
+* [textcanvas-example.html]({{ site.sources }}/javascript/textcanvas-example.html) --- DHTML example (shown running above)
 
-* [textdrawview.lzx](/sources/openlaszlo/textdrawview.lzx) --- OpenLaszlo implementation
+* [textdrawview.lzx]({{ site.sources }}/openlaszlo/textdrawview.lzx) --- OpenLaszlo implementation
 
-* [textdrawview-example.lzx](/sources/openlaszlo/textdrawview-example.lzx) --- OpenLaszlo example (shown running above)
+* [textdrawview-example.lzx]({{ site.sources }}/openlaszlo/textdrawview-example.lzx) --- OpenLaszlo example (shown running above)
 
-* [textcanvas-api](/sources/javascript/textcanvas-api) --- API documentation
+* [textcanvas-api]({{ site.sources }}/javascript/textcanvas-api) --- API documentation
 
 Some example code:
 

@@ -64,7 +64,7 @@ The standard solution to the first two of the problems above (the length and str
       return length;
     }.memoize();
 
-This is the best general-purpose solution, and it's good for a framework, or for a complete application.  But in a small standalone code library such as [this](/sources/javascript/bezier.js) or [this](/sources/javascript/gradient.js), I don't want to include a copy of `Function.prototype.memoize` in each standalone file (and then worry about version skew); and I don't want to make each file depend on a utility file (and then worry about file dependencies).
+This is the best general-purpose solution, and it's good for a framework, or for a complete application.  But in a small standalone code library such as [this]({{ site.sources }}/javascript/bezier.js) or [this]({{ site.sources }}/javascript/gradient.js), I don't want to include a copy of `Function.prototype.memoize` in each standalone file (and then worry about version skew); and I don't want to make each file depend on a utility file (and then worry about file dependencies).
 
 ## The One-Liner
 
@@ -87,7 +87,7 @@ The second variant moves the return  and the assignment to the same line.  Think
 
 ## Another Use
 
-You can use a similar technique to prevent a function from being called twice.Â  This is even simpler, since you donâ€™t need to keep track of the value.Â  For example (from [gradients.js](/sources/javascript/docs/gradients):)
+You can use a similar technique to prevent a function from being called twice.Â  This is even simpler, since you donâ€™t need to keep track of the value.Â  For example (from [gradients.js]({{ site.sources }}/javascript/docs/gradients):)
 
     OSGradients.initialize = {
       OSGradients.initialize = function() {};

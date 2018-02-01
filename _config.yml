@@ -23,6 +23,9 @@ defaults:
     values:
       layout: post
 
+include:
+  - _redirects
+
 exclude:
   - config
   - docker-compose.yml

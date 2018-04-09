@@ -7,7 +7,7 @@ categories: [JavaScript, Libraries, Projects]
 tags: JavaScript, libraries, functional, fun
 ---
 
-*Functional* is a JavaScript library for [functional programming](http://en.wikipedia.org/wiki/Functional_programming).  It defines the standard higher-order functions (`map`, `reduce`, `filter`) that you can read about elsewhere on the web.  It also defines functions for partial function application and [function-_level_](http://en.wikipedia.org/wiki/Function-level_programming) programming: `curry`, `partial`, `compose`, `guard`, and `until`.  Finally, it introduces "string lambdas", which let you write `'x -> x+1'`, `'x+1'`, or even `'+1'` as synonyms for `function(x) {return x+1}`.
+_Functional_ is a JavaScript library for [functional programming](http://en.wikipedia.org/wiki/Functional_programming). It defines the standard higher-order functions (`map`, `reduce`, `filter`) that you can read about elsewhere on the web. It also defines functions for partial function application and [function-_level_](http://en.wikipedia.org/wiki/Function-level_programming) programming: `curry`, `partial`, `compose`, `guard`, and `until`. Finally, it introduces "string lambdas", which let you write `'x -> x+1'`, `'x+1'`, or even `'+1'` as synonyms for `function(x) {return x+1}`.
 
 See the [API and examples page](http://osteele.com/sources/javascript/functional) for more examples, API documentation, and a link to the source.
 
@@ -15,7 +15,7 @@ See the [API and examples page](http://osteele.com/sources/javascript/functional
 
 ### String lambdas
 
-Welcome to functional programming!  You've probably already discovered `map` and `filter`.  (If not, curl up with Google for a few minutes.  I'll wait.)  Try using them in JavaScript.  Isn't it a pain?:
+Welcome to functional programming! You've probably already discovered `map` and `filter`. (If not, curl up with Google for a few minutes. I'll wait.) Try using them in JavaScript. Isn't it a pain?:
 
     map(function(x){return x+1}, [1,2,3])
       -> [2,3,4]
@@ -53,9 +53,9 @@ Some more examples, using just `map`, `filter`, and `reduce`:
 
 ### Function-level programming
 
-Value-level programming manipulates values, transforming a sequence of inputs into an output.  [ Function-level programming](http://en.wikipedia.org/wiki/Function-level_programming) manipulates functions, applying operations to functions to construct a new function.  It's this new function that transforms inputs into outputs.
+Value-level programming manipulates values, transforming a sequence of inputs into an output. [ Function-level programming](http://en.wikipedia.org/wiki/Function-level_programming) manipulates functions, applying operations to functions to construct a new function. It's this new function that transforms inputs into outputs.
 
-Here are some examples of function-level programming with *Functional*.  There's more in the [documentation](http://osteele.com/sources/javascript/functional).
+Here are some examples of function-level programming with _Functional_. There's more in the [documentation](http://osteele.com/sources/javascript/functional).
 
     // find the reciprocal only ofvalues that test true:
     map(guard('1/'), [1,2,null,4])
@@ -78,7 +78,7 @@ Here are some examples of function-level programming with *Functional*.  There's
 ### Partial function application
 
 Partial function application, or specialization, creates a new
-function out of an old one.  For example, given a division function:
+function out of an old one. For example, given a division function:
 
     function div(a, b) {return a/b}
 
@@ -91,11 +91,11 @@ Partial application is especially useful as an argument to the higher-order func
     map(div.partial(_, 10), [10, 20, 30])
     map(lambda(n) {return div(n, 10)}, [10, 20, 30])
 
-The `curry` function handles a special case of partial function application, and the previous example could have been handled via `curry`.  Partial function application in all its generality is only necessary when you're specializing not just on all the arguments on the left, or all the arguments on the right, but some distribution of arguments with holes in the middle.  To illustrate this requires a function with more than two parameters.
+The `curry` function handles a special case of partial function application, and the previous example could have been handled via `curry`. Partial function application in all its generality is only necessary when you're specializing not just on all the arguments on the left, or all the arguments on the right, but some distribution of arguments with holes in the middle. To illustrate this requires a function with more than two parameters.
 
-JavaScript doesn't have many functions with more than two parameters. (`splice` takes three, but `splice` isn't very functional).  Here's a contrived example to start (and a real-world example next).
+JavaScript doesn't have many functions with more than two parameters. (`splice` takes three, but `splice` isn't very functional). Here's a contrived example to start (and a real-world example next).
 
-We'll borrow one of the few trinary predicates from math: "between".  `increasing(a, b, c)` tests whether b (the middle argument) lies in the open interval bounded by a and c.  Specialize the first and last arguments to produce a functions that tests whether a number is positive, for example.
+We'll borrow one of the few trinary predicates from math: "between". `increasing(a, b, c)` tests whether b (the middle argument) lies in the open interval bounded by a and c. Specialize the first and last arguments to produce a functions that tests whether a number is positive, for example.
 
     function increasing(a, b, c) {
       return a < b && b < c;
@@ -107,7 +107,7 @@ We'll borrow one of the few trinary predicates from math: "between".  `increasin
     map(negative, [-1, 0, 1])
       -> [true, false, false]
 
-Here's how to use `compose` and `curry` to generalize some of the examples from the first section into reusable functions.  (You'll probaby like or hate these function definitions to the extent that you like or hate Haskell.)
+Here's how to use `compose` and `curry` to generalize some of the examples from the first section into reusable functions. (You'll probaby like or hate these function definitions to the extent that you like or hate Haskell.)
 
     var longest = compose(reduce.curry(Math.max, 0), map.curry('_.length'), "_.split(' ')");
     longest("how long is the longest word?");
@@ -118,13 +118,13 @@ Here's how to use `compose` and `curry` to generalize some of the examples from 
     parseUnsignedInt('123')
       -> 123
 
-Here's real-world example:  The following line attaches a `sum` method to Array.  Note how the `'this'` string lambda, which is short for `function(){return this}`, moves the object from object position to argument position so that the curried `reduce` can apply to it.
+Here's real-world example: The following line attaches a `sum` method to Array. Note how the `'this'` string lambda, which is short for `function(){return this}`, moves the object from object position to argument position so that the curried `reduce` can apply to it.
 
     Array.prototype.sum = reduce.curry('+', 0).compose('this')
     [1,2,3].sum()
        -> 6
 
-Here's another example:  If you're using Prototype, you can replace the first line below by the second:
+Here's another example: If you're using Prototype, you can replace the first line below by the second:
 
     Event.observe('myobj', 'click', function() {...})
     onclick(''myobj', function() {...})
@@ -142,36 +142,36 @@ Is this:
 really better than the following?
 
     function onclick(element, handler) {
-      Event.observe(elenent, 'click', handler);
+      Event.observe(element, 'click', handler);
     }
 
 It's a matter of taste, with some performance considerations as well.
 
-The function-level version is less efficient.  To the inexperienced eye, it's also harder to read.
+The function-level version is less efficient. To the inexperienced eye, it's also harder to read.
 
-On the other hand, the functional version doesn't include as much plumbing, with its attendent opportunity for error.  The second definition  of `onclick`, considered as a general replacement for `Event.observer(..., 'click', ...)`, has two such errors.  One shows up as soon as you use it; the second is considerably more subtle.
+On the other hand, the functional version doesn't include as much plumbing, with its attendent opportunity for error. The second definition of `onclick`, considered as a general replacement for `Event.observer(..., 'click', ...)`, has two such errors. One shows up as soon as you use it; the second is considerably more subtle.
 
 Whether functional programming is appropriate, for reasons of efficiency or readability, in any particular instance, it's nice to have it, at least for prototyping, in your arsenal.
 
 ### Performance Notes
 
-In most languages, including JavaScript, invoking a function is one of the slowest things you can do.  The implementations of languages designed for functional programming use a variety of techniques to optimize function calls.  JavaScript is not one of those languages.
+In most languages, including JavaScript, invoking a function is one of the slowest things you can do. The implementations of languages designed for functional programming use a variety of techniques to optimize function calls. JavaScript is not one of those languages.
 
-*Functional* attempts to reduce the cost of higher-order-programming where doing so doesn't add to the code complexity or readability too much.  Each higher-order function and method is a small number of lines, and each function-returning method attempts to do as much work as possible outside the function that it returns, to optimize the case where the returned function is called more than once (as an argument to a higher-order function such as `map`, for example).
+_Functional_ attempts to reduce the cost of higher-order-programming where doing so doesn't add to the code complexity or readability too much. Each higher-order function and method is a small number of lines, and each function-returning method attempts to do as much work as possible outside the function that it returns, to optimize the case where the returned function is called more than once (as an argument to a higher-order function such as `map`, for example).
 
-Still, using *Functional* is expensive.  Invoking a constructed function results in at least twice as many invocations as invoking the underlying function.  This isn't any different from using `bind` in the Prototype library, say, but, the more of your program you write in a functional style --- and therefore the more method calls you introduce --- the slower it will be.  As with any library, be aware that you may have to hand-compile performance-critical sections of your code into an approximation of you would have written without the library anyway.  If you think you already know what needs to be optimized (or that your whole program does), or you aren't comfortable with measuring performance periodically in order to intelligently trade execution time against implementation time, you may want to eschew libraries, especially higher-order ones.
+Still, using _Functional_ is expensive. Invoking a constructed function results in at least twice as many invocations as invoking the underlying function. This isn't any different from using `bind` in the Prototype library, say, but, the more of your program you write in a functional style --- and therefore the more method calls you introduce --- the slower it will be. As with any library, be aware that you may have to hand-compile performance-critical sections of your code into an approximation of you would have written without the library anyway. If you think you already know what needs to be optimized (or that your whole program does), or you aren't comfortable with measuring performance periodically in order to intelligently trade execution time against implementation time, you may want to eschew libraries, especially higher-order ones.
 
 ### Compatibility
 
-Functional is known to work in Firefox 2.0, Safari 3.0, and MSIE 6.0.  I didn't intentionally use any non-standard ECMAScript constructs, but meta-programming such as this tends to turn up corners in the browser implementations.
+Functional is known to work in Firefox 2.0, Safari 3.0, and MSIE 6.0. I didn't intentionally use any non-standard ECMAScript constructs, but meta-programming such as this tends to turn up corners in the browser implementations.
 
-I've used this with Prototype and jQuery.  If you call `Functional.install`, it will replace Prototype's `bind`, but with a compatible version.  `Functional.install` defines a number of other top-level functions (all documented), but to my knowledge these all have unusual names (e.g. `curry`), or standard semantics (e.g. `map`), so you're unlikely to run into any problems unless you try to use this with _another_ library of higher-order functions.  In which case, don't call `Functional.install`.
+I've used this with Prototype and jQuery. If you call `Functional.install`, it will replace Prototype's `bind`, but with a compatible version. `Functional.install` defines a number of other top-level functions (all documented), but to my knowledge these all have unusual names (e.g. `curry`), or standard semantics (e.g. `map`), so you're unlikely to run into any problems unless you try to use this with _another_ library of higher-order functions. In which case, don't call `Functional.install`.
 
-Update: The current version also defines `equal` as a functional, for doing things like this: `select(equal(pluck('x'), K(1)), [{x:1,y:2}, {x:3,y:4}])`.  This is more likely to conflict with a method from your code or another library, so beware!
+Update: The current version also defines `equal` as a functional, for doing things like this: `select(equal(pluck('x'), K(1)), [{x:1,y:2}, {x:3,y:4}])`. This is more likely to conflict with a method from your code or another library, so beware!
 
-Defining `String.prototype.apply` and `...call` seems potentially skanky, although the ECMAScript standard permits it and i haven't run into any trouble.  These methods could be removed without breaking anything except a few of the example; internally, the *Functional* functions use `Function.toFunction` instead.
+Defining `String.prototype.apply` and `...call` seems potentially skanky, although the ECMAScript standard permits it and i haven't run into any trouble. These methods could be removed without breaking anything except a few of the example; internally, the _Functional_ functions use `Function.toFunction` instead.
 
-The implementation of string lambdas uses regular expressions and `eval`.  The rest of the code doesn't.  The intent of this separation is that the code might be portable to environments that don't include these features, such as Flash and OpenLaszlo.  I haven't tested it against any of these environments, thoug, so I've kept the code in one file for now.
+The implementation of string lambdas uses regular expressions and `eval`. The rest of the code doesn't. The intent of this separation is that the code might be portable to environments that don't include these features, such as Flash and OpenLaszlo. I haven't tested it against any of these environments, thoug, so I've kept the code in one file for now.
 
 ### Future Directions
 

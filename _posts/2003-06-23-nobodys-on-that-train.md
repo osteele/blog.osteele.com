@@ -11,7 +11,7 @@ I used to be an unrepentant nineteenth century grammarian. I never used a prepos
 
 I swore off the first three affectations when I realized that not only did was I trying to communicate with one hand tied behind my back, but that the first two restrictions [weren't even native to English](http://www.wikipedia.org/wiki/Split_infinitive) in the first place (and the third --- "whom" --- didn't have any more place than "thou" or "yclept"). But "they" for "he or she" always galled me. It was the mark of a careless speaker, in a league with "between he and I".
 
-I made the first step towards changing my mind at [Apple Cambridge](http://osteele.com/museum/apple_dylan.html) in 1994, when we were writing the [Dylan Interim Reference Manual](http://core.federated.com/~jim/dirm/interim-contents.html) (DIRM). Jeremy Jones insisted that the DIRM should use gender-neutral language. This wasn't difficult for the bulk of the manual, which described the Dylan programming language. But it caused some difficulties in the forward and preface.
+I made the first step towards changing my mind at [Apple Cambridge](https://osteele.com/museum/apple_dylan.html) in 1994, when we were writing the [Dylan Interim Reference Manual](http://core.federated.com/~jim/dirm/interim-contents.html) (DIRM). Jeremy Jones insisted that the DIRM should use gender-neutral language. This wasn't difficult for the bulk of the manual, which described the Dylan programming language. But it caused some difficulties in the forward and preface.
 
 [I didn't write the DIRM forward or preface, but we all kibitzed about it.]
 

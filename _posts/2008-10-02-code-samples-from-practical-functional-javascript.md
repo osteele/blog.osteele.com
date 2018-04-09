@@ -7,7 +7,7 @@ categories: [JavaScript]
 tags: JavaScript, functional, talks, conferences
 ---
 
-The code samples from my [talk at the Ajax Experience conference](/2008/09/practical-functional-javascript) are now available [here](http://osteele.com/talks/ajaxian-2008/samples).
+The code samples from my [talk at the Ajax Experience conference](/2008/09/practical-functional-javascript) are now available [here](https://osteele.com/talks/ajaxian-2008/samples).
 
 Each example runs itself when you load its page, at least in Safari and Firefox. This is something I first did for my talk at [LL2](http://ll2.ai.mit.edu/). It's the only way I've ever been able to keep sample code actually working[^1].
 

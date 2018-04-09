@@ -13,7 +13,7 @@ tags: JSON, JavaScript, Laszlo, libraries
 
 I wrote this in order to implement my [regular expression visualizer](/tools/reanimator).
 
-There's a live example below.  Clicking on a button requests some JSON text from the server and parses it on the client.  The source code to the example is [here](http://osteele.com/sources/openlaszlo/json/json-example.lzx).
+There's a live example below.  Clicking on a button requests some JSON text from the server and parses it on the client.  The source code to the example is [here](https://osteele.com/sources/openlaszlo/json/json-example.lzx).
 
 <object width="300" height="300" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0">
   <param name="movie" value={{ site.sources }}/openlaszlo/json/json-example.swf"/>

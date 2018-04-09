@@ -7,7 +7,7 @@ categories: [JavaScript, Libraries, Projects]
 tags: JavaScript, libraries, functional
 ---
 
-Thanks to everyone who has commented or contributed, praised or pitched in --- I've released an update to [Functional Javascript](http://osteele.com/sources/javascript/functional), with these changes:
+Thanks to everyone who has commented or contributed, praised or pitched in --- I've released an update to [Functional Javascript](https://osteele.com/sources/javascript/functional), with these changes:
 
 <!-- more -->
 

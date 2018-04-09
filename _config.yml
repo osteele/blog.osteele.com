@@ -7,9 +7,9 @@ email: steele@osteele.com
 # description: > # this means to ignore newlines until "baseurl:"
 #   Languages of the real and artificial.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://blog.osteele.com" # the base hostname & protocol for your site
+url: "https://blog.osteele.com" # the base hostname & protocol for your site
 timezone: America/New_York
-sources: http://osteele.com/sources
+sources: https://osteele.com/sources
 twitter_username: osteele
 github_username:  osteele
 

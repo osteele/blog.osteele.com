@@ -7,7 +7,7 @@ categories: [JavaScript, Libraries, Projects]
 tags: JavaScript, libraries, obsolete
 ---
 
-Last week for the first time I did [some serious browser JavaScript programming](https://web.archive.org/web/20060702204158/http://osteele.com:80/tools/rework/).  I put the following tools to good use, but ran against limits with each of them:
+Last week for the first time I did [some serious browser JavaScript programming](https://web.archive.org/web/20060702204158/https://osteele.com:80/tools/rework/).  I put the following tools to good use, but ran against limits with each of them:
 
 * [fvLogger](http://www.alistapart.com/articles/jslogging) is terrific, but doesn't include an evaluator.  You have to reload your page each time you want to query a new value.
 

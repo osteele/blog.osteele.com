@@ -36,9 +36,9 @@ The screen has these areas:
 The "pattern" shows the regular expression.  Click on it to set another regular expression to match against.
 
 <object width="377" height="46" classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" codebase="http://www.apple.com/qtactivex/qtplugin.cab">
-  <param name="src" value="http://osteele.com/images/2006/rematch/pattern.mov"/>
+  <param name="src" value="https://osteele.com/images/2006/rematch/pattern.mov"/>
   <param name="controller" value="1"/>
-  <embed src="http://osteele.com/images/2006/rematch/pattern.mov" width="377" height="46" controller="1" pluginspage="http://www.apple.com/quicktime/download/"/>
+  <embed src="https://osteele.com/images/2006/rematch/pattern.mov" width="377" height="46" controller="1" pluginspage="http://www.apple.com/quicktime/download/"/>
 </object>
 
 ### The Input
@@ -79,7 +79,7 @@ If you want to learn more about finite-state automata, the [wikipedia entry](htt
 
 The front end is written in [OpenLaszlo](http://www.openlaszlo.org), and compiled to Flash.  It uses AJAX and JSON to request the FSAs and the graphs.
 
-The back end is written in Python and C.  The Python part is my [PyFSA](http://osteele.com/software/python/fsa/) library, plus a bit of glue to turn various JavaScript objects and graph files into JSON strings.  There's also a cache so that my shared server doesn't get quite so stressed even if the site becomes popular.  (Having the front end logic on the client should help here too.)
+The back end is written in Python and C.  The Python part is my [PyFSA](https://osteele.com/software/python/fsa/) library, plus a bit of glue to turn various JavaScript objects and graph files into JSON strings.  There's also a cache so that my shared server doesn't get quite so stressed even if the site becomes popular.  (Having the front end logic on the client should help here too.)
 
 The C portion is the wonderful [GraphViz](http://http://www.graphviz.org).  PyFSA creates a .dot file for each FSA, and uses GraphViz to lay out the graph.  The server parses the annotated .dot file into a JavaScript object, and uses JSON to download the resulting graph to the client.
 

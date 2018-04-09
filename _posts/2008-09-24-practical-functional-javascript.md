@@ -21,7 +21,7 @@ I'll be covering:
 
 * Messaging between the Flash and the HTML within a page.  I'll put this last so that if you aren't interested in Flash you don't have to worry about when to wake up.
 
-This talk is really the flip side of [functional javascript](http://osteele.com/sources/javascript/functional/) and [sequentially](http://osteele.com/sources/javascript/sequentially/). Those were *non-production* experiments to take functional javascript _to an extreme_.  "Practical", on the other hand, will be about real-world techniques I've used to write web sites such as [Browsegoods](http://browsegoods.com), [FanSnap](http://fansnap.com), Style&amp;Share, and the [goWebtop Calendar](http://www.gowebtop.com), and that resulted in some of the JavaScript-related libraries [here](http://github.com/osteele).
+This talk is really the flip side of [functional javascript](https://osteele.com/sources/javascript/functional/) and [sequentially](https://osteele.com/sources/javascript/sequentially/). Those were *non-production* experiments to take functional javascript _to an extreme_.  "Practical", on the other hand, will be about real-world techniques I've used to write web sites such as [Browsegoods](http://browsegoods.com), [FanSnap](http://fansnap.com), Style&amp;Share, and the [goWebtop Calendar](http://www.gowebtop.com), and that resulted in some of the JavaScript-related libraries [here](http://github.com/osteele).
 
 The *main* purpose of this talk is to be useful to practicing developers.  But it should also be fun.  AJAX lets you do a lot on the web that's fun to look at and use.  It can be fun to program too, and I'd like to get some of that across.
 
@@ -29,7 +29,7 @@ If you're interested in the *type* of things I've posted [here](/category/javasc
 
 The bad news: [It's at 8am](http://ajaxexperience.techtarget.com/east/html/eventsataglance.html).  I promise not to think badly of you if you take a nap, and to make loud noises when it's time for you to go your next talk.
 
-Update: A draft of the talk is [here](http://osteele.com/talks/Oliver_Steele_Functional_JavaScript_v2.pdf) (PDF).  It doesn't include most of the code samples.
+Update: A draft of the talk is [here](https://osteele.com/talks/Oliver_Steele_Functional_JavaScript_v2.pdf) (PDF).  It doesn't include most of the code samples.
 
 Update 2: The final version with screenshots of all the code is [here](http://www.slideshare.net/osteele/oliver-steele-functional-javascript-presentation).  I'll publish a runnable version of the examples soon.
 

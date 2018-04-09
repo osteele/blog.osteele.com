@@ -11,7 +11,7 @@ Laszlo's main office is in a [spiffy office building](http://www.laszlosystems.c
 
 But Boston Product Development (basically, the [OpenLaszlo](http://openlaszlo.org) development team) works out of a [cafe](http://www.espressoroyale.com/).
 
-![Espresso Royale Cafe](http://osteele.com/images/2005/er.jpg)
+![Espresso Royale Cafe](https://osteele.com/images/2005/er.jpg)
 
 This puts us in [good company](http://www.wired.com/news/mac/0,2125,66276,00.html).  (And we get better coffee, too.)
 

@@ -9,7 +9,7 @@ tags: JavaScript, libraries, functional, fun
 
 _Functional_ is a JavaScript library for [functional programming](http://en.wikipedia.org/wiki/Functional_programming). It defines the standard higher-order functions (`map`, `reduce`, `filter`) that you can read about elsewhere on the web. It also defines functions for partial function application and [function-_level_](http://en.wikipedia.org/wiki/Function-level_programming) programming: `curry`, `partial`, `compose`, `guard`, and `until`. Finally, it introduces "string lambdas", which let you write `'x -> x+1'`, `'x+1'`, or even `'+1'` as synonyms for `function(x) {return x+1}`.
 
-See the [API and examples page](http://osteele.com/sources/javascript/functional) for more examples, API documentation, and a link to the source.
+See the [API and examples page](https://osteele.com/sources/javascript/functional) for more examples, API documentation, and a link to the source.
 
 <!-- more -->
 
@@ -55,7 +55,7 @@ Some more examples, using just `map`, `filter`, and `reduce`:
 
 Value-level programming manipulates values, transforming a sequence of inputs into an output. [ Function-level programming](http://en.wikipedia.org/wiki/Function-level_programming) manipulates functions, applying operations to functions to construct a new function. It's this new function that transforms inputs into outputs.
 
-Here are some examples of function-level programming with _Functional_. There's more in the [documentation](http://osteele.com/sources/javascript/functional).
+Here are some examples of function-level programming with _Functional_. There's more in the [documentation](https://osteele.com/sources/javascript/functional).
 
     // find the reciprocal only ofvalues that test true:
     map(guard('1/'), [1,2,null,4])

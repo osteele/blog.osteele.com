@@ -95,7 +95,7 @@ Finally, the Collections library defines framework-independent JavaScript collec
 
 The `Array` and `String` methods extend the class prototype; the `Hash` methods use a proxying wrapper to avoid prototype pollution.  The methods with the same names as the ECMAScript 1.6+ extensions have the same spec as those; the ones with the same name as prototype extensions have the same spec as those in the Prototype library; and there's a few odds and ends such as `String#capitalize`.
 
-I use this when I don't want the overhead of Prototype, or want to use these functions in an environment that Prototype doesn't run on, such as OpenLaszlo.  It has some overlap with [Functional](http://osteele.com/sources/javascript/functional/), but isn't nearly so radical -- this can be an advantage.
+I use this when I don't want the overhead of Prototype, or want to use these functions in an environment that Prototype doesn't run on, such as OpenLaszlo.  It has some overlap with [Functional](https://osteele.com/sources/javascript/functional/), but isn't nearly so radical -- this can be an advantage.
 
 Git Collections JS from [here](http://github.com/osteele/collections-js).
 

@@ -8,7 +8,6 @@ email: steele@osteele.com
 #   Languages of the real and artificial.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://blog.osteele.com" # the base hostname & protocol for your site
-timezone: America/New_York
 sources: https://osteele.com/sources
 twitter_username: osteele
 github_username:  osteele

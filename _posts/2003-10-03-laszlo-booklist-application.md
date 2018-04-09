@@ -61,7 +61,7 @@ I did something a bit trickier, because I wanted both the author view and the im
     <view datapath="book"
           onmouseover="this.setAttribute('expanded', true)"
           onmouseover="this.setAttribute('expanded', false)">
-      <iamge datapath="@author" visible="${parent.parent.expanded}"/>
+      <image datapath="@author" visible="${parent.parent.expanded}"/>
       <text datapath="@author" visible="${parent.parent.expanded}"/>
 
 There’s an interactive step-by-step walk through the features of LZX [here](http://laszlosystems.com/lps/lzxplorer2/lzxplorer.htm) (and my [talk](http://ll2.ai.mit.edu/) at the Lightweight Languages Conference covers these features too). I’ve written about this style of data-driven presentation [here](https://osteele.com/archives/2003/08/rethinking_mvc.html).

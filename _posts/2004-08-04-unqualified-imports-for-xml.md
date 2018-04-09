@@ -15,7 +15,7 @@ I also said that I would demonstrate that unqualified imports could be added to 
 
 The first example below is an LZX program. The second example is how the same program would look if XHTML and XInclude elements were qualified with their respective namespace prefixes. ^1^
 
-_Impliicit namespace qualifiers_
+_Implicit namespace qualifiers_
 
     <canvas xmlns="http://www.laszlosystems.com/2003/05/lzx">
       <include href="button.lzx"></include>

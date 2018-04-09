@@ -4,10 +4,10 @@ date: '2008-02-28 17:59:08'
 slug: fizzbuzz-station
 title: FizzBuzz Station
 categories: [Amusements, Illustrations, Ruby]
-tasg: [fun, ruby, fizzbuzz]
+tags: [fun, ruby, fizzbuzz]
 ---
 
-Uh oh!  I [overthought fizzbuzz](http://weblog.raganwald.com/2007/01/dont-overthink-fizzbuzz.html:)
+Uh oh! I [overthought fizzbuzz](http://weblog.raganwald.com/2007/01/dont-overthink-fizzbuzz.html:)
 
 ![](http://images.osteele.com/2008/fizzbuzz-station.png)
 
@@ -15,7 +15,7 @@ Uh oh!  I [overthought fizzbuzz](http://weblog.raganwald.com/2007/01/dont-overth
 
 ---
 
-The following Ruby snippets aren't quite the same as the automaton above ([this Haskell version](http://reddit.com/r/programming/info/10d7w/comments/c10g19) is actually closest to that), but here's a couple of Regexp solutions in a style that I haven't seen before.  They have a kind of Turing-tape flavor to them.
+The following Ruby snippets aren't quite the same as the automaton above ([this Haskell version](http://reddit.com/r/programming/info/10d7w/comments/c10g19) is actually closest to that), but here's a couple of Regexp solutions in a style that I haven't seen before. They have a kind of Turing-tape flavor to them.
 
     puts (1..100).map { |n| '1'*n+":#{n}\n" }.join.
       gsub(/^(1{5})*:/,'\0Buzz').gsub(/^(1{3})*:/,'Fizz').gsub(/.*:|(z)\d+/,'\1')

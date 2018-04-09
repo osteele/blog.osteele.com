@@ -2,7 +2,7 @@
 description: Thanksgiving joke, I guess
 date: '2004-11-25 18:59:38'
 slug: multitiered-turkey
-title: Multitiered Turkey Consumption
+title: Multi-tiered Turkey Consumption
 categories: [Amusements]
 tags: fun
 ---

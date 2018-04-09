@@ -84,7 +84,7 @@ The second variant moves the return and the assignment to the same line. Think o
 
 ## Another Use
 
-You can use a similar technique to prevent a function from being called twice.Â  This is even simpler, since you donâ€™t need to keep track of the value.Â  For example (from [gradients.js]({{ site.sources }}/javascript/docs/gradients):)
+You can use a similar technique to prevent a function from being called twice.  This is even simpler, since you don't need to keep track of the value.  For example (from [gradients.js]({{ site.sources }}/javascript/docs/gradients):)
 
     OSGradients.initialize = {
       OSGradients.initialize = function() {};

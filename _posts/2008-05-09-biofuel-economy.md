@@ -13,6 +13,6 @@ tags: illustrations
 
 Here's my understanding of [this](http://en.wikipedia.org/wiki/Food_vs_fuel#Impact_on_poor_countries) (with the energy cost dip greatly exaggerated).
 
-Oops!  It takes a village (down) to raise an (American) child.
+Oops! It takes a village (down) to raise an (American) child.
 
 Anyone want to make one of these with real numbers?

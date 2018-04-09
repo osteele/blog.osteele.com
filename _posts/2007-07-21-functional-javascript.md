@@ -53,11 +53,11 @@ Some more examples, using just `map`, `filter`, and `reduce`:
 
 ### Function-level programming
 
-Value-level programming manipulates values, transforming a sequence of inputs into an output. [ Function-level programming](http://en.wikipedia.org/wiki/Function-level_programming) manipulates functions, applying operations to functions to construct a new function. It's this new function that transforms inputs into outputs.
+Value-level programming manipulates values, transforming a sequence of inputs into an output. [Function-level programming](http://en.wikipedia.org/wiki/Function-level_programming) manipulates functions, applying operations to functions to construct a new function. It's this new function that transforms inputs into outputs.
 
 Here are some examples of function-level programming with _Functional_. There's more in the [documentation](https://osteele.com/sources/javascript/functional).
 
-    // find the reciprocal only ofvalues that test true:
+    // find the reciprocal only of values that test true:
     map(guard('1/'), [1,2,null,4])
       -> [1, 0.5, null, 0.25]
     // apply '10+' only to even values, leaving the odd ones alone:
@@ -171,7 +171,7 @@ Update: The current version also defines `equal` as a functional, for doing thin
 
 Defining `String.prototype.apply` and `...call` seems potentially skanky, although the ECMAScript standard permits it and i haven't run into any trouble. These methods could be removed without breaking anything except a few of the example; internally, the _Functional_ functions use `Function.toFunction` instead.
 
-The implementation of string lambdas uses regular expressions and `eval`. The rest of the code doesn't. The intent of this separation is that the code might be portable to environments that don't include these features, such as Flash and OpenLaszlo. I haven't tested it against any of these environments, thoug, so I've kept the code in one file for now.
+The implementation of string lambdas uses regular expressions and `eval`. The rest of the code doesn't. The intent of this separation is that the code might be portable to environments that don't include these features, such as Flash and OpenLaszlo. I haven't tested it against any of these environments, though, so I've kept the code in one file for now.
 
 ### Future Directions
 

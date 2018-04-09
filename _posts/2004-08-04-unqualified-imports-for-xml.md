@@ -29,7 +29,7 @@ _Explicit namespace qualifiers_
       <mybutton>Click <xhtml:b>me</xhtml:b></mybutton>
     </canvas>
 
-In order to show that the first document can be disambiguated into the same infoset as the second example, it's sufficient to show a way to transform the first document into the second document. I'll use an XSLT stylesheet to do this.
+In order to show that the first document can be dis-ambiguated into the same infoset as the second example, it's sufficient to show a way to transform the first document into the second document. I'll use an XSLT stylesheet to do this.
 
 [^1]:
 
@@ -62,7 +62,7 @@ The keys have odd number positions, and values have even number positions.
       ...
     </map>
 
-(Purists take note: This is a schema that has been optimized for readability, not processing. A schema that was optimized for processing would relate the corresponding keys and values hierarchicaly instead of positionally; for example, `or`. I experimented with these formats while I was writing this post and found them so unreadable I decided it was worth the extra XSLT to process the more readable schema above.)
+(Purists take note: This is a schema that has been optimized for readability, not processing. A schema that was optimized for processing would relate the corresponding keys and values hierarchically instead of positionally; for example, `or`. I experimented with these formats while I was writing this post and found them so unreadable I decided it was worth the extra XSLT to process the more readable schema above.)
 
 To transform a document that uses unqualified names --- all names are in the default (LZX) namespace --- into one that uses qualified names --- XInclude names are in the XInclude namespace and XHTML names are in the XHTML namespace --- it's sufficient to look each tag name up in this map, and if it's found, replace it by the value.
 
@@ -135,7 +135,7 @@ The same stylesheet can be used to _remove_ the qualifiers, if it's run on the i
       </xsl:template>
     </xsl:stylesheet>
 
-When using this reverse map to remove namespace prefixes, an element that matches more than key should be ignored (in contrast to the possibilities for addin prefixes that were listed above). This is so that an element that needs an explicit namespace qualifier to disambiguate it, keeps this qualifier.
+When using this reverse map to remove namespace prefixes, an element that matches more than key should be ignored (in contrast to the possibilities for add-in prefixes that were listed above). This is so that an element that needs an explicit namespace qualifier to disambiguate it, keeps this qualifier.
 
 ## Extensibility
 

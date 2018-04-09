@@ -15,7 +15,7 @@ The point is not that these recipes exist. There's plenty of clever Perl preproc
 
 The point is that these are flowing in fast and furious, and that they don't take much code. The recipes below are from just two weeks. There's half a dozen functional programming recipes, and a dozen MOP (Metaobject Programming) recipes; many of them are one-pagers. There were some real wizards in the Lisp community, but I don't recall anything like this pace of development on top of the CLOS (Common Lisp Object System) MOP (Metaobject Protocol, this time).
 
-_Two weeks_ of MOP(Metaobject Programming) and reflection recipes:
+_Two weeks_ of MOP (Metaobject Programming) and reflection recipes:
 
 * [Overriding **new** for attribute initialization](http://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/303059)
 

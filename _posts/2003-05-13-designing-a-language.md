@@ -25,13 +25,13 @@ We try not to design anything we don't have to, but to use standards instead. De
 
 The advantage of standards is that it lets you use network effects. Using standards allows both the language implementors and its developers to use standard tools, documentation, and skill sets. And it increases the attractiveness of developing tools and skills related to the language, because these assets then have more general use than the language itself. To learn LZX you don't have to be convinced that LZX will be successful or that you'll be using it a lot; you just have to be convinced that XML and JavaScript will be useful to you at some point, and maybe that the domain-specific extensions to deal with rich internet applications will teach you something you'll find useful anyway about that application area.
 
-Another other reason to avoid new designs is that each area that has to be designed is both a time sink and an opportunity for error. Language design errors don't usually show up immediately, in a way that can be uncovered by a test suite or a QA process. They show up as difficulties learning or using the language (which are difficult to uncover, because developers don't report them and may not even recognize how much of their difficulty is due to the language design), or forward compatability problems, where the language can't be extended to handle changes or additions.
+Another other reason to avoid new designs is that each area that has to be designed is both a time sink and an opportunity for error. Language design errors don't usually show up immediately, in a way that can be uncovered by a test suite or a QA process. They show up as difficulties learning or using the language (which are difficult to uncover, because developers don't report them and may not even recognize how much of their difficulty is due to the language design), or forward compatibility problems, where the language can't be extended to handle changes or additions.
 
 #### Have a Design Process
 
 I was at Apple Cambridge during the design of the [Dylan programming language](https://osteele.com/museum/apple_dylan.html). While I was there, several of my coworkers (David Moon and Kim Barrett, at least) were involved with the final stages of the Common Lisp language standard. These were two different points along a spectrum of process formality. LZX design is currently much less formal than either of these, but it does follow a process, and that process is a rational excerpt of the more formal processes.
 
-It's important to keep the language from swaying in the wind as new features and opinions pass by, because each aspect eventually solidifies, and there's no guarantee that it will freeze into a viable position instead of an arbitrary extreme. What freezes a freature is the widening wake of backwards compatability, to mix in another metaphor. This is true of software in general, and framework and APIs more; I believe it's true of language design most of all. A design and review process for language changes can help damp the oscillations in a controlled manner before compatability issues set in.
+It's important to keep the language from swaying in the wind as new features and opinions pass by, because each aspect eventually solidifies, and there's no guarantee that it will freeze into a viable position instead of an arbitrary extreme. What freezes a feature is the widening wake of backwards compatibility, to mix in another metaphor. This is true of software in general, and framework and APIs more; I believe it's true of language design most of all. A design and review process for language changes can help damp the oscillations in a controlled manner before compatibility issues set in.
 
 #### Use Mock-ups
 
@@ -39,7 +39,7 @@ One of the things I learned from working with visual designers was how to solve 
 
 Visual designers prototype multiple solutions to a problem, compare them, and iterate. This is a useful process for language design as well. It goes beyond use cases in that a set of solutions, instead of a single solution, is evaluated against each use case.
 
-Among all the tradeoffs in the design of LZX, the most frequent has been between internal consistency and standards compatability. Often usability is the tiebreaker.
+Among all the tradeoffs in the design of LZX, the most frequent has been between internal consistency and standards compatibility. Often usability is the tiebreaker.
 
 #### Watch the Curve
 

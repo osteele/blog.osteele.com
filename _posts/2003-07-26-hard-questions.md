@@ -1,11 +1,8 @@
 ---
 description: Some questions my kids asked me
 date: '2003-07-26 22:54:47'
-layout: post
 slug: hard-questions
-status: publish
 title: Hard Questions
-wordpress_id: '39'
 categories: [Systems Thinking]
 tags: math, physics, family
 ---

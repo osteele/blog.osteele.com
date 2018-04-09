@@ -1,11 +1,8 @@
 ---
 description: This was kind of cool when Flash was still a useful web technology
 date: '2008-04-13 07:27:07'
-layout: post
 slug: flashbridge
-status: publish
 title: "FlashBridge: proxying Flash and OpenLaszlo"
-wordpress_id: '270'
 categories: [JavaScript, Libraries, OpenLaszlo]
 tags: JavaScript, flash, Laszlo, libraries
 ---

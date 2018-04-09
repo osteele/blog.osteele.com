@@ -1,11 +1,8 @@
 ---
 description: A Rake database plugin.
 date: '2008-04-17 19:13:36'
-layout: post
 slug: db-content-rails-plugin
-status: publish
 title: DB Content Rails Plugin
-wordpress_id: '292'
 categories: [Libraries, Ruby]
 tags: Ruby, Rails, libraries
 ---

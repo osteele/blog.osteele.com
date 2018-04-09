@@ -1,11 +1,8 @@
 ---
 description: If a function might sometimes defer a callback, it should always defer the callback
 date: '2008-04-20 18:28:18'
-layout: post
 slug: minimizing-code-paths-asychronous-code
-status: publish
 title: Minimizing Code Paths in Asychronous Code
-wordpress_id: '302'
 categories: [Libraries, Tips]
 tags: JavaScript, concurrency
 ---

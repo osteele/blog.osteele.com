@@ -1,11 +1,8 @@
 ---
 description: A package-tracking site I built some weekend
 date: '2005-12-18 21:39:57'
-layout: post
 slug: packagemapper
-status: publish
 title: PackageMapper
-wordpress_id: '149'
 categories: [Projects, Visualizations]
 tags: projects
 ---

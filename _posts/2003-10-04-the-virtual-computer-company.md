@@ -1,11 +1,8 @@
 ---
 description: Xerox vs. Apple vs. Microsoft vs. Dell
 date: '2003-10-04 16:18:15'
-layout: post
 slug: the-virtual-computer-company
-status: publish
 title: The Virtual Computer Company
-wordpress_id: '73'
 categories: [Technology]
 ---
 

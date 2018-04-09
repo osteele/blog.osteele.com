@@ -1,11 +1,8 @@
 ---
 description: An ambigram set to flash
 date: '2008-05-01 19:43:11'
-layout: post
 slug: ambimation
-status: publish
 title: Ambimation
-wordpress_id: '313'
 categories: [Illustrations]
 tags: illustrations, animations
 ---

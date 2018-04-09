@@ -1,13 +1,10 @@
 ---
 description: Timeline of languages in my life
 date: '2006-02-05 23:57:02'
-layout: post
 slug: stretch-languages
 permalink: 2006/02/stretch-languages
 redirect_from: posts/2006/02/stretch-languages
-status: publish
 title: “Stretch” Languages, or, 28 years of programming
-wordpress_id: '168'
 categories: [Essays, Programming, Visualizations]
 tags: programming-languages, visualizations, essays
 ---

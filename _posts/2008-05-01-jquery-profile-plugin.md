@@ -1,11 +1,8 @@
 ---
 description: Nowadys the browser developer consoles do this
 date: '2008-05-01 06:02:08'
-layout: post
 slug: jquery-profile-plugin
-status: publish
 title: jQuery Profile Plugin
-wordpress_id: '311'
 categories: [JavaScript, Libraries]
 tags: JavaScript, jQuery, plugins, GitHub
 ---

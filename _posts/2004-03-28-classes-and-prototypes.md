@@ -1,11 +1,8 @@
 ---
 description: Defining XML-based view components in OpenLaszlo
 date: '2004-03-28 15:13:33'
-layout: post
 slug: classes-and-prototypes
-status: publish
 title: Instance-First Development
-wordpress_id: '76'
 categories: [OpenLaszlo, Programming, Software Development]
 tags: Laszlo, programming-languages, software-engineering
 ---

@@ -1,11 +1,8 @@
 ---
 description: My Monad tutorial, back (2007) before these became quite so much a thing
 date: '2007-12-02 22:38:47'
-layout: post
 slug: overloading-semicolon
-status: publish
 title: Overloading Semicolon, or, monads from 10,000 Feet
-wordpress_id: '222'
 categories: [Essays, JavaScript, Programming Languages]
 tags: JavaScript, monads, essays
 ---

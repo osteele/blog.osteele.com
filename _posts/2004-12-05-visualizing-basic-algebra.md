@@ -1,11 +1,8 @@
 ---
 description: Visualizing basic algebra
 date: '2004-12-05 22:03:37'
-layout: post
 slug: visualizing-basic-algebra
-status: publish
 title: Visualizing Basic Algebra
-wordpress_id: '125'
 categories: [Math Education, Visualizations]
 tags: math, illustrations
 ---

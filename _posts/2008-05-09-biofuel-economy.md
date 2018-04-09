@@ -1,11 +1,8 @@
 ---
 description: Does biofuel raise the cost of food? No analysis, just a picture.
 date: '2008-05-09 10:18:20'
-layout: post
 slug: biofuel-economy
-status: publish
 title: The Biofuel Economy
-wordpress_id: '323'
 categories: [Illustrations, Visualizations]
 tags: illustrations
 ---

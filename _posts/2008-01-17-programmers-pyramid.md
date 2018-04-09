@@ -1,11 +1,8 @@
 ---
 description: Programmers should read to learn how to write (with picture)
 date: '2008-01-17 13:10:07'
-layout: post
 slug: programmers-pyramid
-status: publish
 title: The Programmer’s Food Pyramid
-wordpress_id: '234'
 categories: [Illustrations, Programming]
 tags: illustrations, programming
 ---

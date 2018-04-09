@@ -1,11 +1,8 @@
 ---
 description: Learning from the military
 date: '2003-07-26 20:02:09'
-layout: post
 slug: the-other-oo
-status: publish
 title: The Other OO
-wordpress_id: '37'
 categories: [Software Development, Systems Thinking]
 tags: cognition
 ---

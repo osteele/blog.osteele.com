@@ -1,11 +1,8 @@
 ---
 description: Visualizing regular expressions as NFA’s and DFA’s
 date: '2006-02-19 16:50:19'
-layout: post
 slug: reanimator
-status: publish
 title: Visualizing Regular Expressions
-wordpress_id: '171'
 categories: [OpenLaszlo, Projects, Python, Visualizations]
 tags: regular-expressions, tools, visualizations
 ---

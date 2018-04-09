@@ -1,11 +1,8 @@
 ---
 description: Functional JavaScript library
 date: '2007-07-21 20:54:57'
-layout: post
 slug: functional-javascript
-status: publish
 title: Functional JavaScript
-wordpress_id: '209'
 categories: [JavaScript, Libraries, Projects]
 tags: JavaScript, libraries, functional, fun
 ---

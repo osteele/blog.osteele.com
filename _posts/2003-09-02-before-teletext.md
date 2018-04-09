@@ -1,11 +1,8 @@
 ---
 description: Henry Minsky’s teletype hack
 date: '2003-09-02 21:03:26'
-layout: post
 slug: before-teletext
-status: publish
 title: Before Teletext
-wordpress_id: '67'
 categories: [Inventions, Technology]
 ---
 

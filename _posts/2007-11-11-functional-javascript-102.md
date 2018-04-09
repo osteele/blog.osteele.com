@@ -1,11 +1,8 @@
 ---
 description: Functional JavaScript update
 date: '2007-11-11 15:34:11'
-layout: post
 slug: functional-javascript-102
-status: publish
 title: Functional Javascript 1.0.2
-wordpress_id: '214'
 categories: [JavaScript, Libraries, Projects]
 tags: JavaScript, libraries, functional
 ---

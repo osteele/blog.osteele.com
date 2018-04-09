@@ -1,11 +1,8 @@
 ---
 description: An import system for XML-based languages
 date: '2004-08-04 18:46:50'
-layout: post
 slug: unqualified-imports-for-xml
-status: publish
 title: Unqualified Imports for XML
-wordpress_id: '87'
 categories: [Essays, OpenLaszlo, XML]
 tags: Laszlo, XML, essays
 ---

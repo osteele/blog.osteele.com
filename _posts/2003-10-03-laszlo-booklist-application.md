@@ -1,11 +1,8 @@
 ---
 description: An OpenLaszlo app I wrote
 date: '2003-10-03 21:32:35'
-layout: post
 slug: laszlo-booklist-application
-status: publish
 title: Laszlo Booklist Application
-wordpress_id: '70'
 categories: [OpenLaszlo, Projects]
 tags: Laszlo
 ---

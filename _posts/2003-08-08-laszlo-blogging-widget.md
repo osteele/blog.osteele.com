@@ -1,11 +1,8 @@
 ---
 description: An early data-binding app
 date: '2003-08-08 18:56:44'
-layout: post
 slug: laszlo-blogging-widget
-status: publish
 title: Laszlo Blogging Widget
-wordpress_id: '49'
 categories: [OpenLaszlo, Projects]
 tags: Laszlo
 ---

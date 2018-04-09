@@ -1,11 +1,8 @@
 ---
 description: Before jsfiddler
 date: '2003-08-01 23:28:48'
-layout: post
 slug: mylaszlocom
-status: publish
 title: myLaszlo.com
-wordpress_id: '40'
 categories: [OpenLaszlo]
 tags: Laszlo
 ---

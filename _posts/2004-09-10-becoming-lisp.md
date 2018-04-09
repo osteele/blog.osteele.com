@@ -1,11 +1,8 @@
 ---
 description: Python’s getting more like Lisp
 date: '2004-09-10 19:50:10'
-layout: post
 slug: becoming-lisp
-status: publish
 title: Becoming Lisp
-wordpress_id: '104'
 categories: [Programming Languages]
 tags: Python, programming-languages
 ---

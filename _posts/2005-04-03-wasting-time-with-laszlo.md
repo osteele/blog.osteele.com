@@ -1,11 +1,8 @@
 ---
 description: Responding to something or other
 date: '2005-04-03 11:36:38'
-layout: post
 slug: wasting-time-with-laszlo
-status: publish
 title: Wasting Time with Laszlo
-wordpress_id: '139'
 categories: [OpenLaszlo]
 tags: Laszlo
 ---

@@ -1,11 +1,8 @@
 ---
 description: Kids say the funniest things
 date: '2004-09-12 16:42:05'
-layout: post
 slug: novell-virus
-status: publish
 title: The Novell Virus
-wordpress_id: '107'
 categories: [Amusements, Family]
 tags: fun
 ---

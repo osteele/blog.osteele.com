@@ -1,11 +1,8 @@
 ---
 description: Job post
 date: '2005-04-11 14:27:28'
-layout: post
 slug: client-software-developer
-status: publish
 title: OpenLaszlo software development position open
-wordpress_id: '140'
 categories: [OpenLaszlo]
 tags: Laszlo
 ---

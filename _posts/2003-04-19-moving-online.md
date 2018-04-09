@@ -1,11 +1,8 @@
 ---
 description: First post
 date: '2003-04-19 13:35:42'
-layout: post
 slug: moving-online
-status: publish
 title: Moving Online
-wordpress_id: '3'
 categories: [General]
 tags: meta
 ---

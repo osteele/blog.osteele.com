@@ -1,11 +1,8 @@
 ---
 description: Some math connections
 date: '2003-05-23 18:41:56'
-layout: post
 slug: fenceposts-benzene-and-euler
-status: publish
 title: Fenceposts, Benzene, and Euler
-wordpress_id: '15'
 categories: [Family, Math Education]
 tags: math, family, education
 ---

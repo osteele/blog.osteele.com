@@ -1,11 +1,8 @@
 ---
 description: A lot of work to make web applications faster
 date: '2004-03-27 18:37:36'
-layout: post
 slug: optimizing-for-broadband
-status: publish
 title: Optimizing for Broadband
-wordpress_id: '75'
 categories: [OpenLaszlo]
 tags: Laszlo
 ---

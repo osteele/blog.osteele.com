@@ -1,11 +1,8 @@
 ---
 description: Nowadays I use Promises for things like this
 date: '2008-04-20 18:28:00'
-layout: post
 slug: conquering-busy-cursor-sequentially
-status: publish
 title: Conquering the Busy Cursor with Sequentially
-wordpress_id: '295'
 categories: [JavaScript, Libraries]
 tags: JavaScript, concurrency
 ---

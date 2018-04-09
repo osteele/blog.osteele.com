@@ -1,11 +1,8 @@
 ---
 description: Library for overlaying text on an HTML5 canvas — from before canvas had drawText
 date: '2006-02-27 23:13:35'
-layout: post
 slug: textcanvas
-status: publish
 title: Canvas with Text
-wordpress_id: '183'
 categories: [JavaScript, Libraries, OpenLaszlo, Projects]
 tags: JavaScript, libraries
 ---

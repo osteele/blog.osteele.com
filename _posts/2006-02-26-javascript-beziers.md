@@ -1,11 +1,8 @@
 ---
 description: Javascript Bezier library
 date: '2006-02-26 22:05:48'
-layout: post
 slug: javascript-beziers
-status: publish
 title: Javascript Beziers
-wordpress_id: '179'
 categories: [JavaScript, Libraries, OpenLaszlo, Projects]
 tags: JavaScript, Laszlo
 ---

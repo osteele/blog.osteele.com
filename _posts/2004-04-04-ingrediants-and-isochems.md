@@ -1,11 +1,8 @@
 ---
 description: A couple of nonce words
 date: '2004-04-04 10:35:13'
-layout: post
 slug: ingrediants-and-isochems
-status: publish
 title: Ingrediants and Isochems
-wordpress_id: '79'
 categories: [Words]
 tags: fun
 ---

@@ -1,11 +1,8 @@
 ---
 description: Idling on thinking about the meaning of weddings
 date: '2003-07-10 16:05:09'
-layout: post
 slug: semiotics-of-weddings
-status: publish
 title: Semiotics of Weddings
-wordpress_id: '33'
 categories: [Words]
 tags: language
 ---

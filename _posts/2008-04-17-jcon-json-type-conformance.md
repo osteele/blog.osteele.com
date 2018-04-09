@@ -1,11 +1,8 @@
 ---
 description: A library to test web apps JSON against a schema
 date: '2008-04-17 12:07:30'
-layout: post
 slug: jcon-json-type-conformance
-status: publish
 title: "JCON: Ruby Gem for JSON type conformance"
-wordpress_id: '289'
 categories: [JavaScript, Libraries, Ruby]
 tags: JavaScript, Ruby, libraries
 ---

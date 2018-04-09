@@ -1,11 +1,8 @@
 ---
 description: Two ways to give directions
 date: '2003-05-04 11:21:29'
-layout: post
 slug: declarative-directions
-status: publish
 title: Declarative Directions
-wordpress_id: '5'
 categories: [Systems Thinking]
 tags: cognition
 ---

@@ -1,11 +1,8 @@
 ---
 description: Modern test libraries do this
 date: '2008-04-20 18:28:08'
-layout: post
 slug: mock-setcleartimeoutinterval
-status: publish
 title: A Mock for {set,clear}{Timeout,Interval}
-wordpress_id: '298'
 categories: [JavaScript, Libraries]
 tags: JavaScript, libraries, GitHub
 ---

@@ -1,11 +1,8 @@
 ---
 description: Thanksgiving joke, I guess
 date: '2004-11-25 18:59:38'
-layout: post
 slug: multitiered-turkey
-status: publish
 title: Multitiered Turkey Consumption
-wordpress_id: '120'
 categories: [Amusements]
 tags: fun
 ---

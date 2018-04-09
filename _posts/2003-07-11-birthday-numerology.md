@@ -1,11 +1,8 @@
 ---
 description: How many different times you can be twice someone's age
 date: '2003-07-11 22:58:23'
-layout: post
 slug: birthday-numerology
-status: publish
 title: Birthday Numerology
-wordpress_id: '34'
 categories: [Family, Visualizations]
 tags: math
 ---

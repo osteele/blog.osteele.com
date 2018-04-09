@@ -1,11 +1,8 @@
 ---
 description: Some meta-ish libraries from when I was doing lots of JavaScript
 date: '2008-04-15 14:36:47'
-layout: post
 slug: three-small-javascript-libraries
-status: publish
 title: Three Small JavaScript Libraries
-wordpress_id: '284'
 categories: [JavaScript, Libraries]
 tags: JavaScript, libraries
 ---

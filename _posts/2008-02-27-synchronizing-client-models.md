@@ -1,11 +1,8 @@
 ---
 description: A certain race condition from when client-server model sync was a fresh problem.
 date: '2008-02-27 14:53:12'
-layout: post
 slug: synchronizing-client-models
-status: publish
 title: Synchronizing Client Models
-wordpress_id: '265'
 categories: [Essays, JavaScript]
 tags: JavaScript, client-server, essays
 ---

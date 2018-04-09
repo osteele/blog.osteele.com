@@ -1,11 +1,8 @@
 ---
 description: Some of the more confusable common English spellings
 date: '2004-09-05 13:50:35'
-layout: post
 slug: english-homophones
-status: publish
 title: There They’re
-wordpress_id: '100'
 categories: [Words]
 tags: language
 ---

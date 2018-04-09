@@ -1,11 +1,8 @@
 ---
 description: My JSON library for OpenLaszlo
 date: '2006-02-20 12:43:40'
-layout: post
 slug: json-for-openlaszlo
-status: publish
 title: JSON for OpenLaszlo
-wordpress_id: '174'
 categories: [JavaScript, Libraries, OpenLaszlo, Projects]
 tags: JSON, JavaScript, Laszlo, libraries
 ---

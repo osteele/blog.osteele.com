@@ -1,11 +1,8 @@
 ---
 description: Marvin's Minsky's Infinity cake
 date: '2007-08-11 18:10:57'
-layout: post
 slug: marvins-cake
-status: publish
 title: Marvin’s Cake
-wordpress_id: '213'
 categories: [Family]
 tags: family, fun
 ---

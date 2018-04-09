@@ -1,11 +1,8 @@
 ---
 description: JSON and YAML came along and did this.
 date: '2003-06-22 18:54:17'
-layout: post
 slug: alternate-syntaxes-for-xml
-status: publish
 title: Alternate Syntaxes for XML
-wordpress_id: '29'
 categories: [XML]
 tags: XML
 ---

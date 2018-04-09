@@ -1,11 +1,8 @@
 ---
 description: Rambling about elementary school programming
 date: '2004-09-08 22:12:59'
-layout: post
 slug: refactoring-for-fifth-graders
-status: publish
 title: Refactoring for Fifth Graders
-wordpress_id: '102'
 categories: [Family, Programming]
 tags: math, family, programming
 ---

@@ -1,11 +1,8 @@
 ---
 description: Visualizing how to solve a simple math problem
 date: '2005-12-08 21:00:17'
-layout: post
 slug: second-grade-squares
-status: publish
 title: Second grade squares
-wordpress_id: '144'
 categories: [Illustrations, Math Education, Visualizations]
 tags: math, visualizations
 ---

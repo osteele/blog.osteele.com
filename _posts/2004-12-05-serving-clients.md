@@ -1,11 +1,8 @@
 ---
 description: AJAX, before it was a thing
 date: '2004-12-05 10:26:11'
-layout: post
 slug: serving-clients
-status: publish
 title: Serving Client-Side Applications
-wordpress_id: '123'
 categories: [Essays, Software]
 tags: MVC, essays
 ---

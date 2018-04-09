@@ -1,11 +1,8 @@
 ---
 description: An alternative pedagogical representation for negative numbers
 date: '2003-08-14 06:21:45'
-layout: post
 slug: dot-numbers
-status: publish
 title: Dot Numbers
-wordpress_id: '57'
 categories: [Illustrations, Math Education, Visualizations]
 tags: math, illustrations
 ---

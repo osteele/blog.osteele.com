@@ -1,11 +1,8 @@
 ---
 description: A poster about case and agreement in Latin
 date: '2008-05-25 13:45:05'
-layout: post
 slug: latin-agreement-and-case
-status: publish
 title: Latin Agreement and Case
-wordpress_id: '343'
 categories: [Illustrations, Words]
 tags: language, posters, illustrations
 ---

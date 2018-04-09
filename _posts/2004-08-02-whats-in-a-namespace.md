@@ -1,11 +1,8 @@
 ---
 description: Namespacing for XML
 date: '2004-08-02 00:47:30'
-layout: post
 slug: whats-in-a-namespace
-status: publish
 title: What’s in a Namespace?
-wordpress_id: '84'
 categories: [OpenLaszlo, XML]
 tags: Laszlo, XML
 ---

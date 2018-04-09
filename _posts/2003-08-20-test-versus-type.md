@@ -1,11 +1,8 @@
 ---
 description: The hidden cost of manifest typing
 date: '2003-08-20 02:06:24'
-layout: post
 slug: test-versus-type
-status: publish
 title: Test versus Type
-wordpress_id: '63'
 categories: [Software]
 tags: TDD, software-engineering
 ---

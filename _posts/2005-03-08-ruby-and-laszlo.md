@@ -1,11 +1,8 @@
 ---
 description: Announcing a library for using Rails with OpenLaszlo
 date: '2005-03-08 06:25:13'
-layout: post
 slug: ruby-and-laszlo
-status: publish
 title: Ruby and Laszlo
-wordpress_id: '134'
 categories: [OpenLaszlo, Programming Languages, Ruby]
 tags: Ruby, Laszlo
 ---

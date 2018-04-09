@@ -1,11 +1,8 @@
 ---
 description: Some advantages of open source hobby projects
 date: '2008-01-24 22:13:10'
-layout: post
 slug: why-i-write-open-source-libraries
-status: publish
 title: Why Write Open Source Libraries
-wordpress_id: '237'
 categories: [Programming]
 tags: open-source
 ---

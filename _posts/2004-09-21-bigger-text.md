@@ -1,11 +1,8 @@
 ---
 description: This one weird trick gives you longer battery life
 date: '2004-09-21 18:10:08'
-layout: post
 slug: bigger-text
-status: publish
 title: Better Living Through Bigger Text
-wordpress_id: '110'
 categories: [General, Tips]
 tags: lifehacking
 ---

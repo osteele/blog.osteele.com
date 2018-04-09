@@ -1,11 +1,8 @@
 ---
 description: Subversion web gui — defect
 date: '2006-01-31 23:00:01'
-layout: post
 slug: visualizing-project-activity
-status: publish
 title: Visualizing Subversion Project Activity
-wordpress_id: '165'
 categories: [OpenLaszlo, Projects, Visualizations]
 tags: Laszlo, tools, obsolete
 ---

@@ -1,11 +1,8 @@
 ---
 description: My roundrect library from before CSS had this
 date: '2006-03-23 12:52:35'
-layout: post
 slug: javascript-gradient-roundrects
-status: publish
 title: JavaScript Gradient Roundrects
-wordpress_id: '195'
 categories: [JavaScript, Libraries, Projects]
 tags: JavaScript, libraries
 ---

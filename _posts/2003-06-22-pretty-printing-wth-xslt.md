@@ -1,11 +1,8 @@
 ---
 description: My largest XSLT program
 date: '2003-06-22 19:02:23'
-layout: post
 slug: pretty-printing-wth-xslt
-status: publish
 title: Pretty-Printing wth XSLT
-wordpress_id: '30'
 categories: [OpenLaszlo, XML]
 tags: Laszlo, XML
 ---

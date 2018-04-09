@@ -1,11 +1,8 @@
 ---
 description: This stuff's in lots of git books these days
 date: '2008-05-09 18:01:00'
-layout: post
 slug: my-git-workflow
-status: publish
 title: My Git Workflow
-wordpress_id: '329'
 categories: [Illustrations, Software Development]
 tags: git, illustrations
 redirect_from:

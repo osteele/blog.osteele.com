@@ -1,11 +1,8 @@
 ---
 description: Another JavaScript debugging library from before browers had web developer consoles
 date: '2006-03-03 17:15:56'
-layout: post
 slug: readable-javascript-values
-status: publish
 title: Readable JavaScript Values
-wordpress_id: '188'
 categories: [JavaScript, Libraries, Projects]
 tags: JavaScript, libraries
 ---

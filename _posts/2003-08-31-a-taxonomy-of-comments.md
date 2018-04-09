@@ -1,11 +1,8 @@
 ---
 description: Some different uses for programming language comments
 date: '2003-08-31 00:47:51'
-layout: post
 slug: a-taxonomy-of-comments
-status: publish
 title: A Taxonomy of Comments
-wordpress_id: '64'
 categories: [Essays, Programming]
 tags: programming, essays
 ---

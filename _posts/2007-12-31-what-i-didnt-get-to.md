@@ -1,11 +1,8 @@
 ---
 description: Some projects I didn't finish in 2007
 date: '2007-12-31 23:25:23'
-layout: post
 slug: what-i-didnt-get-to
-status: publish
 title: What I didn’t get to
-wordpress_id: '230'
 categories: [JavaScript, Libraries, Open Source, OpenLaszlo, Projects]
 tags: javscript, libraries, Laszlo
 ---

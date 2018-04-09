@@ -1,11 +1,8 @@
 ---
 description: Laszlo’s Boston office
 date: '2005-03-07 11:45:32'
-layout: post
 slug: laszlos-boston-office
-status: publish
 title: Laszlo’s Boston Office
-wordpress_id: '133'
 categories: [OpenLaszlo]
 tags: Laszlo
 ---

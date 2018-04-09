@@ -1,11 +1,8 @@
 ---
 description: Comments versus type declarations
 date: '2005-01-03 22:34:25'
-layout: post
 slug: three-lefts
-status: publish
 title: "Three Lefts Make a Right: The Type Declaration Paradox"
-wordpress_id: '130'
 categories: [Essays, Software Development]
 tags: programming-languages, essays
 ---

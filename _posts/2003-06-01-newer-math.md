@@ -1,11 +1,8 @@
 ---
 description: Appreciating math education.
 date: '2003-06-01 14:29:22'
-layout: post
 slug: newer-math
-status: publish
 title: Newer Math
-wordpress_id: '23'
 categories: [Math Education]
 tags: math, education
 ---

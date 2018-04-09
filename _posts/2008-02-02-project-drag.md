@@ -1,11 +1,8 @@
 ---
 description: A correct but ineffective argument for putting off things that slow you down and can be done cheaply later
 date: '2008-02-02 23:20:47'
-layout: post
 slug: project-drag
-status: publish
 title: Adding the Easy Piece; or, The Metaphor of the Rock
-wordpress_id: '241'
 categories: [Essays, Software Development]
 tags: software-engineering, essays
 ---

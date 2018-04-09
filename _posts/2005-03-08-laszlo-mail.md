@@ -1,11 +1,8 @@
 ---
 description: Laszlo’s web mail product
 date: '2005-03-08 21:05:04'
-layout: post
 slug: laszlo-mail
-status: publish
 title: Laszlo Mail
-wordpress_id: '137'
 categories: [OpenLaszlo]
 tags: Laszlo
 ---

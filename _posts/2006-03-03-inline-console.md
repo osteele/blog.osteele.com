@@ -1,11 +1,8 @@
 ---
 description: Portable JavaScript developer console &mdash; from before browsers had web developer consoles
 date: '2006-03-03 23:10:37'
-layout: post
 slug: inline-console
-status: publish
 title: Inline JavaScript Console
-wordpress_id: '191'
 categories: [JavaScript, Libraries, Projects]
 tags: JavaScript, libraries, obsolete
 ---

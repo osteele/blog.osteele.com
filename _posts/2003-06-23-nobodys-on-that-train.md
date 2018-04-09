@@ -1,11 +1,8 @@
 ---
 description: Grammar and sexism
 date: '2003-06-23 18:12:04'
-layout: post
 slug: nobodys-on-that-train
-status: publish
 title: Nobody’s On That Train
-wordpress_id: '32'
 categories: [Words]
 tags: language
 ---

@@ -1,11 +1,8 @@
 ---
 description: Behr paint’s use of Laszlo
 date: '2003-06-21 22:45:12'
-layout: post
 slug: behr-color-center
-status: publish
 title: Behr Color Center
-wordpress_id: '28'
 categories: [OpenLaszlo]
 tags: Laszlo
 ---

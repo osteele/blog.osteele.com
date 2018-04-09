@@ -1,11 +1,8 @@
 ---
 description: Manifest typing has a hidden cost
 date: '2004-12-31 13:05:33'
-layout: post
 slug: type-declaration-compromise
-status: publish
 title: The Type Declaration Compromise
-wordpress_id: '128'
 categories: [Essays, Software Development]
 tags: programming-languages, essays
 ---

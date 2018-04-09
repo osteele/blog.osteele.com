@@ -1,11 +1,8 @@
 ---
 description: Early JavaScript memoization code
 date: '2006-04-16 19:58:50'
-layout: post
 slug: javascript-memoization
-status: publish
 title: One-Line JavaScript Memoization
-wordpress_id: '204'
 categories: [Essays, JavaScript, Tips]
 tags: JavaScript, essays
 ---

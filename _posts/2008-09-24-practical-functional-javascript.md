@@ -1,11 +1,8 @@
 ---
 description: My Functional Javascript talk
 date: '2008-09-24 15:06:06'
-layout: post
 slug: practical-functional-javascript
-status: publish
 title: Practical Functional JavaScript
-wordpress_id: '344'
 categories: [JavaScript]
 tags: JavaScript, functional, talks, conferences
 ---

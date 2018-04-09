@@ -1,11 +1,8 @@
 ---
 description: Apple avoids the choice paradox
 date: '2004-11-27 11:03:09'
-layout: post
 slug: apple-boutique
-status: publish
 title: The Apple Boutique
-wordpress_id: '121'
 categories: [Essays, Technology]
 tags: apple, essays
 ---

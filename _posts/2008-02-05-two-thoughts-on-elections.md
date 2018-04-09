@@ -1,11 +1,8 @@
 ---
 description: Some thoughts on voting systems
 date: '2008-02-05 10:47:01'
-layout: post
 slug: two-thoughts-on-elections
-status: publish
 title: Two Thoughts on Elections
-wordpress_id: '243'
 categories: [Math Education]
 tags: math
 ---

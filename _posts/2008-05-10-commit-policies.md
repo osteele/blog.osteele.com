@@ -1,11 +1,8 @@
 ---
 description: This stuff's in lots of git books these days
 date: '2008-05-10 19:51:30'
-layout: post
 slug: commit-policies
-status: publish
 title: Commit Policies
-wordpress_id: '336'
 categories: [Illustrations, Software Development]
 tags: git, illustrations
 ---

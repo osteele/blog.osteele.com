@@ -1,11 +1,8 @@
 ---
 description: DSLs
 date: '2003-05-07 08:35:55'
-layout: post
 slug: the-dsl-tower
-status: publish
 title: The DSL Tower
-wordpress_id: '10'
 categories: [Programming Languages]
 tags: DSLs, programming-languages
 ---

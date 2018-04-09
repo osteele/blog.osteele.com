@@ -1,11 +1,8 @@
 ---
 description: A proposal for XML schema versioning
 date: '2004-08-20 09:14:44'
-layout: post
 slug: xml-schema-versions
-status: publish
 title: XML Schema Versioning with RELAX NG
-wordpress_id: '94'
 categories: [Essays, XML]
 tags: XML, essays
 ---

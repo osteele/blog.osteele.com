@@ -1,11 +1,8 @@
 ---
 description: Good people know a lot for their age
 date: '2008-02-05 16:05:53'
-layout: post
 slug: knowledge-per-unit-time
-status: publish
 title: Knowledge Per Unit Time
-wordpress_id: '244'
 categories: [General]
 tags: general
 ---

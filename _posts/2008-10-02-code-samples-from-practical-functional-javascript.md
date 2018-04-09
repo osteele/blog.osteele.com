@@ -1,11 +1,8 @@
 ---
 description: Code samples from my 2008 Functional JavaScript talk
 date: '2008-10-02 21:52:47'
-layout: post
 slug: code-samples-from-practical-functional-javascript
-status: publish
 title: Code Samples from Practical Functional JavaScript
-wordpress_id: '357'
 categories: [JavaScript]
 tags: JavaScript, functional, talks, conferences
 ---

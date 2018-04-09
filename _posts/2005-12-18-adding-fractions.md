@@ -1,11 +1,8 @@
 ---
 description: Visualizing adding fractions
 date: '2005-12-18 22:58:22'
-layout: post
 slug: adding-fractions
-status: publish
 title: Adding Fractions
-wordpress_id: '151'
 categories: [Illustrations, Math Education]
 tags: math, illustrations, visualizations
 ---

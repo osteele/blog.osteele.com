@@ -1,11 +1,8 @@
 ---
 description: Comcast forces this now
 date: '2003-05-26 11:50:07'
-layout: post
 slug: moblesse-oblige
-status: publish
 title: Moblesse Oblige
-wordpress_id: '20'
 categories: [Inventions, Technology]
 tags: inventions, technology
 ---

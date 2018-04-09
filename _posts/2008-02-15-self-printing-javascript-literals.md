@@ -1,11 +1,8 @@
 ---
 description: A JavaScript print library &mdash; from before web developer consoles
 date: '2008-02-15 14:37:45'
-layout: post
 slug: self-printing-javascript-literals
-status: publish
 title: Self-Printing JavaScript Literals
-wordpress_id: '247'
 categories: [JavaScript, Tips]
 tags: JavaScript
 ---

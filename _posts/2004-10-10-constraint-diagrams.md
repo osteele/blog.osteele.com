@@ -1,11 +1,8 @@
 ---
 description: Some pictures to represent the way I think about things
 date: '2004-10-10 11:32:31'
-layout: post
 slug: constraint-diagrams
-status: publish
 title: Constraint Diagrams
-wordpress_id: '113'
 categories: [Systems Thinking, Visualizations]
 tags: visualizations, lifehacking
 ---

@@ -23,4 +23,4 @@ and created by [these folks](http://www.partyfavorsbrookline.com/).
 
 I think they did an amazing job.
 
-I suggested the "zero to infinity" since it's what you get if you turn "80" sideways.  I had in mind a "zero" over the "lazy" eight, [tex]0 \atop \infty[/tex], but I think it's more readable as it was translated through two phone calls into the image above.
+I suggested the "zero to infinity" since it's what you get if you turn "80" sideways. I had in mind a "zero" over the "lazy" eight, $0 \atop \infty$, but I think it's more readable as it was translated through two phone calls into the image above.

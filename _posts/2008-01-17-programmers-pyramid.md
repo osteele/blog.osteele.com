@@ -1,5 +1,5 @@
 ---
-description: Programmer's should read to learn how to write (with picture)
+description: Programmers should read to learn how to write (with picture)
 date: '2008-01-17 13:10:07'
 layout: post
 slug: programmers-pyramid
@@ -26,4 +26,3 @@ Buy on Zazzle:
 
 [Coffee mug
 ![](http://rlv.zcache.com/programmers_food_pyramid_mug-p168394255241414919741x_125.jpg)](http://www.zazzle.com/programmers_food_pyramid_mug-168394255241414919?gl=osteele&rf=238196878088416443)
-

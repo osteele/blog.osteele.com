@@ -7,13 +7,35 @@ categories: [Programming Languages]
 tags: Python, programming-languages
 ---
 
-Python really is [becoming lisp][google-becoming-lisp]. With the [type/class unification](http://www.python.org/2.2/descrintro.html), [decorators](http://www.python.org/cgi-bin/moinmoin/PythonDecorators), and [generator expressions](http://www.python.org/peps/pep-0289.html), it's jumped from 80 percent of Common Lisp + CLOS to 90 percent[^1], and for web tasks the web programming libraries often make up the difference.
+Python really is [becoming lisp][google-becoming-lisp]. With the [type/class
+unification](http://www.python.org/2.2/descrintro.html),
+[decorators](http://www.python.org/cgi-bin/moinmoin/PythonDecorators), and
+[generator expressions](http://www.python.org/peps/pep-0289.html), it's jumped
+from 80 percent of Common Lisp + CLOS to 90 percent[^1], and for web tasks the
+web programming libraries often make up the difference.
 
-I've listed below some of the functional and metaprogramming recipes and packages that have shown up in [PyPI](http://www.python.org/pypi) and the [Python Cookbook](http://aspn.activestate.com/ASPN/Python/Cookbook/) over the past few weeks. [As of Memorial Day weekend, when I first wrote this. I didn't post it until a week later. My [real job](http://laszlosystems.com) is heating up :-]
+I've listed below some of the functional and metaprogramming recipes and
+packages that have shown up in [PyPI](http://www.python.org/pypi) and the
+[Python Cookbook](http://aspn.activestate.com/ASPN/Python/Cookbook/) over the
+past few weeks. [As of Memorial Day weekend, when I first wrote this. I didn't
+post it until a week later. My [real job](http://laszlosystems.com) is heating
+up :-]
 
-The point is not that these recipes exist. There's plenty of clever Perl preprocessor hacks; there's some pretty amazing [C++ template metaprogramming libraries](http://www.google.com/search?q=c%2B%2B+template+metaprogramming); and I bet if you scoured the web you could find this many recipes for Java reflection. (Well, I don't bet very much on the Java part. I'll buy you an ice cream at [Bart's](http://www.amherstarea.com/business/index.cfm/fa/showBusiness/CompanyID/138.cfm). First taker only.)
+The point is not that these recipes exist. There's plenty of clever Perl
+preprocessor hacks; there's some pretty amazing [C++ template metaprogramming
+libraries](http://www.google.com/search?q=c%2B%2B+template+metaprogramming); and
+I bet if you scoured the web you could find this many recipes for Java
+reflection. (Well, I don't bet very much on the Java part. I'll buy you an ice
+cream at
+[Bart's](http://www.amherstarea.com/business/index.cfm/fa/showBusiness/CompanyID/138.cfm).
+First taker only.)
 
-The point is that these are flowing in fast and furious, and that they don't take much code. The recipes below are from just two weeks. There's half a dozen functional programming recipes, and a dozen MOP (Metaobject Programming) recipes; many of them are one-pagers. There were some real wizards in the Lisp community, but I don't recall anything like this pace of development on top of the CLOS (Common Lisp Object System) MOP (Metaobject Protocol, this time).
+The point is that these are flowing in fast and furious, and that they don't
+take much code. The recipes below are from just two weeks. There's half a dozen
+functional programming recipes, and a dozen MOP (Metaobject Programming)
+recipes; many of them are one-pagers. There were some real wizards in the Lisp
+community, but I don't recall anything like this pace of development on top of
+the CLOS (Common Lisp Object System) MOP (Metaobject Protocol, this time).
 
 _Two weeks_ of MOP (Metaobject Programming) and reflection recipes:
 
@@ -73,10 +95,14 @@ Web programming in August:
 
 * [linkchecker](http://linkchecker.sourceforge.net/), not sure what this does :-)
 
-And [hotswap](http://www.krause-software.de/python/) finally adds object evolution (what "live edit").
+And [hotswap](http://www.krause-software.de/python/) finally adds object
+evolution (what "live edit").
 
-[^1]:
-
-  Percentage gains are subjective and are based on simulated exploratory programming conditions. Actual productivity will vary with hardware speed, workplace environment, development habits, and problem complexity. Results reported to SEI indicate that the majority of projects with these estimates will achieve between 71% and 123% of Lisp productivity in single-person projects and between 83% and 159% in team projects.
+[^1]: Percentage gains are subjective and are based on simulated exploratory
+      programming conditions. Actual productivity will vary with hardware speed,
+      workplace environment, development habits, and problem complexity. Results
+      reported to SEI indicate that the majority of projects with these estimates will
+      achieve between 71% and 123% of Lisp productivity in single-person projects and
+      between 83% and 159% in team projects.
 
 [google-becoming-lisp]: http://www.google.com/search?q=%22becoming+lisp%22

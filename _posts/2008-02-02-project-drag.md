@@ -105,7 +105,7 @@ to add it later, or if you'll have time if you wait, or how long it will take.
 (You want to front-load uncertainty and risk.)  Or: you need to show the rock to
 somebody, and they can't imagine what it will look like with the missing piece.
 Or: you can't imagine this either.  Or: knowing how to add a piece gnaws at you
-- it's a distraction - and you can't concentrate on harder work until you've
+— it's a distraction — and you can't concentrate on harder work until you've
 added the easy piece.  Or: the rock is useful only halfway built, and the piece
 is the useful one.  Or: you'll have to tear the rock apart to attach a piece
 later, and this is more work than pushing a bigger rock now.

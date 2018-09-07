@@ -11,17 +11,17 @@ I posed a second-grader the question of what nine squared was. She reasoned that
 
 Here are the pictures that showed her how to figure out the answer. We drew the location of the squares on a multiplication grid:
 
-![]({{image_url}}/2005/number-grid.png)
+![]({{site.image_url}}/2005/number-grid.png)
 
 <!-- more -->
 
 and I introduced the idea of a "solution structure". A solution structure is a graphical representation of the steps of a solution. This is the section that represents the relation between 92 and 102.
 
-![]({{image_url}}/2005/10%5e2-%3e9%5e2.png)
+![]({{site.image_url}}/2005/10%5e2-%3e9%5e2.png)
 
 Two problems can have different numbers but the same structure. This is the problem structure for both problems shown together:
 
-![]({{image_url}}/2005/10%5e2-%3e9%5e2-%3e8%5e2.png)
+![]({{site.image_url}}/2005/10%5e2-%3e9%5e2-%3e8%5e2.png)
 
 And then she got it.
 
@@ -29,7 +29,7 @@ But this leads to the arithmetic problem of 81 minus 17, which was harder, for t
 
 Here's what didn't work: explain that adding three to both the minuend and the subtrahend leaves the difference unchanged. Seven was too early for something this symbolic. We used a number line instead:
 
-![]({{image_url}}/2005/81-17.png)
+![]({{site.image_url}}/2005/81-17.png)
 
 The difference is the blue bar. Moving it on the number line moves its ends by the same amount, without changing the length of the bar itself. Conversely, you can move both ends by the same amount without changing the length of the line between them.
 

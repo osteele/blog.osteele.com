@@ -75,13 +75,13 @@ flow, and program structure), followed by a block of time to get the program to
 first clean compile. The white area below represents work on the non-declaration
 portion of a program; the gray stripes represent work on type declarations.
 
-![]({{image_url}}/2003/tdd-n1.png)
+![]({{site.image_url}}/2003/tdd-n1.png)
 
 In order to show the division between time spent on type declarations and time
 spent on other program text more clearly, I'm going to slide the type
 declarations to the right:
 
-![]({{image_url}}/2003/tdd-1.png)
+![]({{site.image_url}}/2003/tdd-1.png)
 
 This picture appears to show that it takes more time to develop a program that
 contains type declarations. The received wisdom among ETL fans is that what you
@@ -113,7 +113,7 @@ runtime types.
 The comparison of an ETL, where the extra work goes into typing explicit types,
 and an ITL with TDD, where the extra work goes into test cases, looks like this:
 
-![]({{image_url}}/2003/tdd-2.png)
+![]({{site.image_url}}/2003/tdd-2.png)
 
 Let's say you could start with a program without type declarations. Would you
 rather add type declarations, which catch a certain class of problems at compile
@@ -129,7 +129,7 @@ Here's what happens when you use TDD with an ETL. You're taking that first
 picture, and multiplying it by two: once for the test cases, and again for the
 program itself.
 
-![]({{image_url}}/2003/tdd-3.png)
+![]({{site.image_url}}/2003/tdd-3.png)
 
 Robert Martin [compares
 this](http://www.itworld.com/AppDev/1262/itw-0314-rcmappdevint/page_1.html) TDD
@@ -160,7 +160,7 @@ brought to clean compile, and works the first time, this doesn't matter. In
 incremental development, where compilable program is debugged or extended to
 handle additional features or test cases, the cost can be high.
 
-![]({{image_url}}/2003/tdd-4.png)
+![]({{site.image_url}}/2003/tdd-4.png)
 
 Types are similar to comments, test cases, and end-user documentation in this
 way, except that types are coupled more closely to each line of source text.

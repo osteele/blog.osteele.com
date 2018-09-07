@@ -17,17 +17,17 @@ Since then, I've had four years of indirect experience with the math curriculum 
 
 One question from my son's second grade was how many candles are needed for all the [nights of Hanukkah](http://www.wikipedia.org/wiki/Chanukah_rituals).  This is the same question [Gauss answered](http://www-gap.dcs.st-and.ac.uk/~history/Mathematicians/Gauss.html) when he was seven.  Given the question in a context for creativity and with group collaboration, several of the second-graders came up with similar closed-form solutions.
 
-![]({{image_url}}/2003/candles.png)
+![]({{site.image_url}}/2003/candles.png)
 
 ## Fibs for Small Fries
 
 Another question was how many ways there are to roof a row of houses. The houses are connected, like brownstones in the city.  There's two styles of roof: a narrow roof covers one house; a wide roof covers two.  There's two ways to roof a row of houses.
 
-![]({{image_url}}/2003/roofs-2.png)
+![]({{site.image_url}}/2003/roofs-2.png)
 
 How many ways are there to roof a row of five houses?
 
-![]({{image_url}}/2003/roofs-5.png)
+![]({{site.image_url}}/2003/roofs-5.png)
 
 I believe this question was for fifth graders.
 

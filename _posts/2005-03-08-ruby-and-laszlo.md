@@ -108,7 +108,7 @@ zero-install client-side platforms.  So I think the analogy between Ruby on the
 server, and Laszlo on the (much more resource-constrained) client, is that each
 of them advances advances the reach of non-academic programming:
 
-![]({{image_url}}/2005/ruby-and-laszlo.png)
+![]({{site.image_url}}/2005/ruby-and-laszlo.png)
 
 **Update**: Now that I've done more [Ruby](http://packagemapper.com) and
 [DHTML](/tools/rework) programming, I can see that the diagram above gives

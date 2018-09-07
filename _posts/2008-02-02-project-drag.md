@@ -28,7 +28,7 @@ is the right shape - if it's straight and wide, say, so that many people can
 push it the same direction, at the same time.  Otherwise they will push at
 different angles, and the greater part of their efforts will cancel.
 
-![]({{image_url}}/2008/project-drag-1.png) ￼ Sometimes, you can break the rock
+![]({{site.image_url}}/2008/project-drag-1.png) ￼ Sometimes, you can break the rock
 into smaller pieces - so that different people can push them, or so that you can
 push them separately, or so that you can abandon some pieces and use instead
 pieces that are sited where you're going.  (The advantage of a pre-sited piece's
@@ -95,7 +95,7 @@ progress.  The disadvantage is that they increase **project drag**.  Attaching
 them makes pushing the rock harder.  Make it harder sooner, and you've made your
 trajectory like the orange line, and not the green one, below.
 
-![]({{image_url}}/2008/project-drag-2.png)
+![]({{site.image_url}}/2008/project-drag-2.png)
 
 It's not that you should never add these pieces first.  Building and pushing
 rocks is engineering; and engineering is the art of the trade-off.

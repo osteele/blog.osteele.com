@@ -8,13 +8,13 @@ tags: family, fun
 ---
 
 Marvin's birthday cake:
-![]({{image_url}}/2007/marvin-cake.jpg)
+![]({{site.image_url}}/2007/marvin-cake.jpg)
 
 <!-- more -->
 
 based on [Marvin's book](http://www.amazon.com/Emotion-Machine-Commonsense-Artificial-Intelligence/dp/0743276639):
 
-[![]({{image_url}}/2007/emotion-machine.jpg)](http://www.amazon.com/Emotion-Machine-Commonsense-Artificial-Intelligence/dp/0743276639)
+[![]({{site.image_url}}/2007/emotion-machine.jpg)](http://www.amazon.com/Emotion-Machine-Commonsense-Artificial-Intelligence/dp/0743276639)
 
 and created by [these folks](http://www.partyfavorsbrookline.com/).
 

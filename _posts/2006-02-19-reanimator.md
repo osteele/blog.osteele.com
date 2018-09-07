@@ -7,7 +7,7 @@ categories: [OpenLaszlo, Projects, Python, Visualizations]
 tags: regular-expressions, tools, visualizations
 ---
 
-![]({{image_url}}/2006/rematch-small.png)
+![]({{site.image_url}}/2006/rematch-small.png)
 
 Here's something I've wanted for a long time. So I finally [built it](/tools/reanimator). [reAnimator](/tools/reanimator) is a tool for visualizing how [regular expression](http://en.wikipedia.org/wiki/Regular_expression) engines use [finite-state automata](http://en.wikipedia.org/wiki/Finite_state_automaton) to match regular regular expression patterns against text.
 
@@ -76,7 +76,7 @@ If you want to learn more about finite-state automata, the [wikipedia entry](htt
 
 ## Implementation details
 
-![]({{image_url}}/2006/rematch-architecture.png)
+![]({{site.image_url}}/2006/rematch-architecture.png)
 
 The front end is written in [OpenLaszlo](http://www.openlaszlo.org), and compiled to Flash. It uses AJAX and JSON to request the FSAs and the graphs.
 

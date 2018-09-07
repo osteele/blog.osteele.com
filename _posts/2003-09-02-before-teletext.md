@@ -8,7 +8,7 @@ categories: [Inventions, Technology]
 
 > Do you have an old teletype with a 5-bit serial interface sitting around that you've been itching to hook up to the Internet?  If so, this article at LinuxDevices.com is just what you've been looking for. -- [anonymous on Slashdot](http://developers.slashdot.org/developers/03/08/21/0129209.shtml?tid=106&tid;=126&tid;=137&tid;=185)
 
-![]({{image_url}}/2003/linux-teletype-thm.jpg)
+![]({{site.image_url}}/2003/linux-teletype-thm.jpg)
 
 Henry Minsky has [written](http://www.linuxdevices.com/news/NS2384631403.html) in LinuxDevices about his Internet Teletype.  This is a vintage teletype he purchased on eBay, that is connected through a Mini-ITX and a web server to an email account.  The email account is in turn connected to his Yahoo calendar.
 

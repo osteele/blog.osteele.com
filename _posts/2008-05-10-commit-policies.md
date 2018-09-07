@@ -11,7 +11,7 @@ Git is a complicated beast. The Git index, if you're coming from other VCS's, is
 a new concept. Yesterday [I described](/2008/05/my-git-workflow) how I use the
 Git index in my workflow:
 
-[![]({{image_url}}/2008/git-transport.png)![]({{image_url}}/2008/git-workflow.png)](/archive/2008/05/my-git-workflow)
+[![]({{site.image_url}}/2008/git-transport.png)![]({{site.image_url}}/2008/git-workflow.png)](/archive/2008/05/my-git-workflow)
 
 <!-- more -->
 
@@ -32,7 +32,7 @@ developers; the distribution directory to users as well). Towards the left is
 closer to closer to development, towards the right is closer to production.
 Towards the left is easier to change; towards the right is more stable[^1].
 
-![]({{image_url}}/2008/datastore-spectrum.png)
+![]({{site.image_url}}/2008/datastore-spectrum.png)
 
 Two of the most important properties of a project are its design flexibility
 (the ease with which developers can change it), and its stability. Flexibility
@@ -49,7 +49,7 @@ stores allows you to compromise each individual data store less. You don't need
 to maintain as stable a workspace, but the remote repository needn't be yanked
 around as much.
 
-![]({{image_url}}/2008/flexible-stable.png)
+![]({{site.image_url}}/2008/flexible-stable.png)
 
 I picture the process of moving edits from my working directory to a
 distribution as a multi-stage
@@ -95,7 +95,7 @@ non-shared part (the workspace, index, and local repository) of a collaborative
 project. "Revision Frequency" is how often I typically make changes to each data
 store, when I'm developing it full-time.
 
-![]({{image_url}}/2008/commit-policies.png)
+![]({{site.image_url}}/2008/commit-policies.png)
 
 Policies implement the intent of the salmon run. By placing un-restrictive
 policies to the left, I can checkpoint my work frequently. By placing

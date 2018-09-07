@@ -7,9 +7,9 @@ categories: [Illustrations, Visualizations]
 tags: illustrations, visualizations
 ---
 
-[![]({{image_url}}/2008/supply-demand-small.png)]({{image_url}}/2008/supply-demand.png)
+[![]({{site.image_url}}/2008/supply-demand-small.png)]({{site.image_url}}/2008/supply-demand.png)
 
-Full size [pdf]({{image_url}}/2008/supply-demand.pdf), [png]({{image_url}}/2008/supply-demand.png).
+Full size [pdf]({{site.image_url}}/2008/supply-demand.pdf), [png]({{site.image_url}}/2008/supply-demand.png).
 
 <!-- more -->
 

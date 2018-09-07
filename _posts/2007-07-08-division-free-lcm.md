@@ -13,7 +13,7 @@ A few years ago I described an [algorithm for computing the greatest common deno
 
 I've made a movie of the steps involved [here](/movies/gcd.mov).  (The Quicktime player has a bug: if the movie plays the first step over and over, try waiting it out, but if it doesn't get past the first step after three or four times, then press your browser's Reload button.)
 
-![](http://images.osteele.com/2007/gcd.png)
+![]({{image_url}}/2007/gcd.png)
 [Video](/movies/gcd.mov)
 
 ## Division-free LCM
@@ -22,7 +22,7 @@ Yesterday Paula Feynman asked me if there was a similar algorithm for finding th
 
 The movie is [here](/movies/lcm.mov).   (As before, if the movie plays the first step over and over, try waiting it out, but if it doesn't get past the first step after three or four times, then press your browser's Reload button.)
 
-![](http://images.osteele.com/2007/lcm.png)
+![]({{image_url}}/2007/lcm.png)
 [Video](/movies/lcm.mov)
 
 ## Euclid, Meet Gauss

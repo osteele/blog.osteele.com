@@ -11,7 +11,7 @@ tags: math
 
 In four months Miles will be twice Charlotte's age.  (He will be 10; she will still be 5.)  A year ago, he was also twice Charlotte's age.  (He was 8; she was 4.)  A year from now, he will have spent exactly one year at twice her age (if you truncate ages to the year), but that year will have been distributed into two intervals, at the beginning and end of a two-year period.  See the gray portion of the illustration.
 
-![](http://images.osteele.com/2003/birthdays.png)
+![]({{image_url}}/2003/birthdays.png)
 
 ## Back to the Future
 

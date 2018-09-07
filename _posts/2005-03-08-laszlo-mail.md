@@ -11,7 +11,7 @@ Last week Laszlo announced its [web mail](http://www.laszlosystems.com/products/
 
 *Update: Laszlo Systems is hosting open registration for Laszlo Mail [here](http://www.laszlomail.com).*
 
-![](http://images.osteele.com/2005/laszlo-mail.jpg)
+![]({{image_url}}/2005/laszlo-mail.jpg)
 
 Laszlo Mail is being built on top of [Release 3.0](http://openlaszlo.org/wiki/LPS_3.0) of the [OpenLaszlo platform](http://openlaszlo.org).
 

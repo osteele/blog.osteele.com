@@ -17,7 +17,7 @@ Developing a program is like pushing a rock around a room. (The rock is called "
 
 Sometimes you can get several people to push one rock.  This works if the rock is the right shape - if it's straight and wide, say, so that many people can push it the same direction, at the same time.  Otherwise they will push at different angles, and the greater part of their efforts will cancel.
 
-![](http://images.osteele.com/2008/project-drag-1.png)
+![]({{image_url}}/2008/project-drag-1.png)
 ￼
 Sometimes, you can break the rock into smaller pieces - so that different people can push them, or so that you can push them separately, or so that you can abandon some pieces and use instead pieces that are sited where you're going.  (The advantage of a pre-sited piece's location can outweigh the fact that it's not quite the right shape.)
 
@@ -45,7 +45,7 @@ Often, on a project, there's a few pieces that you know at the outset need to be
 
 Some advantages of attaching these pieces early are: an easy sense of accomplishment, and a feature checked off.  They simulate great and early progress.  The disadvantage is that they increase **project drag**.  Attaching them makes pushing the rock harder.  Make it harder sooner, and you've made your trajectory like the orange line, and not the green one, below.
 
-![](http://images.osteele.com/2008/project-drag-2.png)
+![]({{image_url}}/2008/project-drag-2.png)
 
 It's not that you should never add these pieces first.  Building and pushing rocks is engineering; and engineering is the art of the trade-off.
 

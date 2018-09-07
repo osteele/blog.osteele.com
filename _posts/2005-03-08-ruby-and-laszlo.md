@@ -57,6 +57,6 @@ Now, what does this have to do with Laszlo?  Laszlo certainly doesn't have any m
 
 This (OOP) is old hat in the server-side world --- just like MOP is old hat to Smalltalk and Common Lisp developers --- but it's relatively new in the world of zero-install client-side platforms.  So I think the analogy between Ruby on the server, and Laszlo on the (much more resource-constrained) client, is that each of them advances advances the reach of non-academic programming:
 
-![](http://images.osteele.com/2005/ruby-and-laszlo.png)
+![]({{image_url}}/2005/ruby-and-laszlo.png)
 
 **Update**:  Now that I've done more [Ruby](http://packagemapper.com) and [DHTML](/tools/rework) programming, I can see that the diagram above gives OpenLaszlo short shrift.  Although OpenLaszlo is _lower level_ that Ruby with respect to code generation and a MOP, the use of databinding [and](http://weblog.openlaszlo.org/archives/2006/01/another-approach-to-state/) [constraints](http://weblog.openlaszlo.org/archives/2006/01/conditionalize-visibility-with-constraints/) makes it _higher level_ in a different set of ways.

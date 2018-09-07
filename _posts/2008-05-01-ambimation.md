@@ -7,6 +7,6 @@ categories: [Illustrations]
 tags: illustrations, animations
 ---
 
-![](http://images.osteele.com/oflip.png)
+![]({{image_url}}/oflip.png)
 
-This is an [ambigram](http://en.wikipedia.org/wiki/Ambigram) by [Scott Kim](http://scottkim.com), vectorized by [Miles Steele](http://milessteele.com/), cleaned up by Dan Lewis, and put inside an OpenLaszlo application.  (If you don't see it, click [here](http://images.osteele.com/oflip.html).)
+This is an [ambigram](http://en.wikipedia.org/wiki/Ambigram) by [Scott Kim](http://scottkim.com), vectorized by [Miles Steele](http://milessteele.com/), cleaned up by Dan Lewis, and put inside an OpenLaszlo application.  (If you don't see it, click [here]({{image_url}}/oflip.html).)

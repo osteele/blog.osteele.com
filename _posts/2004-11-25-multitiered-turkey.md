@@ -9,4 +9,4 @@ tags: fun
 
 If everyone in America makes an extra-large Thanksgiving dinner so that they can feed guests the next day, isn't this a pyramid scheme?
 
-![](http://images.osteele.com/2004/turkeys.png)
+![]({{image_url}}/2004/turkeys.png)

@@ -78,7 +78,7 @@ argument either:
 Git keeps copies of your source tree in the locations in this diagram[^1]. (I'll
 call these locations "data stores".)
 
-![](http://images.osteele.com/2008/git-transport.png)
+![]({{image_url}}/2008/git-transport.png)
 
 The data store that's new, relative to every other DVCS that I know about, is
 the "index". The one that's new relative to centralized VCS's such as Subversion
@@ -176,7 +176,7 @@ collected something I'm ready to commit; and every so many commits I push
 everything so far to a remote repository, for backup (although I've got other
 backup systems), and for sharing.
 
-![](http://images.osteele.com/2008/git-workflow.png)
+![]({{image_url}}/2008/git-workflow.png)
 
 I've even added another step, releasing a distribution, that goes outside of
 git. This uses rsync (or scp, or some other build or deployment tool) to upload

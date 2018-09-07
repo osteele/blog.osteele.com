@@ -7,7 +7,7 @@ categories: [Projects, Visualizations]
 tags: projects
 ---
 
-![](http://images.osteele.com/2005/xpackages-thumbnail.jpg.pagespeed.ic.3y3KlIYhb0.jpg)
+![]({{image_url}}/2005/xpackages-thumbnail.jpg.pagespeed.ic.3y3KlIYhb0.jpg)
 
 [PackageMapper](http://packagemapper.com/) shows you a map of your FedEx, UPS, USPS package routes. Enter a carrier and a tracking number to see your package’s progress plotted on the map. Sign in to enter a list of packages and see their current locations on a table or map.
 

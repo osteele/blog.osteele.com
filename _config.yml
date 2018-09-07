@@ -2,23 +2,23 @@
 timezone: America/New_York
 
 # Site settings
-title: "Oliver Steele | Blog"
+title: 'Oliver Steele | Blog'
 email: steele@osteele.com
 # description: > # this means to ignore newlines until "baseurl:"
 #   Languages of the real and artificial.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://blog.osteele.com" # the base hostname & protocol for your site
+baseurl: '' # the subpath of your site, e.g. /blog/
+url: 'https://blog.osteele.com' # the base hostname & protocol for your site
 sources: https://osteele.com/sources
+image_url: http://images.osteele.com
 twitter_username: osteele
-github_username:  osteele
+github_username: osteele
 
 permalink: /:year/:month/:title/
 
 defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
+  - scope:
+      path: ''
+      type: 'posts'
     values:
       layout: post
 

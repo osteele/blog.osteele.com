@@ -13,7 +13,7 @@ Recently I reviewed the programming languages I've used over the 28 years[^1] of
 my programming career. The result is shown in the chart below. (Click on the
 image to see it full size.)
 
-[![](http://images.osteele.com/2006/languages-thumb.png)](http://images.osteele.com/2006/languages.png)
+[![]({{image_url}}/2006/languages-thumb.png)]({{image_url}}/2006/languages.png)
 
 <!-- more -->
 
@@ -44,7 +44,7 @@ This is what the second chart shows. Again, click on the thumbnail to see the
 full size version. And beware! --- the colors don't mean the same thing as in
 the chart above. (Sorry.)
 
-[![](http://images.osteele.com/2006/languages-by-use-thumb.png)](http://images.osteele.com/2006/languages-by-use.png)
+[![]({{image_url}}/2006/languages-by-use-thumb.png)]({{image_url}}/2006/languages-by-use.png)
 
 I use four kinds of languages: _utility languages_, for writing tools and
 solving problems; _application languages_, for writing distributable integrated

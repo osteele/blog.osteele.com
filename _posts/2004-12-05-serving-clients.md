@@ -35,8 +35,8 @@ includes a link or a form which requests _another_ URL from the server. The
 response to this subsequent request can come from either the same, or a
 different, JSP.
 
-![](http://images.osteele.com/2004/serving-clients/server-webapp-dataflow.png)
-![](http://images.osteele.com/2004/serving-clients/webapp-dataflow-legend-1.png)
+![]({{image_url}}/2004/serving-clients/server-webapp-dataflow.png)
+![]({{image_url}}/2004/serving-clients/webapp-dataflow-legend-1.png)
 
 This is [Server-Side MVC](/2004/08/web-mvc), or Model 2. I actually haven't
 shown enough details in the diagram to distinguish this from Model 1 (the code
@@ -84,7 +84,7 @@ file), and the set of assets that the application requests once it has started.
 For simplicity, I'll illustrate each Laszlo application as a single source file
 and a single deployment file:
 
-![](http://images.osteele.com/2004/serving-clients/compiling-laszlo.png)
+![]({{image_url}}/2004/serving-clients/compiling-laszlo.png)
 
 ## "Model 3"
 
@@ -98,8 +98,8 @@ of HTML pages --- voila: a client-side application. I'll call this Model 3,
 because it's an incremental change from Model 2. It's illustrated in the picture
 below.
 
-![](http://images.osteele.com/2004/serving-clients/server-client-webapp-dataflow.png)
-![](http://images.osteele.com/2004/serving-clients/webapp-dataflow-legend-2.png)
+![]({{image_url}}/2004/serving-clients/server-client-webapp-dataflow.png)
+![]({{image_url}}/2004/serving-clients/webapp-dataflow-legend-2.png)
 
 But something is wrong with this picture. Where did the back-end integration and
 middleware go? How does this work with Struts and CMS? Something is clearly
@@ -119,8 +119,8 @@ both embed JavaScript. It's tempting to bring back the JSP, but use it to render
 a Laszlo source file instead of HTML. This source file is compiled on the
 server, and delivered to the client as an executable. I'll call this Model 4.
 
-![](http://images.osteele.com/2004/serving-clients/server-client-code-generation.png)
-![](http://images.osteele.com/2004/serving-clients/webapp-dataflow-legend-3.png)
+![]({{image_url}}/2004/serving-clients/server-client-code-generation.png)
+![]({{image_url}}/2004/serving-clients/webapp-dataflow-legend-3.png)
 
 From the perspective of server-side programming, Model 4 looks natural, if a
 little bulky[^2]. But Model 4 is wrong too.
@@ -158,7 +158,7 @@ XML datasets. This is a particular implementation of a Service-Oriented
 Architecture, but in order to emphasize its continuity with Models 1-4, I'll
 call it Model N. (I'm leaving myself room for more models in the middle.)
 
-![](http://images.osteele.com/2004/serving-clients/client-webapp-dataflow.png) !/images/2004/serving-clients/webapp-dataflow-legend-4.png!
+![]({{image_url}}/2004/serving-clients/client-webapp-dataflow.png) !/images/2004/serving-clients/webapp-dataflow-legend-4.png!
 
 One thing to note about Model N is that the _client side_ is _radically
 different_ from Models 1-4. Instead of a sequence of pages that _replace_ each

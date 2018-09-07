@@ -9,7 +9,7 @@ tags: [fun, ruby, fizzbuzz]
 
 Uh oh! I [overthought fizzbuzz](http://weblog.raganwald.com/2007/01/dont-overthink-fizzbuzz.html:)
 
-![](http://images.osteele.com/2008/fizzbuzz-station.png)
+![]({{image_url}}/2008/fizzbuzz-station.png)
 
 <!-- more -->
 

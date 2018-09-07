@@ -11,7 +11,11 @@ tags: illustrations, programming
 
 <!-- more -->
 
-Update: (1) There's a [discussion](http://programming.reddit.com/info/65s67/comments/) (at the moment) on reddit. (2) Thanks to [FusionGyro](http://programming.reddit.com/user/FusionGyro/) for suggesting the name change to "revising".
+Update: (1) There's a
+[discussion](http://programming.reddit.com/info/65s67/comments/) (at the moment)
+on Reddit. (2) Thanks to
+[FusionGyro](http://programming.reddit.com/user/FusionGyro/) for suggesting the
+name change to "revising".
 
 Buy on Zazzle:
 

@@ -71,4 +71,10 @@ a boutique.
 
 [^3]: "this surrender [of choice] was a huge relief": Barry Schwartz's [_The Paradox of Choice_](http://www.amazon.com/exec/obidos/tg/detail/-/0060005688/oliversteele-20) describes this phenomenon. I haven't read the book yet (I've just read the reviews), so I don't know whether it describes the Macintosh.
 
-[^4]: "more often a little worse": I ended up with [Thunderbird](http://www.mozilla.org/projects/thunderbird/) on the PC, but Apple's [Mail](http://www.apple.com/macosx/features/mail/) client's ability to perform offline edits on IMAP mailboxes were a generation beyond this. I was never able to find anything on Windows that compared to the combination of power and simplicity in [OmniGraffle](http://www.omnigroup.com/applications/omnigraffle/).
+[^4]: "more often a little worse": I ended up with
+      [Thunderbird](http://www.mozilla.org/projects/thunderbird/) on the PC, but
+      Apple's [Mail](http://www.apple.com/macosx/features/mail/) client's
+      ability to perform offline edits on IMAP mailboxes were a generation
+      beyond this. I was never able to find anything on Windows that compared to
+      the combination of power and simplicity in
+      [OmniGraffle](http://www.omnigroup.com/applications/omnigraffle/).

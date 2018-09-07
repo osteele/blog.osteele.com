@@ -142,16 +142,18 @@ form.
 
 ## Translations
 
-[Serbo-Croatian](http://science.webhostinggeeks.com/stretch-jezici): Thanks to
-Jovana Milutinovich of the University of Belgrade in Serbia for translating this
-article into Serbo-Croatian.
+[Estonian](https://www.piecesauto-pro.fr/blog/2018/08/21/venitada-keelt-voi-28-aastat-programmeerimine/)
+— thanks to Weronika Pawlak.
+
+[Serbo-Croatian](http://science.webhostinggeeks.com/stretch-jezici) — thanks to
+Jovana Milutinovich of the University of Belgrade in Serbia.
 
 [^1]: I first learned to program in seventh grade, from the TRS-80 Level I Basic
-  reference. That makes me both (1) almost 30, and (2) innumerate.
+      reference. That makes me both (1) almost 30, and (2) innumerate.
 
 [^2]: In this entire essay, I'm quantifying over the languages I use and the way
-  I use them. YMMV.
+      I use them. YMMV.
 
 [^3]: This list includes more languages than the charts do because it includes
-  languages that I've never used commercially. I've only ever used Prolog and
-  CLU for college projects, for example, but I learned a lot from them anyway.
+      languages that I've never used commercially. I've only ever used Prolog and
+      CLU for college projects, for example, but I learned a lot from them anyway.

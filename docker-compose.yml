@@ -1,8 +1,8 @@
-version: "2.1"
+version: '2.1'
 
 services:
   jekyll:
-      image: jekyll/jekyll
+    image: jekyll/jekyll
     container_name: website-blog
     command: jekyll serve --watch --incremental --destination /tmp/jekyll-pages
     ports:

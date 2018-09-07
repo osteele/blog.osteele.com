@@ -9,7 +9,7 @@ email: steele@osteele.com
 baseurl: '' # the subpath of your site, e.g. /blog/
 url: 'https://blog.osteele.com' # the base hostname & protocol for your site
 sources: https://osteele.com/sources
-image_url: http://images.osteele.com
+image_url: https://images.osteele.com
 twitter_username: osteele
 github_username: osteele
 

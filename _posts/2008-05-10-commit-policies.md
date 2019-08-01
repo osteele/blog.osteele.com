@@ -7,7 +7,7 @@ categories: [Illustrations, Software Development]
 tags: git, illustrations
 ---
 
-Git is a complicated beast. The Git index, if you're coming from other VCS's, is
+Git is a complicated beast. The Git index, if you're coming from other VCS’s, is
 a new concept. Yesterday [I described](/2008/05/my-git-workflow) how I use the
 Git index in my workflow:
 
@@ -84,7 +84,7 @@ Wingerd and Christopher Seiwald of Perforce Software. Its most helpful
 recommendation is "Give each codeline a policy". (The runners up are "branch on
 a policy change", and "don't branch unless necessary".)
 
-Git's data stores are in many ways like anonymous, built-in branches, with a
+Git’s data stores are in many ways like anonymous, built-in branches, with a
 built-in set of commands that operate on them[^4]. Like branches, I find it
 helpful to give each data store its own policy. Each policy is more rigorous
 than the policy to its left. These policies tell me how far upstream a change

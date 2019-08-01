@@ -46,7 +46,7 @@ former -- so Darcs' [theory of
 patches](http://darcs.net/manual/node8.html#Patch), although insightful and
 beautiful, just didn't match my workflow.
 
-Git's problem is its complexity. Half of that is because it's actually more
+Git’s problem is its complexity. Half of that is because it's actually more
 powerful than the other systems: it's got features that make it look scary but
 that you can ignore. Another half is that Git uses nonstandard names for about
 half its most common operations. (The rest of the VCS world has more or less
@@ -81,7 +81,7 @@ call these locations "data stores".)
 ![]({{site.image_url}}/2008/git-transport.png)
 
 The data store that's new, relative to every other DVCS that I know about, is
-the "index". The one that's new relative to centralized VCS's such as Subversion
+the "index". The one that's new relative to centralized VCS’s such as Subversion
 and Perforce is the "local repository".
 
 The illustration shows that "`git add`" is the only (everyday) operation that
@@ -126,7 +126,7 @@ workflows. Some of these workflows involve the index. Like the other fancy Git
 features, building your own workflows is something that you can ignore
 initially, and add when you get to where you need it. This is, historically, how
 I've used the index: I ignored it until I was comfortable with more of Git, and
-now I use it for a more productive workflow than I had with other VCS's. It's
+now I use it for a more productive workflow than I had with other VCS’s. It's
 not my main reason for using Git, but it's turned to a strength from being a
 liability.
 

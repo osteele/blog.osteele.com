@@ -1,14 +1,18 @@
-# Not compatible w/ Jekyll
-MD002: false # first-heading-h1/first-header-h1: First heading shoudl be a top level heading
-MD041: false # first-line-h1: First line in file should be a top level heading
-
-# Disagree:
+# I don't believe in these:
 MD026: false # no-trailing-punctuation: Trailing punctuation in heading
 MD033: false # no-inline-html
+
+# These aren't compatible with Jekyll
+MD002: false # first-heading-h1/first-header-h1: First heading shoudl be a top level heading
+MD041: false # first-line-h1: First line in file should be a top level heading
 
 # Not sure about:
 MD045: false # no-alt-text: images should have alternate text
 
 # FIXME:
-MD036: false # no-emphasis-as-heading: Emphasis used instead of a heading
 MD013: false # line length
+MD036: false # no-emphasis-as-heading: Emphasis used instead of a heading
+
+MD004: true # Unordered list style
+MD032: true # Lists should be surrounded by blank lines
+MD046: true # Bare URL used

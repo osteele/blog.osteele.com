@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # This is a configuration file for mdl.
 
 all
@@ -16,3 +18,6 @@ exclude_rule 'MD041' # First line in file should be a top level header
 # Intentional
 exclude_rule 'MD033' # Inline HTML
 exclude_rule 'MD036' # Emphasis used instead of a header
+
+# FIXME:
+exclude_rule 'MD046' # Code block style
